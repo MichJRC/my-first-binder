@@ -1,11 +1,11 @@
-bash#!/bin/bash
+#!/bin/bash
 
 wget -q -O gapminder.csv http://bit.ly/2uh4s3g
 
 mkdir -p data
 
 # Download shapefile to data directory
-wget -q -O data/GSA2024LB.zip https://github.com/MichJRC/my-first-binder/releases/tag/v1.0.0/GSA2024LB.zip
+wget -q -O data/GSA2024LB.zip https://github.com/MichJRC/my-first-binder/releases/download/v1.0.0/GSA2024LB.zip
 
 # Unzip in the data directory
 cd data && unzip -q GSA2024LB.zip && cd ..
