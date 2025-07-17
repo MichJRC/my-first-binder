@@ -1,1 +1,11 @@
+bash#!/bin/bash
+
 wget -q -O gapminder.csv http://bit.ly/2uh4s3g
+
+mkdir -p data
+
+# Download shapefile to data directory
+wget -q -O data/shapefile.zip https://github.com/yourusername/yourrepo/releases/download/v1.0/my_shapefile.zip
+
+# Unzip in the data directory
+cd data && unzip -q shapefile.zip && cd ..
