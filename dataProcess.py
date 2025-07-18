@@ -27,3 +27,7 @@ print(f"Geometry type: {gdf.geometry.geom_type.iloc[0]}")
 # Show some sample data (first feature)
 print(f"\n📝 Sample feature:")
 print(gdf.iloc[0])
+
+main_crop_stats = gdf.groupby("main_crop").size().reset_index(name="count")
+main_crop_stats.to_csv("data/main_crop_statistics.csv", index=False)
+print("\n🌾 Main crop statistics exported to main_crop_statistics.csv")
