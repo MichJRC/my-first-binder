@@ -38,4 +38,16 @@ IT_HCAT = pd.read_csv("data/IT_HCAT.csv", sep=";", encoding="latin1")
 IT_HCAT_merged_IT_codes = pd.merge(IT_HCAT, IT_CODES[['crop_name', 'main_crop']], left_on='Italian_Name', right_on='crop_name', how='inner')
 IT_HCAT_merged_IT_codes.to_csv("data/IT_HCAT_merged_IT_codes.csv", index=False)
 
+# Merge to find unmatched crop_name and main_crop
+unmatched = pd.merge(
+    IT_CODES[['crop_name', 'main_crop']],
+    IT_HCAT[['Italian_Name']],
+    left_on='crop_name',
+    right_on='Italian_Name',
+    how='left',
+    indicator=True
+)
+
+not_in_italian_name = unmatched[unmatched['_merge'] == 'left_only']
+not_in_italian_name.to_csv("data/crops_not_in_Italian_Name.csv", index=False)
 
