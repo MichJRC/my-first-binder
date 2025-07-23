@@ -35,24 +35,6 @@ print("\n🌾 Main crop statistics exported to main_crop_statistics.csv")
 IT_CODES = pd.read_csv("data/IT-crops_codes_and_crops_names_table-27061968.csv", sep=";", encoding="latin1")
 IT_HCAT = pd.read_csv("data/IT_HCAT.csv", sep=";", encoding="latin1")
 
-IT_HCAT_merged_IT_codes = pd.merge(IT_HCAT, IT_CODES[['crop_name', 'main_crop']], left_on='Italian_Name', right_on='crop_name', how='inner')
+IT_HCAT_merged_IT_codes = pd.merge(IT_HCAT, IT_CODES[['crop_name', 'main_crop']], left_on='Italian_Name', right_on='crop_name', how='left')
 IT_HCAT_merged_IT_codes.to_csv("data/IT_HCAT_merged_IT_codes.csv", index=False)
 
-# Merge to find unmatched crop_name and main_crop
-unmatched = pd.merge(
-    IT_CODES[['crop_name', 'main_crop']],
-    IT_HCAT[['Italian_Name']],
-    left_on='crop_name',
-    right_on='Italian_Name',
-    how='left',
-    indicator=True
-)
-
-not_in_italian_name = unmatched[unmatched['_merge'] == 'left_only']
-not_in_italian_name.to_csv("data/crops_not_in_Italian_Name.csv", index=False)
-
-english_crops = pd.read_csv('data/ItalianCropNamemaincrop-CorrectedEnglishCropName.csv')
-IT_CODES = pd.read_csv("data/IT-crops_codes_and_crops_names_table-27061968.csv", sep=";", encoding="latin1")
-
-IT_CODES_englishNames = pd.merge(IT_CODES, english_crops, left_on='crop_name', right_on='Italian Crop Name (main_crop)',how='left')
-IT_CODES_englishNames.to_csv("data/IT_CODES_englishNames.csv", index=False)
