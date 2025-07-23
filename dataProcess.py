@@ -38,3 +38,5 @@ IT_HCAT = pd.read_csv("data/IT_HCAT.csv", sep=";", encoding="latin1")
 IT_HCAT_merged_IT_codes = pd.merge(IT_HCAT, IT_CODES[['crop_name', 'main_crop']], left_on='Italian_Name', right_on='crop_name', how='left')
 IT_HCAT_merged_IT_codes.to_csv("data/IT_HCAT_merged_IT_codes.csv", index=False)
 
+IT_HCAT_merged_IT_codes = pd.read_csv("data/IT_HCAT_merged_IT_codes.csv")
+print(IT_HCAT_merged_IT_codes["main_crop"].isnull().sum())
