@@ -46,3 +46,17 @@ IT_HCAT_merged_IT_codes.to_csv("data/IT_HCAT_merged_IT_codes.csv", index=False)
 
 IT_HCAT_merged_IT_codes = pd.read_csv("data/IT_HCAT_merged_IT_codes.csv")
 print(IT_HCAT_merged_IT_codes["main_crop"].isnull().sum())
+
+merged_gdf = gdf.merge(IT_HCAT_merged_IT_codes,  left_on='main_crop', right_on='main_crop', how='left')
+merged_gdf.to_file("data/merged_geodata.gpkg", driver="GPKG")
+
+unmatched_main_crops = merged_gdf[merged_gdf['crop_name_clean'].isna()]['main_crop']
+
+gdf['main_crop_clean'] = gdf['main_crop'].astype(str).str.zfill(3)
+IT_HCAT_merged_IT_codes['main_crop_clean'] = IT_HCAT_merged_IT_codes['main_crop'].astype(str).str.zfill(3)
+
+gdf_samples_sorted = sorted(gdf['main_crop_clean'].unique())
+print(f"IT_HCAT samples (sorted): {gdf_samples_sorted[:10]}")
+
+IT_HCAT_merged_IT_codes_sorted = sorted(IT_HCAT_merged_IT_codes['main_crop_clean'].unique())
+print(f"IT_HCAT samples (sorted): {IT_HCAT_merged_IT_codes_sorted[:10]}")
