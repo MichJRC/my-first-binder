@@ -61,4 +61,18 @@ print(f"IT_HCAT samples (sorted): {gdf_samples_sorted[:10]}")
 IT_HCAT_merged_IT_codes_sorted = sorted(IT_HCAT_merged_IT_codes['main_crop_clean'].unique())
 print(f"IT_HCAT samples (sorted): {IT_HCAT_merged_IT_codes_sorted[:10]}")
 
-#now ready for merging
+#As a try to compare the values visually between the reference table and the shapefile to see what is there and what is not
+
+def true_value_comparison(gdf_sorted, hcat_sorted):
+    """
+    Show values that actually match vs don't match
+    """
+    all_values = sorted(set(gdf_sorted) | set(hcat_sorted))  # All unique values
+    
+    print("Value".ljust(10) + "GDF".ljust(8) + "IT_HCAT")
+    print("-" * 26)
+    
+    for value in all_values[:20]:  # Show first 20
+        in_gdf = "✓" if value in gdf_sorted else "✗"
+        in_hcat = "✓" if value in hcat_sorted else "✗"
+        print(f"{value:<10}{in_gdf:<8}{in_hcat}")
