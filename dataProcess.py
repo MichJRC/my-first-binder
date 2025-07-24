@@ -60,3 +60,5 @@ print(f"IT_HCAT samples (sorted): {gdf_samples_sorted[:10]}")
 
 IT_HCAT_merged_IT_codes_sorted = sorted(IT_HCAT_merged_IT_codes['main_crop_clean'].unique())
 print(f"IT_HCAT samples (sorted): {IT_HCAT_merged_IT_codes_sorted[:10]}")
+
+#now ready for merging
