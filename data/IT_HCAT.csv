@@ -1,0 +1,432 @@
+Italian_Name;English_Name;HCAT2_Name;HCAT2_Code;Direct_Match;Reason
+ACACIA SALIGNA;Acacia saligna;tree_wood_forest;3306000000;no;Matched as tree wood forest based on keywords
+ACCA SELLOWIANA O FEJIOIA SELLOWIANA;Feijoa (Acca sellowiana);feijoa;3303010500;no;Partial match found in HCAT2 names
+ACHILLEA;Yarrow (Achillea);yarrow;3301061239;no;Partial match found in HCAT2 names
+ACTINIDIA (KIWI);Kiwi;kiwi;3303010700;yes;Direct exact match
+AGAPANTO;Agapanthus;flowers_ornamental_plants;3301080000;no;Matched as flowers ornamental plants based on keywords
+AGLIO;Garlic;garlic;3301220200;yes;Direct exact match
+AGRETTO;Salsola soda (Agretti);legumes_forage_crops;3301020000;no;Matched as legumes forage crops based on keywords
+AGROSTIDE GIGANTEA E BIANCA;Giant and white bentgrass;poaceae_grasses;3301090200;no;
+AGRUMI;Citrus fruits;citrus_plantations;3303040000;no;Matched as fruit based on keywords
+ALBERI IN FILARE;Trees in rows;tree_wood_forest;3306000000;no;Matched as tree wood forest based on keywords
+ALBERI ISOLATI;Isolated trees;tree_wood_forest;3306000000;no;Matched as tree wood forest based on keywords
+ALBICOCCO;Apricot;apricots;3303010300;no;Partial match found in HCAT2 names
+ALCHECHENGI;Physalis (Cape gooseberry);fruit;3303010000;no;Matched as fruit based on keywords
+ALLORO;Bay laurel;aromatic_medicinal_culinary_plants_spices_herbs;3301061200;no;
+ALOE;Aloe;aromatic_medicinal_culinary_plants_spices_herbs;3301061200;no;Matched as aromatic medicinal culinary plants spices herbs based on keywords
+ALSTROEMERIA;Alstroemeria;flowers_ornamental_plants;3301080000;no;Matched as flowers ornamental plants based on keywords
+ALTEA;Marshmallow (Althaea);aromatic_medicinal_culinary_plants_spices_herbs;3301061200;no;Matched as aromatic medicinal culinary plants spices herbs based on keywords
+AMAMELIDE;Witch hazel;flowers_ornamental_plants;3301080000;no;
+AMARANTO;Amaranth;amaranth;3301150100;yes;Direct exact match
+ANANASSI;Pineapple;fruit;3303010000;no;Matched as fruit based on keywords
+ANEMONE;Anemone;anemones_windflowers;3301080200;no;Partial match found in HCAT2 names
+ANETO;Dill;anethum_dill;3301061203;no;Partial match found in HCAT2 names
+ANGELICA;Angelica;angelica;3301061204;yes;Direct exact match
+ANICE COMUNE;Anise;anise_aniseed;3301061205;no;Partial match found in HCAT2 names
+ANNONA CHERIMOLA (o CIRIMOIA o CHERIMOYA);Cherimoya (Annona cherimola);fruit;3303010000;no;Matched as fruit based on keywords
+ARACHIDE;Peanut;nuts;3303020000;no;Matched as nuts based on keywords
+ARALIA;Aralia;tree_wood_forest;3306000000;;
+ARANCIO;Orange;fruit;3303010000;no;Matched as fruit based on keywords
+ARANCIO AMARO o MELANGOLO;Bitter orange;fruit;3303010000;no;Matched as fruit based on keywords
+ARBORETO CONSOCIABILE (CON COLTIVAZIONI ERBACEE);Mixed arboretum (with herbaceous crops);aromatic_medicinal_culinary_plants_spices_herbs;3301061200;no;Matched as aromatic medicinal culinary plants spices herbs based on keywords
+ARBORICOLTURA;Arboriculture;tree_wood_forest;3306000000;no;
+AREA A SEMINATIVO DEDICATA ALL'ELICICOLTURA;Arable land for snail farming;arable_crops;3301000000;no;
+ARNICA;Arnica;echinacea_sun_hat;3301081500;no;
+ARONIA NERA;Black chokeberry (Aronia);fruit;3303010000;no;Matched as fruit based on keywords
+ARTEMISIA;Artemisia;artemisia;3301061206;yes;Direct exact match
+ARUNDO DONAX;Giant reed (Arundo donax);miscanthus_silvergrass;3301083000;no;
+ASPARAGO;Asparagus;alliums;3301220000;no;
+ASPIDISTRA;Aspidistra;flowers_ornamental_plants;3301080000;no;
+ASSENZIO;Wormwood (Absinthe);tree_wood_forest;3306000000;no;Matched as tree wood forest based on keywords
+AVENA;Oats;oats;3301010500;yes;Direct exact match
+AVENA ALTISSIMA;Tall oat;tree_wood_forest;3306000000;no;
+AVOCADO;Avocado;avocado;3303100000;yes;Direct exact match
+AZZERUOLO;Medlar (Crataegus azarolus);medlar_loquat;3303010800;no;
+BABY LEAF;Baby leaf;spinach;3301310800;no;
+BAMBU;Bamboo;other_permanent_crops_plantations;3303990000;no;
+BAMBU GIGANTE;Giant bamboo;industrial_nonfood_crops;3301060000;no;
+BANANO DEL NORD;Northern banana;fruit;3303010000;no;Matched as fruit based on keywords
+BARBABIETOLA - RAPA ROSSA/BIETOLA DA COSTA;Beetroot / Swiss chard;chard;3301310100;no;Partial match found in HCAT2 names
+BARDANA;Burdock;arctium_burdock;3301290100;no;Partial match found in HCAT2 names
+BASILICO;Basil;basil;3301061207;yes;Direct exact match
+BASILICO SANTO;Holy basil;basil;3301061207;no;Partial match found in HCAT2 names
+BEGONIA;Begonia;begonias;3301080400;no;Partial match found in HCAT2 names
+BERGAMOTTO;Bergamot;citrus_plantations;3303040000;no;
+BIANCOSPINO;Hawthorn;crataegus_hawthorn;3303080300;no;Partial match found in HCAT2 names
+BIETOLA (COMPRESA LA CHELTENHAM BEET BARBABIETOLA ROSSA/BIETOLA DA COSTA);Swiss chard (including Cheltenham beet);chard;3301310100;no;Partial match found in HCAT2 names
+BIRICOCCOLO SUSINCOCCO;Plumcot (Plum-apricot hybrid);fruit;3303010000;no;Matched as fruit based on keywords
+BOCCA DI LEONE;Snapdragon;snapdragons;3301084500;no;Partial match found in HCAT2 names
+BORRAGINE;Borage;borage;3301061209;yes;Direct exact match
+BOSCO;Woodland;tree_wood_forest;3306000000;no;Matched as tree wood forest based on keywords
+BRASSICA CARINATA (CAVOLO ABISSINO);Ethiopian mustard (Brassica carinata);mustard;3301210100;no;Partial match found in HCAT2 names
+BROCCOLETTO DI RAPA;Turnip greens (rapini);vegetables;3301200000;no;
+CALENDULA;Marigold;calendula_marigold;3301061210;no;Partial match found in HCAT2 names
+CALLA;Calla lily;flowers_ornamental_plants;3301080000;no;Matched as flowers ornamental plants based on keywords
+CAMELIA;Camellia;flowers_ornamental_plants;3301080000;no;
+CAMELINA o DORELLA COLTIVATA;Camelina;camelina;3301061500;yes;Direct exact match
+CAMOMILLA;Chamomile;chamomile;3301061213;yes;Direct exact match
+CAMOMILLA ROMANA;Roman chamomile;chamomile;3301061213;no;Partial match found in HCAT2 names
+CANAPA;Hemp;hemp_cannabis;3301061000;no;Partial match found in HCAT2 names
+CANNA CINESE (MISCANTHUS SINENSIS);Chinese silver grass (Miscanthus sinensis);flowers_ornamental_plants;3301080000;no;
+CANNA DA ZUCCHERO;Sugarcane;other_permanent_crops_plantations;3303990000;no;
+CAPPERO;Capers;aromatic_medicinal_culinary_plants_spices_herbs;3301061200;no;
+CARCIOFO;Artichoke;artichoke;3301270000;yes;Direct exact match
+CARDI;Cardoon;artichoke;3301270000;no;
+CARDO MARIANO;Milk thistle;marian_thistles;3301061300;yes;
+CAROTA;Carrot;carrots_daucus;3301290300;no;Partial match found in HCAT2 names
+CARPINO;Hornbeam;tree_wood_forest;3306000000;no;
+CARRUBO;Carob;carob;3303110100;yes;Direct exact match
+CARTAMO;Safflower;safflower;3301083900;yes;Direct exact match
+CARVI - CUMINO DEI PRATI;Caraway;caraway;3301061211;yes;Direct exact match
+CASTAGNO;Chestnut;sweet_chestnuts;3303030500;no;Partial match found in HCAT2 names
+CAVOLFIORE;Cauliflower;cauliflower;3301210204;yes;Direct exact match
+CAVOLO;Cabbage;brassica_oleracea_cabbage;3301210200;no;Partial match found in HCAT2 names
+CAVOLO BROCCOLO;Broccoli;broccoli;3301210202;yes;Direct exact match
+CAVOLO CINESE;Chinese cabbage;vegetables;3301200000;no;Matched as vegetables based on keywords
+CAVOLO RAPA;Kohlrabi;kohlrabi;3301210209;yes;Direct exact match
+CECE;Chickpea;chickpeas;3301020200;no;Partial match found in HCAT2 names
+CEDRO;Citron;citrus_plantations;3303040000;no;
+CENTAUREA MINORE;Lesser knapweed (Centaurea);flowers_ornamental_plants;3301080000;no;
+CENTELLA;Gotu kola (Centella);aromatic_medicinal_culinary_plants_spices_herbs;3301061200;no;
+CERRO;Turkey oak (Quercus cerris);oak;3306060000;no;Partial match found in HCAT2 names
+CETRIOLO;Cucumber;cucumber_pickle;3301140100;no;Partial match found in HCAT2 names
+CHENOPODIUM QUINOA;Quinoa;quinoa;3301150300;yes;Direct exact match
+CHINOTTO;Chinotto;citrus_plantations;3303040000;no;
+CICERCHIA;Grass pea (Lathyrus sativus);vegetables;3301200000;no;Matched as vegetables based on keywords
+CICORIA;Chicory;chicory_chicories;3301310200;no;Partial match found in HCAT2 names
+CILIEGIO;Cherry;cherry_cherries;3303010400;no;Partial match found in HCAT2 names
+CILIEGIO ACIDO (MARASCA VISCIOLA AMARENA);Sour cherry;fruit;3303010000;no;Matched as fruit based on keywords
+CIPOLLA ANCHE DI TIPO LUNGO (ECHALION);Onion (including shallot type);shallot;3301220600;no;Partial match found in HCAT2 names
+CIPOLLETTA CIPOLLA D'INVERNO O BUNCHING ONION;Bunching onion (winter onion);vegetables;3301200000;no;Matched as vegetables based on keywords
+CISTO BIANCO;White rockrose;flowers_ornamental_plants;3301080000;no;Matched as flowers ornamental plants based on keywords
+COCOMERO;Watermelon;watermelon;3301140500;yes;Direct exact match
+CODA DI VOLPE;Foxtail;millet_sorghum;3301010900;no;
+COLTIVAZIONI ARBOREE PERMANENTI SOGGETTE A DIVIETO DI FERTILIZZAZIONE E DI TRATTAMENTO FITOSANITARIO  LUNGO I CORSI D'ACQUA;Permanent tree crops (with restrictions);tree_wood_forest;3306000000;no;Matched as tree wood forest based on keywords
+COLTIVAZIONI ARBOREE PROMISCUE (PIU' SPECIE ARBOREE);Mixed tree crops;tree_wood_forest;3306000000;no;Matched as tree wood forest based on keywords
+COLTIVAZIONI ARBOREE SPECIALIZZATE;Specialized tree crops;tree_wood_forest;3306000000;no;Matched as tree wood forest based on keywords
+COLZA;Rapeseed;rapeseed_rape;3301060400;no;Partial match found in HCAT2 names
+CORBEZZOLO;Strawberry tree (Arbutus unedo);fruit;3303010000;no;Matched as fruit based on keywords
+CORIANDOLO;Coriander;coriander;3301061215;yes;Direct exact match
+COTOGNO;Quince;quinces;3303011500;no;Partial match found in HCAT2 names
+COTONE;Cotton;cotton;3301060300;yes;Direct exact match
+CRESCIONE DEI GIARDINI O CRESCIONE INGLESE;Garden cress;cress;3301210300;no;Partial match found in HCAT2 names
+CRISANTEMO;Chrysanthemum;chrysanthemum;3301080900;yes;Direct exact match
+CUMINO - CUMINO ROMANO;Cumin;black_cumin;3301061208;no;Partial match found in HCAT2 names
+DOLCETTA (GALLINELLA SONCINO VALERIANELLA);Lamb’s lettuce (corn salad);vegetables;3301200000;no;Matched as vegetables based on keywords
+ECHINACEA ANGUSTIFOLIA;Echinacea angustifolia;flowers_ornamental_plants;3301080000;no;
+ECHINACEA PALLIDA;Echinacea pallida;flowers_ornamental_plants;3301080000;no;
+ECHINACEA PURPUREA;Echinacea purpurea;flowers_ornamental_plants;3301080000;no;
+ELICRISO;Helichrysum;aromatic_medicinal_culinary_plants_spices_herbs;3301061200;no;
+ENULA;Elecampane (Inula);sunflower;3301060500;no;
+EQUISETO;Horsetail;aromatic_medicinal_culinary_plants_spices_herbs;3301061200;no;
+ERBA CIPOLLINA;Chives;chives;3301220100;yes;Direct exact match
+ERBA MAZZOLINA;Meadow grass;pasture_meadow_grassland_grass;3302000000;no;
+ERBA MEDICA;Alfalfa;alfalfa_lucerne;3301090301;no;Partial match found in HCAT2 names
+ERBA MEDICA (SP. MEDICAGO SATIVA L. (VARIETA'));Alfalfa (Medicago sativa);legumes_forage_crops;3301020000;no;Matched as legumes forage crops based on keywords
+ERBAIO;Green fodder;plants_harvested_green;3301090000;no;
+ERISMO;Hedge mustard (Erismum);mustard;3301210100;no;Partial match found in HCAT2 names
+ESCOLZIA;California poppy (Eschscholzia);poppy;3301060600;no;Partial match found in HCAT2 names
+EUCALIPTO;Eucalyptus;eucalyptus;3306050000;yes;Direct exact match
+EVODIA O EUODIA O ALBERO DELLE API O ALBERO DEL MIELE;Bee tree (Evodia);tree_wood_forest;3306000000;no;Matched as tree wood forest based on keywords
+FACELIA;Phacelia;phacelia;3301061400;yes;Direct exact match
+FAGIOLINO;Green bean;vegetables;3301200000;no;Matched as vegetables based on keywords
+FAGIOLO;Bean;beans;3301020100;no;Partial match found in HCAT2 names
+FAGIOLO DALL'OCCHIO;Black-eyed pea (cowpea);vegetables;3301200000;no;Matched as vegetables based on keywords
+FAGIOLO D'EGITTO;Egyptian kidney bean;vegetables;3301200000;no;Matched as vegetables based on keywords
+FAGIOLO DI SPAGNA;Spanish bean (runner bean);vegetables;3301200000;no;Matched as vegetables based on keywords
+FARNIA;English oak (Quercus robur);oak;3306060000;no;Partial match found in HCAT2 names
+FARRO;Emmer;emmer;3301011200;yes;Direct exact match
+FASCE TAMPONE NON RIPARIALI;Non-riparian buffer strips;not_known_and_other;3399000000;no;ok
+FASCE TAMPONE RIPARIALI;Riparian buffer strips;not_known_and_other;3399000000;no;ok
+FAVE FAVINO E FAVETTE;Broad bean (fava bean);vegetables;3301200000;no;Matched as vegetables based on keywords
+FESTUCA (SP. FESTUCA ARUNDINACEA SCHREB.);Tall fescue (Festuca arundinacea);festuca_fescue;3301090202;no;
+FESTUCA (SP. FESTUCA OVINA L.);Sheep fescue (Festuca ovina);festuca_fescue;3301090203;no;
+FESTUCA (SP. FESTUCA PRATENSIS HUDS.);Meadow fescue (Festuca pratensis);festuca_fescue;3301090203;no;
+FESTUCA (SP. FESTULOLIUM);Festulolium;festulolium;3301090204;yes;Direct exact match
+FESTUCA A FOGLIE CAPILLARI;Fine-leaf fescue;festuca_fescue;3301090202;yes;
+FESTUCA INDURITA;Hard fescue;festuca_fescue;3301090202;no;
+FETTUCCIA D'ACQUA;Ribbon weed;not_known_and_other;3399000000;no;ok
+FICO;Fig;fig;3303010600;yes;Direct exact match
+FICODINDIA o FICO D'INDIA;Prickly pear;fruit;3303010000;no;Matched as fruit based on keywords
+FICUS BENJAMINA;Weeping fig (Ficus benjamina);fig;3303010600;no;Partial match found in HCAT2 names
+FIENO GRECO;Fenugreek;fenugreek;3301020400;yes;Direct exact match
+FINOCCHIO;Fennel;fennel;3301170000;yes;Direct exact match
+FIORDALISO;Cornflower;cornflowers;3301081000;no;Partial match found in HCAT2 names
+FIORI EDULI;Edible flowers;flowers_ornamental_plants;3301080000;no;Matched as flowers ornamental plants based on keywords
+FLEOLO (CODA DI TOPO) (SP. PHLEUM BERTOLINI (DC));Timothy grass (Phleum);timothy;3301090209;no;Partial match found in HCAT2 names
+FOSSATI E CANALI;Ditches and canals;not_known_and_other;3399000000;no;ok
+FRAGOLA;Strawberry;fruit;3303010000;no;Matched as fruit based on keywords
+FRASSINO;Ash tree;tree_wood_forest;3306000000;no;Matched as tree wood forest based on keywords
+FRUMENTO SEGALATO;Tritordeum;cereal;3301010000;no;
+FRUTTA A GUSCIO;Nuts;nuts;3303030000;yes;Direct exact match
+FRUTTETI FAMILIARI;Family orchards;chard;3301310100;no;Partial match found in HCAT2 names
+FUNGHI;Mushrooms;mushrooms_energy_genetically_modified_crops;3304000000;no;Partial match found in HCAT2 names
+GALEGA O CAPRAGGINE;Goat’s rue (Galega);galega;3301081900;no;Partial match found in HCAT2 names
+GAROFANO;Carnation;carnation;3301080800;yes;Direct exact match
+GELSO;Mulberry;fruit;3303010000;no;Matched as fruit based on keywords
+GELSOMINO;Jasmine;flowers_ornamental_plants;3301080000;no;
+GENZIANA;Gentian;gentians;3301082000;no;Partial match found in HCAT2 names
+GERANIO;Geranium;flowers_ornamental_plants;3301080000;no;
+GERBERA;Gerbera;flowers_ornamental_plants;3301080000;no;
+GIAGGIOLO (IRIS) PALLIDA;Pale iris;iris;3301082300;no;Partial match found in HCAT2 names
+GIAGGIOLO O GIGLIO BIANCO IRIS FIORENTINA;Florentine iris (white lily);iris;3301082300;no;Partial match found in HCAT2 names
+GINEPRO;Juniper;aromatic_medicinal_culinary_plants_spices_herbs;3301061200;no;
+GINESTRA;Broom;shrubberries_shrubs;3303080000;no;
+GINESTRINO;Birdsfoot trefoil;legumes_harvested_green;3301090300;no;
+GIRASOLE;Sunflower;sunflower;3301060500;yes;Direct exact match
+GIUGGIOLO;Jujube;permanent_crops_perennial;3303000000;no;
+GLADIOLO;Gladiolus;gladiolus_gladioli;3301082100;no;Partial match found in HCAT2 names
+GLICINE;Wisteria;flowers_ornamental_plants;3301080000;no;
+GRANO (FRUMENTO) DURO;Durum wheat;cereal;3301010000;no;Matched as cereal based on keywords
+GRANO (FRUMENTO) TENERO;Soft wheat;cereal;3301010000;no;Matched as cereal based on keywords
+GRANO DEL MIRACOLO;Miracle wheat;cereal;3301010000;no;Matched as cereal based on keywords
+GRANO SARACENO;Buckwheat;buckwheat;3301150200;yes;Direct exact match
+GRANO TURANICUM O FRUMENTO ORIENTALE O GRANO KHORASAN;Khorasan wheat (Triticum turanicum);cereal;3301010000;no;Matched as cereal based on keywords
+GRANTURCO (MAIS);Maize (corn);cereal;3301010000;no;Matched as cereal based on keywords
+GRINDELIA;Grindelia;aromatic_medicinal_culinary_plants_spices_herbs;3301061200;no;
+GRUPPI DI ALBERI E BOSCHETTI;Groups of trees and groves;tree_wood_forest;3306000000;no;Matched as tree wood forest based on keywords
+GUAIAVE MANGO E MANGOSTANO;Guava  mango  mangosteen;orchards_fruits;3303010000;no;
+GUALDO;Woad (Isatis tinctoria);isatis_tinctoria_woad;3301082400;yes;
+INDIVIA O SCAROLA;Endive or escarole;endive;3301310300;no;Partial match found in HCAT2 names
+IPERICO;St. John’s wort;st_johns_wort;3301061234;yes;
+ISSOPO;Hyssop;aromatic_medicinal_culinary_plants_spices_herbs;3301061200;no;
+KENAF;Kenaf;fibre_crops;3301061100;no;
+LAMPONE;Raspberry;raspberry_raspberries;3303021000;no;Partial match found in HCAT2 names
+LATTUGA LATTUGHINO;Lettuce;salads_lettuce_leaf_vegetables;3301310000;no;Partial match found in HCAT2 names
+LATYRUS spp (TARTUFO DI PRATO);Meadow truffle (Lathyrus spp);truffle;3304040000;no;Partial match found in HCAT2 names
+LAVANDA;Lavender;lavender_lavandula;3301061219;no;Partial match found in HCAT2 names
+LECCIO;Holm oak;oak;3306060000;no;Partial match found in HCAT2 names
+LEGUMINOSE DA GRANELLA;Grain legumes;cereal;3301010000;no;Matched as cereal based on keywords
+LENTICCHIE;Lentil;lentils;3301020500;no;Partial match found in HCAT2 names
+LENTISCO o LENTISCHIO;Mastic tree (Pistacia lentiscus);tree_wood_forest;3306000000;no;Matched as tree wood forest based on keywords
+LILIUM;Lily;flowers_ornamental_plants;3301080000;no;Matched as flowers ornamental plants based on keywords
+LIMETTE;Lime;citrus_plantations;3303040000;no;
+LIMONE;Lemon;lemon_balm_melissa;3301061220;no;Partial match found in HCAT2 names
+LINO;Flax;flax_linseed;3301060700;no;Partial match found in HCAT2 names
+LIPPIA CITRIODORA O CEDRINA O LIMONCINA (ALOYSIA CITRODORA);Lemon verbena;fruit;3303010000;no;Matched as fruit based on keywords
+LIQUIRIZIA;Liquorice;rice;3301010700;no;Partial match found in HCAT2 names
+LOIETTO;Ryegrass;rye;3301010300;no;Partial match found in HCAT2 names
+LOIETTO (SP. LOLIUM X BOUCHEANUM KUNT.);Hybrid ryegrass;rye;3301010300;no;Partial match found in HCAT2 names
+LOIETTO LOGLIO;Ryegrass;rye;3301010300;no;Partial match found in HCAT2 names
+LOTO (KAKI) (COMPRESO IL CACO MELA);Persimmon;orchards_fruits;3303010000;no;
+LUFFA;Luffa;industrial_nonfood_crops;3301060000;no;
+LUPINELLA;Sainfoin;onobrychis_sainfoins;3301061600;no;Partial match found in HCAT2 names
+LUPINO;Lupin;sweet_lupins;3301020700;no;Partial match found in HCAT2 names
+LUPOLINA;Yellow sweet clover;clover;3301090303;no;Partial match found in HCAT2 names
+LUPPOLO;Hop;hops;3301060200;no;Partial match found in HCAT2 names
+LYCIUM BARBARUM (GOJI);Goji berry;fruit;3303010000;no;Matched as fruit based on keywords
+MACERI STAGNI E LAGHETTI;Ponds and small lakes;not_known_and_other;3399000000;no;ok
+MAGGIORANA;Marjoram;aromatic_medicinal_culinary_plants_spices_herbs;3301061200;no;
+MALVA;Mallow;sida_virginia_mallow;3304030000;no;Partial match found in HCAT2 names
+MANDARANCIO (CLEMENTINO);Clementine;citrus_plantations;3303040000;no;
+MANDARINO;Mandarin;citrus_plantations;3303040000;no;
+MANDORLO;Almond;almond;3303030100;yes;Direct exact match
+MANUFATTI;Manufactured goods;not_known_and_other;3399000000;no;ok
+MARGHERITA;Daisy;daisy_daisies;3301081300;no;Partial match found in HCAT2 names
+MARGINI DEI CAMPI;Field margins;not_known_and_other;3399000000;no;ok
+MARGINI DEI CAMPI SEMINABILI;Field margins (arable);arable_crops;3301000000;no;
+MARRUBIO O ROBBIO;Horehound or madder;rubia_tinctorum_common_madder;3301061231;yes;Partial match found in HCAT2 names
+MELANZANA;Eggplant (aubergine);vegetables;3301200000;no;Matched as vegetables based on keywords
+MELILOTO;Melilot;melilot;3301090304;yes;Direct exact match
+MELISSA;Lemon balm;fruit;3303010000;no;Matched as fruit based on keywords
+MELO;Apple;apples;3303010200;no;Partial match found in HCAT2 names
+MELOGRANO;Pomegranate;pomegranate;3303011400;yes;Direct exact match
+MELONE;Melon;melon;3301140300;yes;Direct exact match
+MENTA;Mint;mints_peppermint;3301061222;no;Partial match found in HCAT2 names
+MENTA DOLCE;Spearmint;fruit;3303010000;no;Matched as fruit based on keywords
+MENTA PIPERITA;Peppermint;mints_peppermint;3301061222;no;Partial match found in HCAT2 names
+MENTUCCIA;Lesser calamint;aromatic_medicinal_culinary_plants_spices_herbs;3301061200;no;Matched as aromatic medicinal culinary plants spices herbs based on keywords
+MIGLIO;Millet;millet_sorghum;3301010900;no;Partial match found in HCAT2 names
+MIMOSA;Mimosa;flowers_ornamental_plants;3301080000;no;
+"MIRTILLI ROSSI MIRTILLI NERI ED ALTRI FRUTTI DEL GENERE ""VACCINIUM""";Cranberries  blueberries  and other Vaccinium fruits;fruit;3303010000;no;Matched as fruit based on keywords
+MIRTO;Myrtle;aromatic_medicinal_culinary_plants_spices_herbs;3301061200;no;
+MISCUGLI DI COLTURE;Mixed crops;arable_crops;3301000000;no;
+MISCUGLIO DI AZOTOFISSATRICI;Nitrogen-fixing crop mix;legumes_harvested_green;3301090300;no;
+MIZUNA O BRASSICA RAPA;Mizuna;salads_lettuce_leaf_vegetables;3301310000;no;
+MOCO;Hyacinth bean (Lablab purpureus);vegetables;3301200000;no;Matched as vegetables based on keywords
+MOLINIETI - MOLINIA CAERULEA;Purple moor grass;poaceae_grasses;3301090200;no;
+MORE;Blackberry;blackberry;3303020200;yes;Direct exact match
+MORINGA OLEIFERA o ALBERO DEL RAVANELLO;Moringa (drumstick tree);tree_wood_forest;3306000000;no;Matched as tree wood forest based on keywords
+MURETTI TRADIZIONALI;Traditional dry stone walls;not_known_and_other;3399000000;no;ok
+NASTURZIO;Nasturtium;nasturtiums;3301061224;no;Partial match found in HCAT2 names
+NAVONI RUTABAGA;Rutabaga;swede_rutabaga;3301210500;no;Partial match found in HCAT2 names
+NESPOLO;Medlar;medlar_loquat;3303010800;no;Partial match found in HCAT2 names
+NIGELLA DAMASCENA;Love-in-a-mist (Nigella damascena);flowers_ornamental_plants;3301080000;no;
+NOCCIOLO;Hazelnut;hazelnuts_hazel;3303030200;no;Partial match found in HCAT2 names
+NOCE;Walnut;walnuts;3303030600;no;Partial match found in HCAT2 names
+OKRA O OCRA O GOMBO;Okra;fresh_vegetables;3301070000;no;
+OLIVELLO O OLIVELLO SPINOSO;Sea buckthorn;hippophae_sea_buckthorns_seaberry;3303020800;yes;
+OLIVO;Olive;olive_plantations;3303050000;no;Partial match found in HCAT2 names
+OLMO;Elm;tree_wood_forest;3306000000;no;
+ONTANO;Alder;tree_wood_forest;3306000000;no;Matched as tree wood forest based on keywords
+ONTANO NAPOLETANO;Neapolitan alder;tree_wood_forest;3306000000;no;Matched as tree wood forest based on keywords
+ORCHIDEA;Orchid;flowers_ornamental_plants;3301080000;no;
+ORIGANO;Oregano;oregano;3301061226;yes;Direct exact match
+ORTENSIA;Hydrangea;shrubberries_shrubs;3303080000;no;
+ORTI FAMILIARI;Family gardens;kitchen_gardens;3301120000;no;
+ORTICA;Nettle;nettles;3301061225;no;Partial match found in HCAT2 names
+ORTIVE A PIENO CAMPO;Open-field vegetables;vegetables;3301200000;no;Matched as vegetables based on keywords
+ORZO;Barley;barley;3301010400;yes;Direct exact match
+PANICO;Foxtail millet;millet_sorghum;3301010900;no;
+PAPAVERO;Poppy;poppy;3301060600;yes;Direct exact match
+PARTENIO;Feverfew (Tanacetum parthenium);aromatic_medicinal_culinary_plants_spices_herbs;3301061200;no;
+PASCOLO ARBORATO - CESPUGLIATO TARA 20%;Wooded pasture (20% tare);tree_wood_forest;3306000000;no;Matched as tree wood forest based on keywords
+PASCOLO ARBORATO - TARA 50%;Wooded pasture (50% tare);tree_wood_forest;3306000000;no;Matched as tree wood forest based on keywords
+PASCOLO CON PRATICHE TRADIZIONALI;Traditional pasture;pasture_meadow_grassland_grass;3302000000;no;
+PASCOLO POLIFITA;Mixed pasture;pasture_meadow_grassland_grass;3302000000;no;
+PASCOLO POLIFITA CON ROCCIA AFFIORANTE TARA 20%;Rocky mixed pasture (20% tare);pasture_meadow_grassland_grass;3302000000;no;
+PASCOLO POLIFITA CON ROCCIA AFFIORANTE TARA 50%;Rocky mixed pasture (50% tare);pasture_meadow_grassland_grass;3302000000;no;
+PASSIFLORA;Passionflower;flowers_ornamental_plants;3301080000;no;Matched as flowers ornamental plants based on keywords
+PASTINACA;Parsnip;parsnips;3301290500;no;Partial match found in HCAT2 names
+PATATA;Potato;potatoes;3301030000;no;Partial match found in HCAT2 names
+PATATA AMERICANA (BATATA);Sweet potato;vegetables;3301200000;no;Matched as vegetables based on keywords
+PAULOWNIA TOMENTOSA;Empress tree (Paulownia);tree_wood_forest;3306000000;no;Matched as tree wood forest based on keywords
+PECAN;Pecan;pecan;3303030300;yes;Direct exact match
+PEONIA;Peony;peony_peonies;3301083400;no;Partial match found in HCAT2 names
+PEPERONCINO PEPERETTA;Chili pepper;vegetables;3301200000;no;Matched as vegetables based on keywords
+PEPERONE;Bell pepper;vegetables;3301200000;no;Matched as vegetables based on keywords
+PERO;Pear;pears;3303011200;no;Partial match found in HCAT2 names
+PESCO;Peach;peach;3303011100;yes;Direct exact match
+PESCO NETTARINA;Nectarine;nectarine;3303010900;yes;Direct exact match
+PHILODENDRO;Philodendron;flowers_ornamental_plants;3301080000;no;
+PIANTAGGINE LANCEOLATA O LINGUA DI CANE;Ribwort plantain;aromatic_medicinal_culinary_plants_spices_herbs;3301061200;no;
+PIANTAGGINE MAGGIORE O LINGUA D'OCA;Greater plantain;aromatic_medicinal_culinary_plants_spices_herbs;3301061200;no;
+PIANTE AROMATICHE E MEDICINALI E SPEZIE;Aromatic and medicinal plants and spices;aromatic_medicinal_culinary_plants_spices_herbs;3301061200;no;Matched as aromatic medicinal culinary plants spices herbs based on keywords
+PIANTE GRASSE;Succulent plants;flowers_ornamental_plants;3301080000;no;
+PIANTE ORNAMENTALI;Ornamental plants;flowers_ornamental_plants;3301080000;no;Matched as flowers ornamental plants based on keywords
+PILOSELLA;Hawkweed (Pilosella);aromatic_medicinal_culinary_plants_spices_herbs;3301061200;no;
+PINO DOMESTICO;Stone pine;tree_wood_forest;3306000000;no;Matched as tree wood forest based on keywords
+PINO MARITTIMO;Maritime pine;tree_wood_forest;3306000000;no;Matched as tree wood forest based on keywords
+PIOPPO;Poplar;tree_wood_forest;3306000000;no;Matched as tree wood forest based on keywords
+PIOPPO BIANCO;White poplar;tree_wood_forest;3306000000;no;Matched as tree wood forest based on keywords
+PIOPPO NERO;Black poplar;tree_wood_forest;3306000000;no;Matched as tree wood forest based on keywords
+PIOPPO TREMULO;Aspen;aspen;3306020000;yes;Direct exact match
+PISELLO;Pea;chickpeas;3301020200;no;Partial match found in HCAT2 names
+PISTACCHIO;Pistachio;pistachio;3303030400;yes;Direct exact match
+PITTOSPORO;Pittosporum;shrubberries_shrubs;3303080000;no;
+PLATANO;Plane tree;tree_wood_forest;3306000000;no;Matched as tree wood forest based on keywords
+POA (SP. POA NEMORALIS L.);Wood bluegrass (Poa nemoralis);tree_wood_forest;3306000000;no;Matched as tree wood forest based on keywords
+POA ANNUA;Annual bluegrass;temporary_grass;3301090100;no;
+POINSETTIA (STELLA DI NATALE);Poinsettia;flowers_ornamental_plants;3301080000;no;
+POMODORINO;Cherry tomato;tomato;3301280000;no;Partial match found in HCAT2 names
+POMODORO;Tomato;tomato;3301280000;yes;Direct exact match
+POMPELMO;Grapefruit;fruit;3303010000;no;Matched as fruit based on keywords
+PORRO;Leek;leek;3301220300;yes;Direct exact match
+PORTULACA O PORCELLANA COMUNE;Purslane;purslane;3301240000;yes;Direct exact match
+PRATI ARIDI - FORMAZIONI ERBOSE CON ORCHIDEE;Dry grasslands with orchids;pasture_meadow_grassland_grass;3302000000;no;
+PRATI PERMANENTI NATURALI CON VINCOLI AMBIENTALI;Permanent natural grassland (with environmental constraints);pasture_meadow_grassland_grass;3302000000;no;
+PRATO IN ROTOLO (TAPPETO ERBOSO);Turf (sod);sod_turf;3301090207;yes;
+PRATO PASCOLO;Pasture meadow;pasture_meadow_grassland_grass;3302000000;no;
+PRATO POLIFITA;Mixed grassland;pasture_meadow_grassland_grass;3302000000;no;
+PREZZEMOLO;Parsley;aromatic_medicinal_culinary_plants_spices_herbs;3301061200;no;
+PRUGNE;Plums;plums;3303011300;yes;Direct exact match
+PRUGNOLO;Blackthorn;plums;3303011300;no;
+PSILLO O PLANTAGO OVATA;Psyllium (Plantago ovata);aromatic_medicinal_culinary_plants_spices_herbs;3301061200;no;
+QUERCIA DI DALECHAMPS;Dalechamp’s oak;oak;3306060000;no;Partial match found in HCAT2 names
+QUERCIA SPINOSA;Kermes oak;oak;3306060000;no;Partial match found in HCAT2 names
+QUMQUAT;Kumquat;citrus_plantations;3303040000;no;
+RABARBARO;Rhubarb;rhubarb;3301230000;yes;Direct exact match
+RADICCHIO;Radicchio;chicory_chicories;3301310200;yes;
+RAFANO;Horseradish;horseradish;3301210400;yes;Direct exact match
+RANUNCOLO;Buttercup;flowers_ornamental_plants;3301080000;no;
+RAVANELLO;Radish;radish;3301290600;yes;Direct exact match
+RAVIZZONE;Turnip rape;rapeseed_rape;3301060400;no;
+REGINA DELLE ALPI;Alpine aster;tree_wood_forest;3306000000;no;Matched as tree wood forest based on keywords
+RESEDA O GUADERELLA O LUTEOLA;Dyer’s rocket (Reseda luteola);industrial_nonfood_crops;3301060000;no;
+RIBES BIANCO (UVA SPINA);White currant (gooseberry);fruit;3303010000;no;Matched as fruit based on keywords
+RIBES NERO;Blackcurrant;blackcurrant_cassis;3303020300;no;Partial match found in HCAT2 names
+RIBES ROSSO;Redcurrant;redcurrant;3303021100;yes;Direct exact match
+RICINO;Castor bean;vegetables;3301200000;no;Matched as vegetables based on keywords
+RISONE;Rice;rice;3301010700;yes;Direct exact match
+ROBBIA DEI TINTORI;Madder (Rubia tinctorum);rubia_tinctorum_common_madder;3301061231;yes;
+ROBINIA;Black locust (Robinia);legumes_from_trees;3303110000;no;
+ROMICE O LAPAZIO;Dock (Rumex);sorrel;3301310700;no;
+ROSA;Rose;rosemary;3301061230;no;Partial match found in HCAT2 names
+ROSA CANINA;Dog rose (rosehip);flowers_ornamental_plants;3301080000;no;Matched as flowers ornamental plants based on keywords
+ROSMARINO;Rosemary;rosemary;3301061230;yes;Direct exact match
+ROVEJA PISELLO SELVATICO;Roveja (wild pea);vegetables;3301200000;no;Matched as vegetables based on keywords
+ROVERE;Sessile oak;oak;3306060000;no;Partial match found in HCAT2 names
+ROVERELLA;Downy oak;oak;3306060000;no;Partial match found in HCAT2 names
+RUCOLA;Rocket (arugula);rocket_arugula;3301310600;no;
+RUSCO PUNGITOPO;Butcher’s broom;flowers_ornamental_plants;3301080000;no;
+RUSCUS;Butcher’s broom (Ruscus);flowers_ornamental_plants;3301080000;no;
+SALICE;Willow;willows_osiers;3306080000;no;Partial match found in HCAT2 names
+SALVIA;Sage;sage_chia;3301190000;no;Partial match found in HCAT2 names
+SAMBUCO;Elderberry;elder_elderberry;3303080400;no;Partial match found in HCAT2 names
+SANTOREGGIA MONTANA;Winter savory;aromatic_medicinal_culinary_plants_spices_herbs;3301061200;no;
+SATSUMA;Satsuma mandarin;citrus_plantations;3303040000;no;
+SCAGLIOLA;Canary grass;poaceae_grasses;3301090200;no;
+SCALOGNO;Shallot;shallot;3301220600;yes;Direct exact match
+SCORZONERA;Black salsify (Scorzonera);salsify;3301084000;no;Partial match found in HCAT2 names
+SEDANO;Celery;celery;3301250000;yes;Direct exact match
+SEDANO RAPA;Celeriac;celeriac;3301250100;yes;Direct exact match
+SEGALA;Rye;rye;3301010300;yes;Direct exact match
+SEMINATIVI;Arable crops;arable_crops;3301000000;;
+SENAPE;Mustard;mustard;3301210100;yes;Direct exact match
+SENAPE BRUNA;Brown mustard;mustard;3301210100;no;Partial match found in HCAT2 names
+SENAPE NERA;Black mustard;mustard;3301210100;no;Partial match found in HCAT2 names
+SERRADELLA;Sainfoin (Ornithopus sativus);legumes_harvested_green;3301090300;no;
+SESAMO;Sesame;aromatic_medicinal_culinary_plants_spices_herbs;3301061200;no;
+SIEPI E FASCE ALBERATE;Hedges and tree strips;tree_wood_forest;3306000000;no;Matched as tree wood forest based on keywords
+SILENE O SIRENE O STRIGOLI DA ORTO;Silene (bladder campion);flowers_ornamental_plants;3301080000;no;
+SILFIO (PIANTA DI COPPO) Silphium perfoliatum;Cup plant (Silphium perfoliatum);flowers_ornamental_plants;3301080000;no;
+SOIA;Soybean;soy_soybeans;3301160000;no;Partial match found in HCAT2 names
+SORBO;Rowan;rowan_rowanberries;3303021300;no;Partial match found in HCAT2 names
+SORGO;Sorghum;millet_sorghum;3301010900;no;Partial match found in HCAT2 names
+SPELTA;Spelt;spelt;3301011000;yes;Direct exact match
+SPINACIO;Spinach;spinach;3301310800;yes;Direct exact match
+STATICE;Sea lavender (Limonium);aromatic_medicinal_culinary_plants_spices_herbs;3301061200;no;Matched as aromatic medicinal culinary plants spices herbs based on keywords
+STELLA ALPINA;Edelweiss;edelweiss;3301081600;yes;Direct exact match
+STEVIA REBAUDIANA;Stevia;aromatic_medicinal_culinary_plants_spices_herbs;3301061200;no;
+STRELITZIA;Bird of paradise (Strelitzia);flowers_ornamental_plants;3301080000;no;
+SULLA;Sulla (Hedysarum coronarium);legumes_harvested_green;3301090300;no;
+SUPERFICI AGRICOLE RITIRATE DALLA PRODUZIONE;Agricultural land withdrawn from production;not_known_and_other;3399000000;no;
+SUSINO;Plum;plums;3303011300;no;Partial match found in HCAT2 names
+TABACCO;Tobacco;tobacco;3301060100;yes;Direct exact match
+TAGETE O GAROFANO INDIANO;Tagetes (African marigold);tagetes;3301084700;no;Partial match found in HCAT2 names
+TANGELO MAPO;Tangelo;citrus_plantations;3303040000;no;
+TARASSACO;Dandelion;dandelions;3301081400;no;Partial match found in HCAT2 names
+TARTUFO;Truffle;truffle;3304040000;yes;Direct exact match
+TEF o TEFF;Teff;teff;3301010904;yes;Direct exact match
+TERRAZZAMENTI;Terraces;not_known_and_other;3399000000;no;ok
+TIGLIO NOSTRANO;Common lime (Tilia);citrus_plantations;3303040000;no;
+TIMO;Thyme;thyme;3301061237;yes;Direct exact match
+TOPINAMBUR;Jerusalem artichoke;artichoke;3301270000;no;Partial match found in HCAT2 names
+TRIFOGLIO;Clover;clover;3301090303;yes;Direct exact match
+TRIFOGLIO (SP. TRIFOLIUM ALEXANDRINUM L.);Egyptian clover (Trifolium alexandrinum);clover;3301090303;no;Partial match found in HCAT2 names
+TRIFOGLIO (SP. TRIFOLIUM HYBRIDUM L.);Alsike clover (Trifolium hybridum);clover;3301090303;no;Partial match found in HCAT2 names
+TRIFOGLIO (SP. TRIFOLIUM INCARNATUM L.);Crimson clover (Trifolium incarnatum);clover;3301090303;no;Partial match found in HCAT2 names
+TRIFOGLIO (SP. TRIFOLIUM PRATENSE L.);Red clover (Trifolium pratense);clover;3301090303;no;Partial match found in HCAT2 names
+TRIFOGLIO (SP. TRIFOLIUM REPENS L.);White clover (Trifolium repens);clover;3301090303;no;Partial match found in HCAT2 names
+TRIFOGLIO (SP. TRIFOLIUM RESUPINATUM L.);Persian clover (Trifolium resupinatum);clover;3301090303;no;Partial match found in HCAT2 names
+TRIFOGLIO (SP. TRIFOLIUM SQUARROSUM L.);Squarrose clover (Trifolium squarrosum);clover;3301090303;no;Partial match found in HCAT2 names
+TRITICALE;Triticale;triticale;3301010800;yes;Direct exact match
+TRITORDEUM;Tritordeum;cereal;3301010000;no;
+USO NON AGRICOLO - ALTRO;Non-agricultural use - other;not_known_and_other;3399000000;no;ok
+USO NON AGRICOLO - TARE;Non-agricultural use - tare;not_known_and_other;3399000000;no;ok
+UVA URSINA;Bearberry;fruit;3303010000;no;Matched as fruit based on keywords
+VALERIANA;Valerian;valerian;3301061238;yes;Direct exact match
+VECCE;Vetch;vetches;3301090305;no;Partial match found in HCAT2 names
+VECCIA SATIVA;Common vetch;vetches;3301090305;yes;
+VECCIA VILLOSA;Hairy vetch;vetches;3301090305;no;
+VERBENA OFFICINALE;Common vervain;aromatic_medicinal_culinary_plants_spices_herbs;3301061200;no;
+VERGA D'ORO (SOLIDAGO VIRGA AUREA L.);Goldenrod;goldenrod;3301082200;yes;Direct exact match
+VIBURNO;Viburnum;flowers_ornamental_plants;3301080000;no;
+VIGNA CINESE;Chinese yardlong bean;vegetables;3301200000;no;Matched as vegetables based on keywords
+VIOLA TRICOLOR;Pansy (Viola tricolor);viola;3301085000;no;Partial match found in HCAT2 names
+VISCIOLE;Morello cherry;fruit;3303010000;no;Matched as fruit based on keywords
+VITE;Vine (grapevine);fruit;3303010000;no;Matched as fruit based on keywords
+VIVAI - ALTRI;Other nurseries;nurseries_nursery;3303070000;no;
+VIVAI DI ALBERI E ARBUSTI PER GIARDINI PARCHI STRADE E SCARPATE (COME PIANTE PER SIEPI ROSAI ALTRI ARBUSTI ORNAMENTALI CONIFERE ORNAMENTALI)COMPRESI;Nurseries of trees and shrubs for gardens/parks;tree_wood_forest;3306000000;no;Matched as tree wood forest based on keywords
+VIVAI FLORICOLI /ORNAMENTALI;Ornamental nurseries;flowers_ornamental_plants;3301080000;no;Matched as flowers ornamental plants based on keywords
+VIVAI FORESTALI COMMERCIALI COMPRESI ALBERI DI NATALE ESCLUSI VIVAI FORESTALI SITUATI IN FORESTA E DESTINATI AL FABBISOGNO DELL'AZIENDA;Commercial forest nurseries (including Christmas trees);tree_wood_forest;3306000000;no;Matched as tree wood forest based on keywords
+VIVAI FRUTTICOLI COMPRESE LE PIANTE DA BACCHE;Fruit nurseries (including berry plants);fruit;3303010000;no;Matched as fruit based on keywords
+VIVAI OLIVICOLI;Olive nurseries;nurseries_nursery;3303070000;no;
+VIVAI ORTICOLI;Vegetable nurseries;vegetables;3301200000;no;Matched as vegetables based on keywords
+VIVAI VITICOLI E VITI MADRI DI PORTAINNESTI;Vine nurseries and rootstock mother vines;vineyards_wine_vine_rebland_grapes;3303060000;no;
+YACON (patata yacon o carota dolce);Yacon;potatoes;3301030000;no;
+ZAFFERANO;Saffron;saffron_crocus_sativus;3301061232;no;Partial match found in HCAT2 names
+ZENZERO;Ginger;root_vegetables;3301290000;no;
+ZUCCA;Pumpkin;pumpkin_squash_gourd;3301140400;no;Partial match found in HCAT2 names
+ZUCCA LAGENARIA;Bottle gourd;pumpkin_squash_gourd;3301140400;no;
+ZUCCHINO;Zucchini (courgette);vegetables;3301200000;no;Matched as vegetables based on keywords
