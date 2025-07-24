@@ -4,9 +4,9 @@ ASPARAGO,Asparagus,alliums,3301220000,no,,ASPARAGO,902
 MANDORLO,Almond,almond,3303030100,yes,Direct exact match,MANDORLO,493
 AMARANTO,Amaranth,amaranth,3301150100,yes,Direct exact match,AMARANTO,496
 ANEMONE,Anemone,anemones_windflowers,3301080200,no,Partial match found in HCAT2 names,ANEMONE,50
-ANETO,Dill,anethum_dill,3301061203,no,Partial match found in HCAT2 names,,
+ANETO,Dill,anethum_dill,3301061203,no,Partial match found in HCAT2 names,ANETO,221
 ANGELICA,Angelica,angelica,3301061204,yes,Direct exact match,ANGELICA,288
-ANICE COMUNE,Anise,anise_aniseed,3301061205,no,Partial match found in HCAT2 names,,
+ANICE COMUNE,Anise,anise_aniseed,3301061205,no,Partial match found in HCAT2 names,ANICE COMUNE,289
 MELO,Apple,apples,3303010200,no,Partial match found in HCAT2 names,MELO,44
 ALBICOCCO,Apricot,apricots,3303010300,no,Partial match found in HCAT2 names,ALBICOCCO,671
 AREA A SEMINATIVO DEDICATA ALL'ELICICOLTURA,Arable land for snail farming,arable_crops,3301000000,no,,AREA A SEMINATIVO DEDICATA ALL'ELICICOLTURA,A05
@@ -20,13 +20,13 @@ PIANTE AROMATICHE E MEDICINALI E SPEZIE,Aromatic and medicinal plants and spices
 CAPPERO,Capers,aromatic_medicinal_culinary_plants_spices_herbs,3301061200,no,,CAPPERO,968
 CENTELLA,Gotu kola (Centella),aromatic_medicinal_culinary_plants_spices_herbs,3301061200,no,,CENTELLA,483
 ARBORETO CONSOCIABILE (CON COLTIVAZIONI ERBACEE),Mixed arboretum (with herbaceous crops),aromatic_medicinal_culinary_plants_spices_herbs,3301061200,no,Matched as aromatic medicinal culinary plants spices herbs based on keywords,ARBORETO CONSOCIABILE (CON COLTIVAZIONI ERBACEE),655
-MENTUCCIA,Lesser calamint,aromatic_medicinal_culinary_plants_spices_herbs,3301061200,no,Matched as aromatic medicinal culinary plants spices herbs based on keywords,,
+MENTUCCIA,Lesser calamint,aromatic_medicinal_culinary_plants_spices_herbs,3301061200,no,Matched as aromatic medicinal culinary plants spices herbs based on keywords,MENTUCCIA,245
 STATICE,Sea lavender (Limonium),aromatic_medicinal_culinary_plants_spices_herbs,3301061200,no,Matched as aromatic medicinal culinary plants spices herbs based on keywords,STATICE,155
 PIANTAGGINE MAGGIORE O LINGUA D'OCA,Greater plantain,aromatic_medicinal_culinary_plants_spices_herbs,3301061200,no,,PIANTAGGINE MAGGIORE O LINGUA D'OCA,397
 GRINDELIA,Grindelia,aromatic_medicinal_culinary_plants_spices_herbs,3301061200,no,,GRINDELIA,342
 ELICRISO,Helichrysum,aromatic_medicinal_culinary_plants_spices_herbs,3301061200,no,,ELICRISO,328
 EQUISETO,Horsetail,aromatic_medicinal_culinary_plants_spices_herbs,3301061200,no,,EQUISETO,330
-ISSOPO,Hyssop,aromatic_medicinal_culinary_plants_spices_herbs,3301061200,no,,,
+ISSOPO,Hyssop,aromatic_medicinal_culinary_plants_spices_herbs,3301061200,no,,ISSOPO,345
 GINEPRO,Juniper,aromatic_medicinal_culinary_plants_spices_herbs,3301061200,no,,GINEPRO,317
 PIANTAGGINE LANCEOLATA O LINGUA DI CANE,Ribwort plantain,aromatic_medicinal_culinary_plants_spices_herbs,3301061200,no,,PIANTAGGINE LANCEOLATA O LINGUA DI CANE,396
 ALLORO,Bay laurel,aromatic_medicinal_culinary_plants_spices_herbs,3301061200,no,,ALLORO,485
@@ -34,7 +34,7 @@ MAGGIORANA,Marjoram,aromatic_medicinal_culinary_plants_spices_herbs,3301061200,n
 MIRTO,Myrtle,aromatic_medicinal_culinary_plants_spices_herbs,3301061200,no,,MIRTO,318
 PREZZEMOLO,Parsley,aromatic_medicinal_culinary_plants_spices_herbs,3301061200,no,,PREZZEMOLO,933
 PARTENIO,Feverfew (Tanacetum parthenium),aromatic_medicinal_culinary_plants_spices_herbs,3301061200,no,,PARTENIO,393
-PILOSELLA,Hawkweed (Pilosella),aromatic_medicinal_culinary_plants_spices_herbs,3301061200,no,,,
+PILOSELLA,Hawkweed (Pilosella),aromatic_medicinal_culinary_plants_spices_herbs,3301061200,no,,PILOSELLA,399
 PSILLO O PLANTAGO OVATA,Psyllium (Plantago ovata),aromatic_medicinal_culinary_plants_spices_herbs,3301061200,no,,PSILLO O PLANTAGO OVATA,398
 VERBENA OFFICINALE,Common vervain,aromatic_medicinal_culinary_plants_spices_herbs,3301061200,no,,VERBENA OFFICINALE,417
 ARTEMISIA,Artemisia,artemisia,3301061206,yes,Direct exact match,ARTEMISIA,295
@@ -110,7 +110,7 @@ BIANCOSPINO,Hawthorn,crataegus_hawthorn,3303080300,no,Partial match found in HCA
 CRESCIONE DEI GIARDINI O CRESCIONE INGLESE,Garden cress,cress,3301210300,no,Partial match found in HCAT2 names,CRESCIONE DEI GIARDINI O CRESCIONE INGLESE,484
 CETRIOLO,Cucumber,cucumber_pickle,3301140100,no,Partial match found in HCAT2 names,CETRIOLO,917
 MARGHERITA,Daisy,daisy_daisies,3301081300,no,Partial match found in HCAT2 names,MARGHERITA,99
-TARASSACO,Dandelion,dandelions,3301081400,no,Partial match found in HCAT2 names,,
+TARASSACO,Dandelion,dandelions,3301081400,no,Partial match found in HCAT2 names,TARASSACO,415
 ARNICA,Arnica,echinacea_sun_hat,3301081500,no,,ARNICA,291
 STELLA ALPINA,Edelweiss,edelweiss,3301081600,yes,Direct exact match,STELLA ALPINA,549
 SAMBUCO,Elderberry,elder_elderberry,3303080400,no,Partial match found in HCAT2 names,SAMBUCO,315
@@ -137,7 +137,7 @@ RUSCO PUNGITOPO,Butchers broom,flowers_ornamental_plants,3301080000,no,,,
 RANUNCOLO,Buttercup,flowers_ornamental_plants,3301080000,no,,RANUNCOLO,153
 CALLA,Calla lily,flowers_ornamental_plants,3301080000,no,Matched as flowers ornamental plants based on keywords,CALLA,13
 CAMELIA,Camellia,flowers_ornamental_plants,3301080000,no,,CAMELIA,524
-CENTAUREA MINORE,Lesser knapweed (Centaurea),flowers_ornamental_plants,3301080000,no,,,
+CENTAUREA MINORE,Lesser knapweed (Centaurea),flowers_ornamental_plants,3301080000,no,,CENTAUREA MINORE,327
 CANNA CINESE (MISCANTHUS SINENSIS),Chinese silver grass (Miscanthus sinensis),flowers_ornamental_plants,3301080000,no,,CANNA CINESE (MISCANTHUS SINENSIS),112
 ECHINACEA ANGUSTIFOLIA,Echinacea angustifolia,flowers_ornamental_plants,3301080000,no,,ECHINACEA ANGUSTIFOLIA,458
 ECHINACEA PALLIDA,Echinacea pallida,flowers_ornamental_plants,3301080000,no,,ECHINACEA PALLIDA,457
@@ -165,7 +165,7 @@ OKRA O OCRA O GOMBO,Okra,fresh_vegetables,3301070000,no,,OKRA O OCRA O GOMBO,469
 ALCHECHENGI,Physalis (Cape gooseberry),fruit,3303010000,no,Matched as fruit based on keywords,ALCHECHENGI,971
 ANNONA CHERIMOLA (o CIRIMOIA o CHERIMOYA),Cherimoya (Annona cherimola),fruit,3303010000,no,Matched as fruit based on keywords,ANNONA CHERIMOLA (o CIRIMOIA o CHERIMOYA),677
 UVA URSINA,Bearberry,fruit,3303010000,no,Matched as fruit based on keywords,UVA URSINA,466
-BIRICOCCOLO SUSINCOCCO,Plumcot (Plum-apricot hybrid),fruit,3303010000,no,Matched as fruit based on keywords,,
+BIRICOCCOLO SUSINCOCCO,Plumcot (Plum-apricot hybrid),fruit,3303010000,no,Matched as fruit based on keywords,BIRICOCCOLO SUSINCOCCO,305
 ARANCIO AMARO o MELANGOLO,Bitter orange,fruit,3303010000,no,Matched as fruit based on keywords,ARANCIO AMARO o MELANGOLO,A02
 ARONIA NERA,Black chokeberry (Aronia),fruit,3303010000,no,Matched as fruit based on keywords,ARONIA NERA,292
 CORBEZZOLO,Strawberry tree (Arbutus unedo),fruit,3303010000,no,Matched as fruit based on keywords,CORBEZZOLO,171
@@ -179,7 +179,7 @@ GELSO,Mulberry,fruit,3303010000,no,Matched as fruit based on keywords,GELSO,177
 BANANO DEL NORD,Northern banana,fruit,3303010000,no,Matched as fruit based on keywords,BANANO DEL NORD,695
 ARANCIO,Orange,fruit,3303010000,no,Matched as fruit based on keywords,ARANCIO,201
 ANANASSI,Pineapple,fruit,3303010000,no,Matched as fruit based on keywords,ANANASSI,958
-FICODINDIA o FICO D'INDIA,Prickly pear,fruit,3303010000,no,Matched as fruit based on keywords,,
+FICODINDIA o FICO D'INDIA,Prickly pear,fruit,3303010000,no,Matched as fruit based on keywords,FICODINDIA o FICO D'INDIA,407
 "MIRTILLI ROSSI MIRTILLI NERI ED ALTRI FRUTTI DEL GENERE ""VACCINIUM""",Cranberries  blueberries  and other Vaccinium fruits,fruit,3303010000,no,Matched as fruit based on keywords,"MIRTILLI ROSSI MIRTILLI NERI ED ALTRI FRUTTI DEL GENERE ""VACCINIUM""",475
 CILIEGIO ACIDO (MARASCA VISCIOLA AMARENA),Sour cherry,fruit,3303010000,no,Matched as fruit based on keywords,CILIEGIO ACIDO (MARASCA VISCIOLA AMARENA),468
 FRAGOLA,Strawberry,fruit,3303010000,no,Matched as fruit based on keywords,FRAGOLA,927
@@ -192,8 +192,8 @@ GENZIANA,Gentian,gentians,3301082000,no,Partial match found in HCAT2 names,GENZI
 GLADIOLO,Gladiolus,gladiolus_gladioli,3301082100,no,Partial match found in HCAT2 names,GLADIOLO,37
 VERGA D'ORO (SOLIDAGO VIRGA AUREA L.),Goldenrod,goldenrod,3301082200,yes,Direct exact match,VERGA D'ORO (SOLIDAGO VIRGA AUREA L.),418
 NOCCIOLO,Hazelnut,hazelnuts_hazel,3303030200,no,Partial match found in HCAT2 names,NOCCIOLO,494
-CANAPA,Hemp,hemp_cannabis,3301061000,no,Partial match found in HCAT2 names,,
-OLIVELLO O OLIVELLO SPINOSO,Sea buckthorn,hippophae_sea_buckthorns_seaberry,3303020800,yes,,,
+CANAPA,Hemp,hemp_cannabis,3301061000,no,Partial match found in HCAT2 names,CANAPA,56
+OLIVELLO O OLIVELLO SPINOSO,Sea buckthorn,hippophae_sea_buckthorns_seaberry,3303020800,yes,,OLIVELLO O OLIVELLO SPINOSO,316
 LUPPOLO,Hop,hops,3301060200,no,Partial match found in HCAT2 names,LUPPOLO,76
 RAFANO,Horseradish,horseradish,3301210400,yes,Direct exact match,RAFANO,429
 BAMBU GIGANTE,Giant bamboo,industrial_nonfood_crops,3301060000,no,,BAMBU GIGANTE,424
@@ -215,7 +215,7 @@ MISCUGLIO DI AZOTOFISSATRICI,Nitrogen-fixing crop mix,legumes_harvested_green,33
 SULLA,Sulla (Hedysarum coronarium),legumes_harvested_green,3301090300,no,,SULLA,840
 LIMONE,Lemon,lemon_balm_melissa,3301061220,no,Partial match found in HCAT2 names,LIMONE,204
 LENTICCHIE,Lentil,lentils,3301020500,no,Partial match found in HCAT2 names,LENTICCHIE,16
-CARDO MARIANO,Milk thistle,marian_thistles,3301061300,yes,,,
+CARDO MARIANO,Milk thistle,marian_thistles,3301061300,yes,,CARDO MARIANO,326
 AZZERUOLO,Medlar (Crataegus azarolus),medlar_loquat,3303010800,no,,AZZERUOLO,969
 NESPOLO,Medlar,medlar_loquat,3303010800,no,Partial match found in HCAT2 names,NESPOLO,476
 MELILOTO,Melilot,melilot,3301090304,yes,Direct exact match,MELILOTO,622
@@ -241,11 +241,11 @@ MACERI STAGNI E LAGHETTI,Ponds and small lakes,not_known_and_other,3399000000,no
 MANUFATTI,Manufactured goods,not_known_and_other,3399000000,no,ok,MANUFATTI,660
 FOSSATI E CANALI,Ditches and canals,not_known_and_other,3399000000,no,ok,FOSSATI E CANALI,786
 USO NON AGRICOLO - ALTRO,Non-agricultural use - other,not_known_and_other,3399000000,no,ok,USO NON AGRICOLO - ALTRO,156
-USO NON AGRICOLO - TARE,Non-agricultural use - tare,not_known_and_other,3399000000,no,ok,,
+USO NON AGRICOLO - TARE,Non-agricultural use - tare,not_known_and_other,3399000000,no,ok,USO NON AGRICOLO - TARE,780
 FASCE TAMPONE NON RIPARIALI,Non-riparian buffer strips,not_known_and_other,3399000000,no,ok,FASCE TAMPONE NON RIPARIALI,792
 FASCE TAMPONE RIPARIALI,Riparian buffer strips,not_known_and_other,3399000000,no,ok,FASCE TAMPONE RIPARIALI,791
 RUSCUS,Butchers broom (Ruscus),flowers_ornamental_plants,3301080000,no,,RUSCUS,43
-SANTOREGGIA MONTANA,Winter savory,aromatic_medicinal_culinary_plants_spices_herbs,3301061200,no,,,
+SANTOREGGIA MONTANA,Winter savory,aromatic_medicinal_culinary_plants_spices_herbs,3301061200,no,,SANTOREGGIA MONTANA,413
 SCAGLIOLA,Canary grass,poaceae_grasses,3301090200,no,,SCAGLIOLA,675
 SERRADELLA,Sainfoin (Ornithopus sativus),legumes_harvested_green,3301090300,no,,SERRADELLA,78
 SESAMO,Sesame,aromatic_medicinal_culinary_plants_spices_herbs,3301061200,no,,SESAMO,149
@@ -266,7 +266,7 @@ CERRO,Turkey oak (Quercus cerris),oak,3306060000,no,Partial match found in HCAT2
 QUERCIA DI DALECHAMPS,Dalechamps oak,oak,3306060000,no,Partial match found in HCAT2 names,QUERCIA DI DALECHAMPS,744
 FARNIA,English oak (Quercus robur),oak,3306060000,no,Partial match found in HCAT2 names,FARNIA,192
 LECCIO,Holm oak,oak,3306060000,no,Partial match found in HCAT2 names,LECCIO,311
-ROVERE,Sessile oak,oak,3306060000,no,Partial match found in HCAT2 names,,
+ROVERE,Sessile oak,oak,3306060000,no,Partial match found in HCAT2 names,ROVERE,313
 ROVERELLA,Downy oak,oak,3306060000,no,Partial match found in HCAT2 names,ROVERELLA,193
 QUERCIA SPINOSA,Kermes oak,oak,3306060000,no,Partial match found in HCAT2 names,QUERCIA SPINOSA,743
 AVENA,Oats,oats,3301010500,yes,Direct exact match,AVENA,533
@@ -281,7 +281,7 @@ PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRA
 PASCOLO POLIFITA CON ROCCIA AFFIORANTE TARA 20%,Rocky mixed pasture (20% tare),pasture_meadow_grassland_grass,3302000000,no,,PASCOLO POLIFITA CON ROCCIA AFFIORANTE TARA 20%,63
 PASCOLO POLIFITA CON ROCCIA AFFIORANTE TARA 50%,Rocky mixed pasture (50% tare),pasture_meadow_grassland_grass,3302000000,no,,PASCOLO POLIFITA CON ROCCIA AFFIORANTE TARA 50%,64
 PRATO PASCOLO,Pasture meadow,pasture_meadow_grassland_grass,3302000000,no,,PRATO PASCOLO,899
-PASCOLO CON PRATICHE TRADIZIONALI,Traditional pasture,pasture_meadow_grassland_grass,3302000000,no,,,
+PASCOLO CON PRATICHE TRADIZIONALI,Traditional pasture,pasture_meadow_grassland_grass,3302000000,no,,PASCOLO CON PRATICHE TRADIZIONALI,218
 ERBA MAZZOLINA,Meadow grass,pasture_meadow_grassland_grass,3302000000,no,,ERBA MAZZOLINA,32
 PASCOLO POLIFITA,Mixed pasture,pasture_meadow_grassland_grass,3302000000,no,,PASCOLO POLIFITA,65
 PRATI PERMANENTI NATURALI CON VINCOLI AMBIENTALI,Permanent natural grassland (with environmental constraints),pasture_meadow_grassland_grass,3302000000,no,,PRATI PERMANENTI NATURALI CON VINCOLI AMBIENTALI,391
@@ -306,7 +306,7 @@ YACON (patata yacon o carota dolce),Yacon,potatoes,3301030000,no,,YACON (patata 
 PATATA,Potato,potatoes,3301030000,no,Partial match found in HCAT2 names,PATATA,710
 ZUCCA LAGENARIA,Bottle gourd,pumpkin_squash_gourd,3301140400,no,,ZUCCA LAGENARIA,715
 ZUCCA,Pumpkin,pumpkin_squash_gourd,3301140400,no,Partial match found in HCAT2 names,ZUCCA,940
-PORTULACA O PORCELLANA COMUNE,Purslane,purslane,3301240000,yes,Direct exact match,,
+PORTULACA O PORCELLANA COMUNE,Purslane,purslane,3301240000,yes,Direct exact match,PORTULACA O PORCELLANA COMUNE,508
 COTOGNO,Quince,quinces,3303011500,no,Partial match found in HCAT2 names,COTOGNO,661
 CHENOPODIUM QUINOA,Quinoa,quinoa,3301150300,yes,Direct exact match,CHENOPODIUM QUINOA,545
 RAVANELLO,Radish,radish,3301290600,yes,Direct exact match,RAVANELLO,936
@@ -366,7 +366,7 @@ ASSENZIO,Wormwood (Absinthe),tree_wood_forest,3306000000,no,Matched as tree wood
 ACACIA SALIGNA,Acacia saligna,tree_wood_forest,3306000000,no,Matched as tree wood forest based on keywords,ACACIA SALIGNA,973
 ONTANO,Alder,tree_wood_forest,3306000000,no,Matched as tree wood forest based on keywords,ONTANO,179
 ARALIA,Aralia,tree_wood_forest,3306000000,,,ARALIA,7
-ARBORICOLTURA,Arboriculture,tree_wood_forest,3306000000,no,,,
+ARBORICOLTURA,Arboriculture,tree_wood_forest,3306000000,no,,ARBORICOLTURA,500
 FRASSINO,Ash tree,tree_wood_forest,3306000000,no,Matched as tree wood forest based on keywords,FRASSINO,967
 PIOPPO NERO,Black poplar,tree_wood_forest,3306000000,no,Matched as tree wood forest based on keywords,PIOPPO NERO,301
 CARPINO,Hornbeam,tree_wood_forest,3306000000,no,,CARPINO,181

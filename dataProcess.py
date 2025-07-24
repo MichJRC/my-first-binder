@@ -35,6 +35,9 @@ print("\n🌾 Main crop statistics exported to main_crop_statistics.csv")
 IT_CODES = pd.read_csv("data/IT-crops_codes_and_crops_names_table-27061968.csv", sep=";", encoding="latin1")
 IT_HCAT = pd.read_csv("data/IT_HCAT.csv", sep=";", encoding="latin1")
 
+IT_CODES['crop_name'] = IT_CODES['crop_name'].str.strip()
+IT_HCAT['Italian_Name'] = IT_HCAT['Italian_Name'].str.strip()
+
 IT_HCAT_merged_IT_codes = pd.merge(IT_HCAT, IT_CODES[['crop_name', 'main_crop']], left_on='Italian_Name', right_on='crop_name', how='left')
 IT_HCAT_merged_IT_codes.to_csv("data/IT_HCAT_merged_IT_codes.csv", index=False)
 
