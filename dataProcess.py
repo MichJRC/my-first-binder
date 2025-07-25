@@ -3,7 +3,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load the shapefile
-print("Loading shapefile...")
 gdf = gpd.read_file('downloaded_data/GSA2024LB/GSA-2024_Lombardia.shp')
 
 # Basic information about the data
@@ -32,8 +31,9 @@ main_crop_stats = gdf.groupby("main_crop").size().reset_index(name="count")
 main_crop_stats.to_csv("data/main_crop_statistics.csv", index=False)
 print("\n🌾 Main crop statistics exported to main_crop_statistics.csv")
 
+# Read the italian codes files, and make the merge with the HCAT classes
 import re
-# Read the files
+
 IT_CODES = pd.read_csv("data/IT-crops_codes_and_crops_names_table-27061968.csv", sep=";", encoding="latin1")
 IT_HCAT = pd.read_csv("data/IT_HCAT.csv", sep=";", encoding="latin1")
 
@@ -47,11 +47,13 @@ IT_HCAT_merged_IT_codes.to_csv("data/IT_HCAT_merged_IT_codes.csv", index=False)
 IT_HCAT_merged_IT_codes = pd.read_csv("data/IT_HCAT_merged_IT_codes.csv")
 print(IT_HCAT_merged_IT_codes["main_crop"].isnull().sum())
 
+# From the Lombardia shapefile make the merge with the HCAT classes
+
 merged_gdf = gdf.merge(IT_HCAT_merged_IT_codes,  left_on='main_crop', right_on='main_crop', how='left')
 merged_gdf.to_file("data/merged_geodata.gpkg", driver="GPKG")
-
 unmatched_main_crops = merged_gdf[merged_gdf['crop_name_clean'].isna()]['main_crop']
 
+# Prepare the shapefile column and the HCAT column code with the right format to make the merge
 gdf['main_crop_clean'] = gdf['main_crop'].astype(str).str.zfill(3)
 IT_HCAT_merged_IT_codes['main_crop_clean'] = IT_HCAT_merged_IT_codes['main_crop'].astype(str).str.zfill(3)
 
@@ -76,3 +78,5 @@ def true_value_comparison(gdf_sorted, hcat_sorted):
         in_gdf = "✓" if value in gdf_sorted else "✗"
         in_hcat = "✓" if value in hcat_sorted else "✗"
         print(f"{value:<10}{in_gdf:<8}{in_hcat}")
+
+true_value_comparison(gdf_samples_sorted, IT_HCAT_merged_IT_codes_sorted)
