@@ -15,6 +15,7 @@ print(f"Total features: {len(gdf)}")
 print(f"Geometry type: {gdf.geometry.geom_type.iloc[0]}")
 print(gdf.iloc[0])
 
+# Make some initial stats on the shapefile
 main_crop_stats = gdf.groupby("main_crop").size().reset_index(name="count")
 main_crop_stats.to_csv("data/main_crop_statistics.csv", index=False)
 
@@ -62,7 +63,6 @@ comp.to_csv('data/comparison_GSA_Lombardia_HCAT.csv', index=False)
 
 # print only the values that are in gdg but nor referenced in the HCAT
 gdf_only = comp[(comp['GDF'] == '✓') & (comp['IT_HCAT'] == '✗')]
-print("Values only in GDF:")
 print(gdf_only)
 
 # Count how many times each value appears in the original GDF
@@ -74,6 +74,19 @@ gdf_only['ratio_on_total'] = (gdf_only['number_polygons'] / total_polygons).roun
 unmatchedGdf_HCAT = gdf_only.to_csv('data/unmatchedGdf_HCAT_stats.csv', index=False)
 
 # From the Lombardia shapefile make the merge with the HCAT classes
-merged_gdf = gdf.merge(IT_HCAT_merged_IT_codes,  left_on='main_crop_clean', right_on='main_crop_clean', how='left')
-merged_gdf.to_file("data/merged_geodata.gpkg", driver="GPKG")
+merged_gdf = gdf.merge(
+    IT_HCAT_merged_IT_codes[['Italian_Name', 'English_Name', 'HCAT2_Name', 
+                            'HCAT2_Code', 'Direct_Match', 'Reason', 
+                            'crop_name_clean', 'main_crop_clean']], 
+    left_on='main_crop_clean', 
+    right_on='main_crop_clean', 
+    how='left'
+)
+
+for index, row in merged_gdf.iterrows():
+    print(row)
+    break
+
 unmatched_main_crops = merged_gdf[merged_gdf['crop_name_clean'].isna()]['main_crop']
+
+merged_gdf.to_file("data/merged_geodata.gpkg", driver="GPKG")
