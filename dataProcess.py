@@ -66,7 +66,13 @@ gdf_only = comp[(comp['GDF'] == '✓') & (comp['IT_HCAT'] == '✗')]
 print("Values only in GDF:")
 print(gdf_only)
 
-gdf_Only_mainCrop = gdf_only.merge(IT_HCAT_merged_IT_codes[['main_crop', 'Italian_Name']],  left_on='Value', right_on='main_crop', how='left')
+# Count how many times each value appears in the original GDF
+value_counts = gdf['main_crop_clean'].value_counts()
+total_polygons = len(gdf)
+gdf_only = gdf_only.copy()
+gdf_only['number_polygons'] = gdf_only['Value'].map(value_counts)
+gdf_only['ratio_on_total'] = (gdf_only['number_polygons'] / total_polygons).round(4)
+unmatchedGdf_HCAT = gdf_only.to_csv('data/unmatchedGdf_HCAT_stats.csv', index=False)
 
 # From the Lombardia shapefile make the merge with the HCAT classes
 merged_gdf = gdf.merge(IT_HCAT_merged_IT_codes,  left_on='main_crop', right_on='main_crop', how='left')
