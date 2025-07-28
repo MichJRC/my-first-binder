@@ -57,7 +57,6 @@ def true_value_comparison(gdf_sorted, hcat_sorted):
     df = pd.DataFrame(data)
     return df
 
-# Then you can use it like:
 comp = true_value_comparison(gdf_samples_sorted, IT_HCAT_merged_IT_codes_sorted)
 comp.to_csv('data/comparison_GSA_Lombardia_HCAT.csv', index=False)
 
@@ -75,6 +74,6 @@ gdf_only['ratio_on_total'] = (gdf_only['number_polygons'] / total_polygons).roun
 unmatchedGdf_HCAT = gdf_only.to_csv('data/unmatchedGdf_HCAT_stats.csv', index=False)
 
 # From the Lombardia shapefile make the merge with the HCAT classes
-merged_gdf = gdf.merge(IT_HCAT_merged_IT_codes,  left_on='main_crop', right_on='main_crop', how='left')
+merged_gdf = gdf.merge(IT_HCAT_merged_IT_codes,  left_on='main_crop_clean', right_on='main_crop_clean', how='left')
 merged_gdf.to_file("data/merged_geodata.gpkg", driver="GPKG")
 unmatched_main_crops = merged_gdf[merged_gdf['crop_name_clean'].isna()]['main_crop']
