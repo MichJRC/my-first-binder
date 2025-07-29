@@ -1,3 +1,6 @@
 downloaded_data/
 *.gpkg
 downloaded_data/
+geo_env/
+*.pyc
+__pycache__/
