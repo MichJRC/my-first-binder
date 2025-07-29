@@ -9,4 +9,4 @@ cd downloaded_data && unzip -q GSA2024LB.zip && cd ..
 echo "Downloading merged geodata..."
 wget -q -O downloaded_data/merged_geodata.gpkg https://github.com/MichJRC/my-first-binder/releases/download/v1.0.0/merged_geodata.gpkg
 
-echo "Data setup complete!"
+echo "Data setup complete!!"

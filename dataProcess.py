@@ -2,6 +2,7 @@ import geopandas as gpd
 import pandas as pd
 import matplotlib.pyplot as plt
 import re
+import numpy
 
 # Load the shapefile
 gdf = gpd.read_file('downloaded_data/GSA2024LB/GSA-2024_Lombardia.shp')
