@@ -87,6 +87,45 @@ for index, row in merged_gdf.iterrows():
     print(row)
     break
 
+# how many polygons are not matching the hcat classes (853)
 unmatched_main_crops = merged_gdf[merged_gdf['crop_name_clean'].isna()]['main_crop']
 
-merged_gdf.to_file("data/merged_geodata.gpkg", driver="GPKG")
+# create_and_upload_geodata.gpkg in the git release so that I can access it in in the download_data folder
+import geopandas as gpd
+import subprocess
+import os
+
+def create_geodata():
+    """code to create the GeoPackage"""
+    # ... data processing code ...
+    merged_gdf.to_file("data/merged_geodata.gpkg", driver="GPKG")
+    print("GeoPackage created successfully!")
+
+def upload_to_release():
+    """Upload to GitHub release using GitHub CLI"""
+    try:
+        # Check if file exists
+        if not os.path.exists("data/merged_geodata.gpkg"):
+            print("Error: GeoPackage file not found!")
+            return
+        
+        # Upload to release
+        result = subprocess.run([
+            "gh", "release", "upload", "v1.0.0", 
+            "data/merged_geodata.gpkg", "--clobber"  # --clobber replaces if exists
+        ], capture_output=True, text=True)
+        
+        if result.returncode == 0:
+            print("Successfully uploaded to GitHub release!")
+            print(f"Download URL will be:")
+            print(f"https://github.com/MichJRC/my-first-binder/releases/download/v1.0.0/merged_geodata.gpkg")
+        else:
+            print(f"Upload failed: {result.stderr}")
+            
+    except Exception as e:
+        print(f"Error uploading: {e}")
+
+if __name__ == "__main__":
+    create_geodata()
+    upload_to_release()
+
