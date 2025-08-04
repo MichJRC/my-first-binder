@@ -54,7 +54,9 @@ def load_data(file_path):
         print("Converting to WGS84...")
         gdf = gdf.to_crs('EPSG:4326')
     
-    # Create spatial index for fast bbox queries
+    # Create spatial index for fast bbox queries: It makes a "R-tree Spatial Index" on the gdf polygons so that the prog is narrowing the search 
+    # to those parcels that are intersecting the bbbox instead of looping through all polygons, it does that by creating a tree structure e.g 1. all Italy, 2. North, South, 3. Milan..
+    # Once the parcels are selected it make a list of candidate parcel and start the spatial compution.
     print("Creating spatial index...")
     gdf.sindex  # This creates the spatial index
     
