@@ -493,7 +493,7 @@ def get_global_stats():
 
 if __name__ == '__main__':
     # Configuration
-    GPKG_FILE = "your_file.gpkg"  # 👈 CHANGE THIS TO YOUR FILE PATH
+    GPKG_FILE = "downloaded_data/merged_geodata.gpkg"  # 👈 FILE PATH
     
     print("🚀 Starting Italian Agricultural Data Web App")
     print("=" * 50)
