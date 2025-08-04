@@ -1,8 +1,22 @@
 #!/usr/bin/env python3
 """
-Step 3: Interactive Web Application for Italian Agricultural Data
+Step 3: Interactive Web Application for GSA Data
 Flask backend with GeoPandas + Leaflet frontend
 """
+
+#Flask: Web framework to create the server
+#jsonify: Converts Python dictionaries to JSON responses
+#render_template_string: Renders HTML template from a string (instead of file)
+#request: Access incoming HTTP request data (URL parameters, etc.)
+#GeoPandas: Handles geospatial data (GPKG files, spatial operations)
+#Pandas: Data manipulation and analysis
+#json: Convert between Python objects and JSON strings
+#box: Creates rectangular bounding box geometries
+#numpy: Numerical operations and arrays
+#lru_cache: Decorator that caches function results for speed
+#time: Measure execution time
+#warnings: Suppress warning messages
+
 
 from flask import Flask, jsonify, render_template_string, request
 import geopandas as gpd
@@ -15,6 +29,7 @@ import time
 import warnings
 warnings.filterwarnings('ignore')
 
+#make a web server for 
 app = Flask(__name__)
 
 # Global variables for data
@@ -28,11 +43,11 @@ def load_data(file_path):
     """
     global gdf_global, top_crops, crop_colors
     
-    print("🌾 Loading Italian Agricultural Data...")
+    print("🌾 Loading GSA Agricultural Data...")
     
     # Load data
     gdf = gpd.read_file(file_path)
-    print(f"Loaded {len(gdf):,} agricultural parcels")
+    print(f"Loaded {len(gdf)} agricultural parcels")
     
     # Convert to WGS84 for web display
     if gdf.crs.to_epsg() != 4326:
