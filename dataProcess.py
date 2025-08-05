@@ -129,4 +129,3 @@ def upload_to_release():
 if __name__ == "__main__":
     create_geodata()
     upload_to_release()
-

@@ -536,3 +536,5 @@ if __name__ == '__main__':
     except Exception as e:
         print(f"❌ Error starting application: {e}")
         print("Make sure to update GPKG_FILE path in the script")
+
+
