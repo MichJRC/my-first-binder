@@ -1,4 +1,85 @@
-#!/usr/bin/env python3
+@app.route('/tiles/water/<int:z>/<int:x>/<int:y>.png')
+def water_tile(z, x, y):
+    """
+    Serve water bodies tiles with proper projection
+    """
+    if not water_raster:
+        return "Water layer not available", 404
+    
+    try:
+        # Calculate tile bounds in Web Mercator tile system
+        def tile_to_bbox(x, y, z):
+            """Convert tile coordinates to lat/lon bounding box"""
+            n = 2.0 ** z
+            lon_min = x / n * 360.0 - 180.0
+            lat_max = math.degrees(math.atan(math.sinh(math.pi * (1 - 2 * y / n))))
+            lon_max = (x + 1) / n * 360.0 - 180.0
+            lat_min = math.degrees(math.atan(math.sinh(math.pi * (1 - 2 * (y + 1) / n))))
+            return lon_min, lat_min, lon_max, lat_max
+        
+        lon_min, lat_min, lon_max, lat_max = tile_to_bbox(x, y, z)
+        
+        # Check if tile intersects with water bounds
+        if (lon_max < water_bounds[0] or lon_min > water_bounds[2] or
+            lat_max < water_bounds[1] or lat_min > water_bounds[3]):
+            # Return transparent tile
+            img = Image.new('RGBA', (256, 256), (0, 0, 0, 0))
+            img_io = io.BytesIO()
+            img.save(img_io, 'PNG')
+            img_io.seek(0)
+            return send_file(img_io, mimetype='image/png')
+        
+        # Read raster data for this tile
+        with rasterio.open(water_raster['path']) as src:
+            # Use rasterio's built-in reproject and windowing
+            from rasterio.warp import reproject, Resampling
+            from rasterio.transform import from_bounds
+            
+            # Create target transform for 256x256 tile
+            dst_transform = from_bounds(lon_min, lat_min, lon_max, lat_max, 256, 256)
+            
+            # Create destination array
+            dst_array = np.zeros((256, 256), dtype=src.dtypes[0])
+            
+            # Reproject source data to tile
+            reproject(
+                source=rasterio.band(src, 1),
+                destination=dst_array,
+                src_transform=src.transform,
+                src_crs=src.crs,
+                dst_transform=dst_transform,
+                dst_crs='EPSG:4326',
+                resampling=Resampling.nearest
+            )
+            
+            # Create RGBA image
+            rgba = np.zeros((256, 256, 4), dtype=np.uint8)
+            
+            # Show only pixels with value 70 (persistent water)
+            water_mask = dst_array == 70
+            rgba[water_mask] = [30, 144, 255, 180]  # Dodger blue with transparency
+            
+            # All other pixels (0, 250, etc.): fully transparent
+            rgba[~water_mask] = [0, 0, 0, 0]
+            
+            # Convert to PIL Image
+            img = Image.fromarray(rgba, 'RGBA')
+            
+            # Save to BytesIO
+            img_io = io.BytesIO()
+            img.save(img_io, 'PNG')
+            img_io.seek(0)
+            
+            return send_file(img_io, mimetype='image/png')
+            
+    except Exception as e:
+        print(f"Error generating water tile {z}/{x}/{y}: {e}")
+        # Return transparent tile on error
+        img = Image.new('RGBA', (256, 256), (0, 0, 0, 0))
+        img_io = io.BytesIO()
+        img.save(img_io, 'PNG')
+        img_io.seek(0)
+        return send_file(img_io, mimetype='image/png')#!/usr/bin/env python3
 """
 Step 3: Interactive Web Application for GSA Data
 Flask backend with GeoPandas + Leaflet frontend + Water Bodies Layer
