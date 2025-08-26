@@ -632,7 +632,7 @@ def get_global_stats():
 if __name__ == '__main__':
     # Configuration
     GPKG_FILE = "downloaded_data/merged_geodata.gpkg"  # 👈 AGRICULTURAL DATA FILE PATH
-    WATER_FILE = "water_bodies_italy_2025_06.tif"     # 👈 WATER BODIES FILE PATH
+    WATER_FILE = "data/water_bodies_italy_2025_06.tif"     # 👈 WATER BODIES FILE PATH
     
     print("🚀 Starting Italian Agricultural Data Web App with Water Bodies")
     print("=" * 60)
