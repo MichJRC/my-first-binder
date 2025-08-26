@@ -131,9 +131,13 @@ def water_tile(z, x, y):
         return "Water layer not available", 404
     
     try:
-        # Calculate tile bounds
+        # Calculate tile bounds - ensure correct Y-axis orientation
         lat_max, lon_min = num2deg(x, y, z)
         lat_min, lon_max = num2deg(x + 1, y + 1, z)
+        
+        # Ensure proper coordinate ordering (some systems need this)
+        if lat_min > lat_max:
+            lat_min, lat_max = lat_max, lat_min
         
         # Check if tile intersects with water bounds
         if (lon_max < water_bounds[0] or lon_min > water_bounds[2] or
@@ -154,11 +158,14 @@ def water_tile(z, x, y):
             else:
                 raster_bounds = (lon_min, lat_min, lon_max, lat_max)
             
-            # Create window
+            # Create window - Note: rasterio uses (left, bottom, right, top) order
             window = rasterio.windows.from_bounds(*raster_bounds, src.transform)
             
             # Read data
             data = src.read(1, window=window)
+            
+            # Fix upside-down issue by flipping Y-axis
+            data = np.flipud(data)
             
             # Resize to 256x256 if needed
             if data.shape != (256, 256):
