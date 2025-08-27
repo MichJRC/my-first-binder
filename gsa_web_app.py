@@ -1,91 +1,10 @@
-@app.route('/tiles/water/<int:z>/<int:x>/<int:y>.png')
-def water_tile(z, x, y):
-    """
-    Serve water bodies tiles with proper projection
-    """
-    if not water_raster:
-        return "Water layer not available", 404
-    
-    try:
-        # Calculate tile bounds in Web Mercator tile system
-        def tile_to_bbox(x, y, z):
-            """Convert tile coordinates to lat/lon bounding box"""
-            n = 2.0 ** z
-            lon_min = x / n * 360.0 - 180.0
-            lat_max = math.degrees(math.atan(math.sinh(math.pi * (1 - 2 * y / n))))
-            lon_max = (x + 1) / n * 360.0 - 180.0
-            lat_min = math.degrees(math.atan(math.sinh(math.pi * (1 - 2 * (y + 1) / n))))
-            return lon_min, lat_min, lon_max, lat_max
-        
-        lon_min, lat_min, lon_max, lat_max = tile_to_bbox(x, y, z)
-        
-        # Check if tile intersects with water bounds
-        if (lon_max < water_bounds[0] or lon_min > water_bounds[2] or
-            lat_max < water_bounds[1] or lat_min > water_bounds[3]):
-            # Return transparent tile
-            img = Image.new('RGBA', (256, 256), (0, 0, 0, 0))
-            img_io = io.BytesIO()
-            img.save(img_io, 'PNG')
-            img_io.seek(0)
-            return send_file(img_io, mimetype='image/png')
-        
-        # Read raster data for this tile
-        with rasterio.open(water_raster['path']) as src:
-            # Use rasterio's built-in reproject and windowing
-            from rasterio.warp import reproject, Resampling
-            from rasterio.transform import from_bounds
-            
-            # Create target transform for 256x256 tile
-            dst_transform = from_bounds(lon_min, lat_min, lon_max, lat_max, 256, 256)
-            
-            # Create destination array
-            dst_array = np.zeros((256, 256), dtype=src.dtypes[0])
-            
-            # Reproject source data to tile
-            reproject(
-                source=rasterio.band(src, 1),
-                destination=dst_array,
-                src_transform=src.transform,
-                src_crs=src.crs,
-                dst_transform=dst_transform,
-                dst_crs='EPSG:4326',
-                resampling=Resampling.nearest
-            )
-            
-            # Create RGBA image
-            rgba = np.zeros((256, 256, 4), dtype=np.uint8)
-            
-            # Show only pixels with value 70 (persistent water)
-            water_mask = dst_array == 70
-            rgba[water_mask] = [30, 144, 255, 180]  # Dodger blue with transparency
-            
-            # All other pixels (0, 250, etc.): fully transparent
-            rgba[~water_mask] = [0, 0, 0, 0]
-            
-            # Convert to PIL Image
-            img = Image.fromarray(rgba, 'RGBA')
-            
-            # Save to BytesIO
-            img_io = io.BytesIO()
-            img.save(img_io, 'PNG')
-            img_io.seek(0)
-            
-            return send_file(img_io, mimetype='image/png')
-            
-    except Exception as e:
-        print(f"Error generating water tile {z}/{x}/{y}: {e}")
-        # Return transparent tile on error
-        img = Image.new('RGBA', (256, 256), (0, 0, 0, 0))
-        img_io = io.BytesIO()
-        img.save(img_io, 'PNG')
-        img_io.seek(0)
-        return send_file(img_io, mimetype='image/png')#!/usr/bin/env python3
+#!/usr/bin/env python3
 """
 Step 3: Interactive Web Application for GSA Data
-Flask backend with GeoPandas + Leaflet frontend + Water Bodies Layer
+Flask backend with GeoPandas + Leaflet frontend + Water Bodies Layer (Vector-based)
 """
 
-from flask import Flask, jsonify, render_template_string, request, send_file
+from flask import Flask, jsonify, render_template_string, request
 import geopandas as gpd
 import pandas as pd
 import json
@@ -95,12 +14,10 @@ from functools import lru_cache
 import time
 import warnings
 import rasterio
-from rasterio.warp import transform_bounds
-from rasterio.io import MemoryFile
-import io
+import rasterio.features
+from rasterio.warp import transform_bounds, reproject, calculate_default_transform, Resampling
+from shapely.geometry import shape
 import os
-from PIL import Image
-import math
 
 warnings.filterwarnings('ignore')
 
@@ -110,12 +27,11 @@ app = Flask(__name__)
 gdf_global = None
 top_crops = None
 crop_colors = None
-water_raster = None
-water_bounds = None
+water_gdf = None
 
 def load_data(file_path):
     """
-    Load and prepare the GPKG data with optimizations
+    Load and prepare the GPKG data with memory optimizations
     """
     global gdf_global, top_crops, crop_colors
     
@@ -123,18 +39,36 @@ def load_data(file_path):
     
     # Load data
     gdf = gpd.read_file(file_path)
-    print(f"Loaded {len(gdf)} agricultural parcels")
+    print(f"Loaded {len(gdf):,} agricultural parcels")
+    print(f"Current CRS: {gdf.crs}")
     
-    # Convert to WGS84 for web display
+    # Convert to WGS84 for web display (with memory management)
     if gdf.crs.to_epsg() != 4326:
-        print("Converting to WGS84...")
-        gdf = gdf.to_crs('EPSG:4326')
-    
-    # Create spatial index for fast bbox queries
-    print("Creating spatial index...")
-    gdf.sindex
+        print("Converting to WGS84 (this may take a moment for large datasets)...")
+        try:
+            # Process in chunks to avoid memory issues
+            chunk_size = 50000
+            if len(gdf) > chunk_size:
+                print(f"Processing in chunks of {chunk_size:,} features...")
+                chunks = []
+                for i in range(0, len(gdf), chunk_size):
+                    print(f"Processing chunk {i//chunk_size + 1}/{(len(gdf)-1)//chunk_size + 1}")
+                    chunk = gdf.iloc[i:i+chunk_size].copy()
+                    chunk = chunk.to_crs('EPSG:4326')
+                    chunks.append(chunk)
+                
+                # Combine chunks
+                print("Combining chunks...")
+                gdf = gpd.GeoDataFrame(pd.concat(chunks, ignore_index=True), crs='EPSG:4326')
+            else:
+                gdf = gdf.to_crs('EPSG:4326')
+        except Exception as e:
+            print(f"❌ Error during coordinate conversion: {e}")
+            print("Try running with a smaller dataset or check memory availability")
+            raise
     
     # Prepare crop color mapping
+    print("Analyzing crop types...")
     top_crops = gdf['English_Name'].value_counts().head(15)
     colors = ['#FF6B6B', '#4ECDC4', '#45B7D1', '#96CEB4', '#FFEAA7', 
               '#DDA0DD', '#98D8C8', '#F7DC6F', '#BB8FCE', '#85C1E9',
@@ -143,152 +77,177 @@ def load_data(file_path):
     
     # Add centroids for faster point-in-bbox calculations
     print("Computing centroids...")
-    gdf['centroid_x'] = gdf.geometry.centroid.x
-    gdf['centroid_y'] = gdf.geometry.centroid.y
+    try:
+        gdf['centroid_x'] = gdf.geometry.centroid.x
+        gdf['centroid_y'] = gdf.geometry.centroid.y
+    except Exception as e:
+        print(f"Warning: Could not compute centroids: {e}")
+        # Fallback: use bounds instead
+        bounds = gdf.bounds
+        gdf['centroid_x'] = (bounds['minx'] + bounds['maxx']) / 2
+        gdf['centroid_y'] = (bounds['miny'] + bounds['maxy']) / 2
+    
+    # Create spatial index for fast bbox queries
+    print("Creating spatial index...")
+    try:
+        gdf.sindex
+    except Exception as e:
+        print(f"Warning: Could not create spatial index: {e}")
     
     gdf_global = gdf
     print(f"✅ Data loaded and indexed successfully!")
+    print(f"Memory usage: ~{gdf.memory_usage(deep=True).sum() / 1024**2:.1f} MB")
     return gdf
 
 def load_water_data(water_file_path):
     """
-    Load and prepare water bodies raster data
+    Load and vectorize water bodies raster data with proper projection handling
     """
-    global water_raster, water_bounds
+    global water_gdf
     
     if not os.path.exists(water_file_path):
         print(f"⚠️ Water file not found: {water_file_path}")
         return False
     
-    print("🌊 Loading Water Bodies Data...")
+    print("🌊 Loading and Vectorizing Water Bodies Data...")
     
     try:
         with rasterio.open(water_file_path) as src:
-            # Get bounds in WGS84
-            if src.crs.to_epsg() != 4326:
-                water_bounds = transform_bounds(src.crs, 'EPSG:4326', *src.bounds)
+            print(f"Raster CRS: {src.crs}")
+            print(f"Raster bounds: {src.bounds}")
+            print(f"Raster shape: {src.shape}")
+            print(f"Raster transform: {src.transform}")
+            
+            # Read the raster data
+            water_data = src.read(1)
+            
+            print(f"Data shape: {water_data.shape}")
+            print(f"Unique values: {np.unique(water_data)}")
+            
+            # Check for water pixels
+            water_mask = water_data == 70
+            water_pixel_count = np.sum(water_mask)
+            print(f"Pixels with value 70: {water_pixel_count:,}")
+            
+            if water_pixel_count == 0:
+                print("⚠️ No pixels with value 70 found!")
+                return False
+            
+            # Use rasterio.warp.reproject to properly handle coordinate transformations
+            from rasterio.warp import reproject, calculate_default_transform, Resampling
+            from rasterio.transform import from_bounds
+            
+            print("Reprojecting raster to WGS84...")
+            
+            # Calculate transform for WGS84
+            dst_crs = 'EPSG:4326'
+            
+            # Get bounds in destination CRS
+            dst_bounds = transform_bounds(src.crs, dst_crs, *src.bounds)
+            print(f"Destination bounds (WGS84): {dst_bounds}")
+            
+            # Calculate destination transform and dimensions
+            dst_transform, dst_width, dst_height = calculate_default_transform(
+                src.crs, dst_crs, src.width, src.height, *src.bounds
+            )
+            
+            # Create destination array
+            dst_array = np.zeros((dst_height, dst_width), dtype=src.dtypes[0])
+            
+            # Reproject the raster
+            reproject(
+                source=rasterio.band(src, 1),
+                destination=dst_array,
+                src_transform=src.transform,
+                src_crs=src.crs,
+                dst_transform=dst_transform,
+                dst_crs=dst_crs,
+                resampling=Resampling.nearest
+            )
+            
+            print(f"Reprojected array shape: {dst_array.shape}")
+            print(f"Reprojected unique values: {np.unique(dst_array)}")
+            
+            # Create mask for reprojected data
+            water_mask_reproj = dst_array == 70
+            water_pixel_count_reproj = np.sum(water_mask_reproj)
+            print(f"Water pixels after reprojection: {water_pixel_count_reproj:,}")
+            
+            if water_pixel_count_reproj == 0:
+                print("⚠️ No water pixels found after reprojection!")
+                return False
+            
+            # Vectorize the reprojected data
+            print("Vectorizing reprojected water pixels to polygons...")
+            shapes_gen = rasterio.features.shapes(
+                dst_array,
+                mask=water_mask_reproj,
+                transform=dst_transform,
+                connectivity=8
+            )
+            
+            # Convert to geodataframe
+            geometries = []
+            values = []
+            for geom, value in shapes_gen:
+                if value == 70:
+                    try:
+                        geom_shape = shape(geom)
+                        # Filter out very small polygons (likely noise)
+                        if geom_shape.area > 0.0001:  # Minimum area threshold
+                            geometries.append(geom_shape)
+                            values.append(value)
+                    except Exception as e:
+                        print(f"Warning: Skipping invalid geometry: {e}")
+                        continue
+            
+            print(f"Created {len(geometries)} valid water polygons")
+            
+            if geometries:
+                # Create GeoDataFrame directly in WGS84
+                water_gdf = gpd.GeoDataFrame({
+                    'water_type': ['persistent_water'] * len(geometries),
+                    'value': values
+                }, geometry=geometries, crs='EPSG:4326')
+                
+                print(f"Water GDF bounds in WGS84: {water_gdf.total_bounds}")
+                
+                # Validate coordinates are reasonable for Italy
+                bounds = water_gdf.total_bounds
+                italy_bounds = [6.6, 35.5, 18.5, 47.1]  # Approximate Italy bounds
+                
+                if (bounds[0] < italy_bounds[0] - 5 or bounds[1] < italy_bounds[1] - 5 or
+                    bounds[2] > italy_bounds[2] + 5 or bounds[3] > italy_bounds[3] + 5):
+                    print(f"⚠️ Warning: Water bounds seem outside Italy region:")
+                    print(f"   Water bounds: {bounds}")
+                    print(f"   Expected Italy bounds: {italy_bounds}")
+                else:
+                    print(f"✅ Water bounds look good for Italy region")
+                
+                # Create spatial index
+                water_gdf.sindex
+                
+                # Simplify geometries slightly to improve performance
+                print("Simplifying geometries...")
+                water_gdf.geometry = water_gdf.geometry.simplify(0.0001, preserve_topology=True)
+                
+                print(f"✅ Water bodies vectorized: {len(water_gdf):,} polygons")
+                print(f"✅ Final bounds: {water_gdf.total_bounds}")
+                return True
             else:
-                water_bounds = src.bounds
-            
-            # Store raster info for tile serving
-            water_raster = {
-                'path': water_file_path,
-                'bounds': water_bounds,
-                'crs': src.crs,
-                'shape': src.shape,
-                'dtype': src.dtypes[0]
-            }
-            
-        print(f"✅ Water bodies data loaded!")
-        print(f"   Bounds: {water_bounds}")
-        return True
+                print("⚠️ No valid water polygons created")
+                return False
         
     except Exception as e:
         print(f"❌ Error loading water data: {e}")
+        import traceback
+        traceback.print_exc()
         return False
-
-def deg2num(lat_deg, lon_deg, zoom):
-    """Convert lat/lon to tile numbers"""
-    lat_rad = math.radians(lat_deg)
-    n = 2.0 ** zoom
-    xtile = int((lon_deg + 180.0) / 360.0 * n)
-    ytile = int((1.0 - math.asinh(math.tan(lat_rad)) / math.pi) / 2.0 * n)
-    return (xtile, ytile)
-
-def num2deg(xtile, ytile, zoom):
-    """Convert tile numbers to lat/lon"""
-    n = 2.0 ** zoom
-    lon_deg = xtile / n * 360.0 - 180.0
-    lat_rad = math.atan(math.sinh(math.pi * (1 - 2 * ytile / n)))
-    lat_deg = math.degrees(lat_rad)
-    return (lat_deg, lon_deg)
-
-@app.route('/tiles/water/<int:z>/<int:x>/<int:y>.png')
-def water_tile(z, x, y):
-    """
-    Serve water bodies tiles
-    """
-    if not water_raster:
-        return "Water layer not available", 404
-    
-    try:
-        # Calculate tile bounds - ensure correct Y-axis orientation
-        lat_max, lon_min = num2deg(x, y, z)
-        lat_min, lon_max = num2deg(x + 1, y + 1, z)
-        
-        # Ensure proper coordinate ordering (some systems need this)
-        if lat_min > lat_max:
-            lat_min, lat_max = lat_max, lat_min
-        
-        # Check if tile intersects with water bounds
-        if (lon_max < water_bounds[0] or lon_min > water_bounds[2] or
-            lat_max < water_bounds[1] or lat_min > water_bounds[3]):
-            # Return transparent tile
-            img = Image.new('RGBA', (256, 256), (0, 0, 0, 0))
-            img_io = io.BytesIO()
-            img.save(img_io, 'PNG')
-            img_io.seek(0)
-            return send_file(img_io, mimetype='image/png')
-        
-        # Read raster data for this tile
-        with rasterio.open(water_raster['path']) as src:
-            # Transform tile bounds to raster CRS
-            if src.crs.to_epsg() != 4326:
-                from rasterio.warp import transform_bounds as tb
-                raster_bounds = tb('EPSG:4326', src.crs, lon_min, lat_min, lon_max, lat_max)
-            else:
-                raster_bounds = (lon_min, lat_min, lon_max, lat_max)
-            
-            # Create window - Note: rasterio uses (left, bottom, right, top) order
-            window = rasterio.windows.from_bounds(*raster_bounds, src.transform)
-            
-            # Read data
-            data = src.read(1, window=window)
-            
-            # Fix upside-down issue by flipping Y-axis
-            data = np.flipud(data)
-            
-            # Resize to 256x256 if needed
-            if data.shape != (256, 256):
-                from PIL import Image as PILImage
-                img_data = PILImage.fromarray(data)
-                img_data = img_data.resize((256, 256), PILImage.NEAREST)
-                data = np.array(img_data)
-            
-            # Create blue water visualization
-            # Show only pixels with value 70 (persistent water)
-            rgba = np.zeros((256, 256, 4), dtype=np.uint8)
-            
-            # Water pixels: only value 70 shows as water
-            water_mask = data == 70
-            rgba[water_mask] = [30, 144, 255, 180]  # Dodger blue with transparency
-            
-            # All other pixels (0, 250, etc.): fully transparent
-            rgba[~water_mask] = [0, 0, 0, 0]
-            
-            # Convert to PIL Image
-            img = Image.fromarray(rgba, 'RGBA')
-            
-            # Save to BytesIO
-            img_io = io.BytesIO()
-            img.save(img_io, 'PNG')
-            img_io.seek(0)
-            
-            return send_file(img_io, mimetype='image/png')
-            
-    except Exception as e:
-        print(f"Error generating water tile {z}/{x}/{y}: {e}")
-        # Return transparent tile on error
-        img = Image.new('RGBA', (256, 256), (0, 0, 0, 0))
-        img_io = io.BytesIO()
-        img.save(img_io, 'PNG')
-        img_io.seek(0)
-        return send_file(img_io, mimetype='image/png')
 
 @lru_cache(maxsize=100)
 def get_features_in_bbox(north, south, east, west, max_features=1000):
     """
-    Get features within bounding box with caching and limits
+    Get agricultural features within bounding box with caching and limits
     """
     # Create bounding box
     bbox = box(west, south, east, north)
@@ -316,13 +275,28 @@ def get_features_in_bbox(north, south, east, west, max_features=1000):
     
     return gdf_filtered
 
+def get_water_in_bbox(north, south, east, west):
+    """
+    Get water features within bounding box
+    """
+    if water_gdf is None:
+        return gpd.GeoDataFrame()
+    
+    # Create bounding box
+    bbox = box(west, south, east, north)
+    
+    # Filter water features
+    water_filtered = water_gdf[water_gdf.geometry.intersects(bbox)]
+    
+    return water_filtered
+
 @app.route('/')
 def index():
     """
     Main page with the interactive map
     """
     # Check if water layer is available
-    water_available = water_raster is not None
+    water_available = water_gdf is not None
     
     html_template = """
 <!DOCTYPE html>
@@ -361,6 +335,9 @@ def index():
                 <h3>Current View Statistics</h3>
                 <div id="parcel-count" class="loading">Move map to load data...</div>
                 <div id="area-info"></div>
+                {% if water_available %}
+                <div id="water-count"></div>
+                {% endif %}
             </div>
             
             <div class="info-box">
@@ -392,7 +369,7 @@ def index():
                     <li>Charts update with map view</li>
                     <li><strong>{{ parcel_count }} total parcels</strong> in dataset</li>
                     {% if water_available %}
-                    <li><strong>Water layer</strong> shows persistent water bodies</li>
+                    <li><strong>{{ water_count }} water bodies</strong> detected</li>
                     {% endif %}
                     <li>Use layer control (top-right) to toggle layers</li>
                 </ul>
@@ -434,8 +411,9 @@ def index():
         // Add default base layer
         baseLayers["OpenStreetMap"].addTo(map);
         
-        // Layer group for parcels
+        // Layer groups for parcels and water
         var parcelLayer = L.layerGroup().addTo(map);
+        var waterLayerGroup = L.layerGroup();
         
         // Define overlay layers
         var overlayLayers = {
@@ -443,14 +421,7 @@ def index():
         };
         
         {% if water_available %}
-        // Add water bodies layer
-        var waterLayer = L.tileLayer('/tiles/water/{z}/{x}/{y}.png', {
-            attribution: 'Water Bodies Data 2025',
-            opacity: 0.7,
-            zIndex: 1000
-        });
-        
-        overlayLayers["🌊 Persistent Water Bodies"] = waterLayer;
+        overlayLayers["🌊 Persistent Water Bodies"] = waterLayerGroup;
         {% endif %}
         
         // Add layer control
@@ -478,7 +449,7 @@ def index():
             }
         }
         
-        // Function to update data based on map view
+        // Function to update agricultural data
         function updateMapData() {
             var bounds = map.getBounds();
             var zoom = map.getZoom();
@@ -489,7 +460,7 @@ def index():
             // Determine max features based on zoom level
             var maxFeatures = zoom > 12 ? 2000 : zoom > 10 ? 1000 : 500;
             
-            // Fetch data for current view
+            // Fetch agricultural data
             fetch(`/api/features?north=${bounds.getNorth()}&south=${bounds.getSouth()}&east=${bounds.getEast()}&west=${bounds.getWest()}&max_features=${maxFeatures}`)
                 .then(response => response.json())
                 .then(data => {
@@ -570,9 +541,16 @@ def index():
                     updateCharts(data.stats);
                 })
                 .catch(error => {
-                    console.error('Error fetching data:', error);
+                    console.error('Error fetching agricultural data:', error);
                     document.getElementById('parcel-count').innerHTML = 'Error loading data';
                 });
+            
+            {% if water_available %}
+            // Update water bodies if layer is active
+            if (map.hasLayer(waterLayerGroup)) {
+                updateWaterData();
+            }
+            {% endif %}
         }
         
         // Function to update charts
@@ -625,6 +603,70 @@ def index():
             }
         }
         
+        {% if water_available %}
+        // Function to update water bodies
+        function updateWaterData() {
+            var bounds = map.getBounds();
+            
+            fetch(`/api/water?north=${bounds.getNorth()}&south=${bounds.getSouth()}&east=${bounds.getEast()}&west=${bounds.getWest()}`)
+                .then(response => response.json())
+                .then(data => {
+                    // Clear existing water features
+                    waterLayerGroup.clearLayers();
+                    
+                    // Update water count in sidebar
+                    var waterCountEl = document.getElementById('water-count');
+                    if (waterCountEl) {
+                        waterCountEl.innerHTML = `🌊 ${data.total_count} water bodies in view`;
+                    }
+                    
+                    // Add water features to map
+                    data.features.forEach(function(feature) {
+                        var waterFeature = L.geoJSON(feature, {
+                            style: {
+                                fillColor: '#1E90FF',     // Dodger blue
+                                weight: 1.5,
+                                opacity: 0.8,
+                                color: '#0066CC',          // Darker blue border
+                                fillOpacity: 0.6
+                            }
+                        });
+                        
+                        // Add popup for water bodies
+                        waterFeature.bindPopup(`
+                            <div style="font-family: Arial, sans-serif;">
+                                <h4 style="margin: 0 0 10px 0; color: #0066CC;">🌊 Persistent Water Body</h4>
+                                <div><strong>Type:</strong> ${feature.properties.water_type}</div>
+                                <div><strong>Value:</strong> ${feature.properties.value}</div>
+                                <div><strong>Data Source:</strong> 2025 Water Occurrence</div>
+                                <div style="font-size: 11px; color: #666; margin-top: 8px;">
+                                    Detected from satellite imagery
+                                </div>
+                            </div>
+                        `);
+                        
+                        waterLayerGroup.addLayer(waterFeature);
+                    });
+                })
+                .catch(error => {
+                    console.error('Error loading water data:', error);
+                });
+        }
+        
+        // Listen for water layer toggle
+        map.on('overlayadd', function(e) {
+            if (e.name === '🌊 Persistent Water Bodies') {
+                updateWaterData();
+            }
+        });
+        
+        map.on('overlayremove', function(e) {
+            if (e.name === '🌊 Persistent Water Bodies') {
+                waterLayerGroup.clearLayers();
+            }
+        });
+        {% endif %}
+        
         // Initialize legend
         updateLegend();
         
@@ -643,13 +685,14 @@ def index():
         html_template, 
         parcel_count=f"{len(gdf_global):,}",
         crop_colors=json.dumps(crop_colors),
-        water_available=water_available
+        water_available=water_available,
+        water_count=f"{len(water_gdf):,}" if water_gdf is not None else "0"
     )
 
 @app.route('/api/features')
 def get_features():
     """
-    API endpoint to get features within bounding box
+    API endpoint to get agricultural features within bounding box
     """
     try:
         # Get parameters
@@ -699,6 +742,38 @@ def get_features():
     except Exception as e:
         return jsonify({'error': str(e)}), 500
 
+@app.route('/api/water')
+def get_water_features():
+    """
+    API endpoint to get water features within bounding box
+    """
+    if water_gdf is None:
+        return jsonify({'features': [], 'total_count': 0})
+    
+    try:
+        # Get parameters
+        north = float(request.args.get('north', 90))
+        south = float(request.args.get('south', -90))
+        east = float(request.args.get('east', 180))
+        west = float(request.args.get('west', -180))
+        
+        # Get filtered water data
+        water_filtered = get_water_in_bbox(north, south, east, west)
+        
+        # Convert to GeoJSON
+        if len(water_filtered) > 0:
+            features = json.loads(water_filtered.to_json())['features']
+        else:
+            features = []
+        
+        return jsonify({
+            'features': features,
+            'total_count': len(water_filtered)
+        })
+        
+    except Exception as e:
+        return jsonify({'error': str(e), 'features': [], 'total_count': 0}), 500
+
 @app.route('/api/stats')
 def get_global_stats():
     """
@@ -711,7 +786,8 @@ def get_global_stats():
             'total_categories': len(gdf_global['HCAT2_Name'].unique()),
             'top_crops': gdf_global['English_Name'].value_counts().head(10).to_dict(),
             'bounds': gdf_global.total_bounds.tolist(),
-            'water_available': water_raster is not None
+            'water_available': water_gdf is not None,
+            'total_water_bodies': len(water_gdf) if water_gdf is not None else 0
         }
         return jsonify(stats)
     except Exception as e:
@@ -735,6 +811,8 @@ if __name__ == '__main__':
         print(f"\n✅ Ready to serve!")
         print(f"📊 Dataset: {len(gdf_global):,} agricultural parcels")
         print(f"🌊 Water layer: {'✅ Available' if water_loaded else '❌ Not available'}")
+        if water_loaded:
+            print(f"🌊 Water bodies: {len(water_gdf):,} polygons")
         print(f"🎯 Features: Interactive map + real-time charts + water overlay")
         print("=" * 60)
         print("\n🌐 GitHub Codespaces Access:")
