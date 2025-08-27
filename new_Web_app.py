@@ -95,7 +95,7 @@ def load_tiff_overlay(tiff_path):
                 final_data = data
                 final_bounds = original_bounds
             
-            # Create colored visualization
+            # Create visualization with only value 65535 visible, rest transparent
             plt.ioff()
             fig, ax = plt.subplots(figsize=(12, 10), dpi=120)
             
@@ -108,8 +108,19 @@ def load_tiff_overlay(tiff_path):
             
             extent = [bounds_array[0], bounds_array[2], bounds_array[1], bounds_array[3]]
             
-            # Create the visualization with a nice colormap
-            im = ax.imshow(final_data, cmap='viridis', extent=extent, alpha=0.8)
+            # Create a mask for only value 65535
+            display_data = final_data.copy()
+            mask = (display_data == 65535)
+            
+            # Create RGBA array for transparency control
+            rgba_data = np.zeros((display_data.shape[0], display_data.shape[1], 4))
+            
+            # Set color for 65535 values (blue color for water bodies)
+            rgba_data[mask] = [0.2, 0.6, 1.0, 0.8]  # Blue with 80% opacity
+            # All other values remain transparent (alpha = 0)
+            
+            # Display the RGBA image
+            ax.imshow(rgba_data, extent=extent)
             ax.axis('off')
             
             # Save to buffer
@@ -273,17 +284,6 @@ def index():
                 <div id="area-info"></div>
             </div>
             
-            {% if tiff_available %}
-            <div class="info-box tiff-info">
-                <h4>🗺️ Background Layer</h4>
-                <p><strong>{{ tiff_name }}</strong> is available as a background layer!</p>
-                <p style="font-size: 12px;">Use the layer control (top-right) to toggle it on/off.</p>
-                <div style="font-size: 11px; color: #666;">
-                    Data range: {{ "%.3f"|format(tiff_stats.min) }} to {{ "%.3f"|format(tiff_stats.max) }}
-                </div>
-            </div>
-            {% endif %}
-            
             <div class="info-box">
                 <h3>📊 Crop Distribution</h3>
                 <div id="chart"></div>
@@ -305,7 +305,6 @@ def index():
                     <li>Zoom in for more parcels</li>
                     <li>Click parcels for details</li>
                     <li>Charts update with map view</li>
-                    {% if tiff_available %}<li><strong>New!</strong> Toggle TIFF background layer using layer control</li>{% endif %}
                     <li><strong>{{ parcel_count }} total parcels</strong> in dataset</li>
                     <li>Use layer control (top-right) to change background</li>
                 </ul>
@@ -700,7 +699,7 @@ def get_global_stats():
 if __name__ == '__main__':
     # Configuration - ADD YOUR PATHS HERE
     GPKG_FILE = "downloaded_data/merged_geodata.gpkg"  # 👈 YOUR GPKG FILE PATH
-    TIFF_FILE = "2025-06-01-00_00_2025-06-01-23_59_WB_100m_Monthly_V1_WB.tiff"  # 👈 YOUR TIFF FILE PATH
+    TIFF_FILE = "data/2025-06-01-00_00_2025-06-01-23_59_WB_100m_Monthly_V1_WB.tiff"  # 👈 YOUR TIFF FILE PATH
     
     print("🚀 Starting Italian Agricultural Data Web App with TIFF Background")
     print("=" * 70)
