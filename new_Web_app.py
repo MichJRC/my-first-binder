@@ -698,8 +698,8 @@ def get_global_stats():
 
 if __name__ == '__main__':
     # Configuration - ADD YOUR PATHS HERE
-    GPKG_FILE = "downloaded_data/merged_geodata.gpkg"  # 👈 YOUR GPKG FILE PATH
-    TIFF_FILE = "data/2025-06-01-00_00_2025-06-01-23_59_WB_100m_Monthly_V1_WB.tiff"  # 👈 YOUR TIFF FILE PATH
+    GPKG_FILE = "downloaded_data/merged_geodata.gpkg"  # 👈 GPKG FILE PATH
+    TIFF_FILE = "data/2025-06-01-00_00_2025-06-01-23_59_WB_100m_Monthly_V1_WB.tiff"  # 👈 TIFF FILE PATH
     
     print("🚀 Starting Italian Agricultural Data Web App with TIFF Background")
     print("=" * 70)
