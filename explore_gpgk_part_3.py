@@ -73,7 +73,7 @@ def load_data(file_path):
     gdf['centroid_y'] = gdf.geometry.centroid.y
     
     gdf_global = gdf
-    print(f"✅ Data loaded and indexed successfully!")
+    print(f" Data loaded and indexed successfully!")
     return gdf
 
 @lru_cache(maxsize=100)
@@ -510,22 +510,22 @@ def get_global_stats():
 
 if __name__ == '__main__':
     # Configuration
-    GPKG_FILE = "downloaded_data/merged_geodata.gpkg"  # 👈 FILE PATH
+    GPKG_FILE = "downloaded_data/merged_geodata.gpkg"  # FILE PATH
     
-    print("🚀 Starting Italian Agricultural Data Web App")
+    print(" Starting Italian Agricultural Data Web App")
     print("=" * 50)
     
     try:
         # Load data
         load_data(GPKG_FILE)
         
-        print(f"\n✅ Ready to serve!")
-        print(f"📊 Dataset: {len(gdf_global):,} agricultural parcels")
-        print(f"🎯 Features: Interactive map + real-time charts")
+        print(f"\n Ready to serve!")
+        print(f" Dataset: {len(gdf_global):,} agricultural parcels")
+        print(f" Features: Interactive map + real-time charts")
         print("=" * 50)
-        print("\n🌐 GitHub Codespaces Access:")
+        print("\n GitHub Codespaces Access:")
         print("1. Look at the 'PORTS' tab in the bottom panel of VS Code")
-        print("2. Find port 5000 and click the 🌐 icon or copy the URL")
+        print("2. Find port 5000 and click the icon or copy the URL")
         print("3. If it shows 'Private', right-click and change to 'Public'")
         print("4. The URL format should be: https://your-codespace-5000.preview.app.github.dev")
         print("=" * 50)
@@ -534,7 +534,7 @@ if __name__ == '__main__':
         app.run(debug=False, host='0.0.0.0', port=5000, threaded=True)
         
     except Exception as e:
-        print(f"❌ Error starting application: {e}")
+        print(f" Error starting application: {e}")
         print("Make sure to update GPKG_FILE path in the script")
 
 
