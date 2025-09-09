@@ -33,9 +33,9 @@ top_crops = None
 crop_colors = None
 tiff_overlay_data = None  # Store TIFF overlay data
 
-def load_tiff_overlay(tiff_path):
+def load_tiff_overlay(tiff_path, max_size=2048):
     """
-    Load and prepare TIFF file for web overlay
+    Load and prepare TIFF file for web overlay with memory optimization
     """
     global tiff_overlay_data
     
@@ -43,11 +43,33 @@ def load_tiff_overlay(tiff_path):
     
     try:
         with rasterio.open(tiff_path) as src:
-            data = src.read(1)
             original_crs = src.crs
             original_bounds = src.bounds
+            original_width = src.width
+            original_height = src.height
             
-            print(f"   TIFF Info: {data.shape}, CRS: {original_crs}")
+            print(f"   TIFF Info: ({original_height}, {original_width}), CRS: {original_crs}")
+            
+            # Calculate downsampling factor to limit memory usage
+            max_dim = max(original_height, original_width)
+            if max_dim > max_size:
+                downsample_factor = max_dim // max_size + 1
+                print(f"   🔽 Downsampling by factor {downsample_factor} to reduce memory usage")
+            else:
+                downsample_factor = 1
+            
+            # Read data with downsampling
+            data = src.read(
+                1, 
+                out_shape=(
+                    original_height // downsample_factor,
+                    original_width // downsample_factor
+                ),
+                resampling=Resampling.average
+            )
+            
+            print(f"   📏 Resampled to: {data.shape}")
+            print(f"   💾 Memory usage: ~{(data.nbytes / 1024 / 1024):.1f} MB")
             
             # Check if reprojection is needed
             needs_reprojection = (
@@ -66,18 +88,35 @@ def load_tiff_overlay(tiff_path):
                 if needs_reprojection:
                     dst_crs = CRS.from_epsg(4326)
                     
+                    # Calculate transform for downsampled data
+                    downsampled_transform = src.transform * src.transform.scale(
+                        downsample_factor, downsample_factor
+                    )
+                    
                     transform, width, height = calculate_default_transform(
                         original_crs, dst_crs,
-                        src.width, src.height,
-                        *src.bounds
+                        data.shape[1], data.shape[0],  # Use downsampled dimensions
+                        *original_bounds
                     )
+                    
+                    print(f"   🎯 Reprojected size will be: ({height}, {width})")
+                    
+                    # Check if reprojected size is still too large
+                    if height * width > max_size * max_size:
+                        # Further downsample the reprojection target
+                        scale_factor = (height * width) / (max_size * max_size)
+                        scale_factor = scale_factor ** 0.5  # Square root for 2D
+                        new_height = int(height / scale_factor)
+                        new_width = int(width / scale_factor)
+                        print(f"   🔽 Further reducing reprojected size to: ({new_height}, {new_width})")
+                        height, width = new_height, new_width
                     
                     reprojected_data = np.empty((height, width), dtype=data.dtype)
                     
                     reproject(
                         source=data,
                         destination=reprojected_data,
-                        src_transform=src.transform,
+                        src_transform=downsampled_transform,
                         src_crs=original_crs,
                         dst_transform=transform,
                         dst_crs=dst_crs,
@@ -87,6 +126,8 @@ def load_tiff_overlay(tiff_path):
                     from rasterio.transform import array_bounds
                     final_bounds = array_bounds(height, width, transform)
                     final_data = reprojected_data
+                    
+                    print(f"   ✅ Reprojection completed: {final_data.shape}")
                 else:
                     final_data = data
                     final_bounds = original_bounds
@@ -97,7 +138,7 @@ def load_tiff_overlay(tiff_path):
             
             # Create visualization for 1-100 value range (0 = no-data)
             plt.ioff()
-            fig, ax = plt.subplots(figsize=(12, 10), dpi=120)
+            fig, ax = plt.subplots(figsize=(10, 8), dpi=100)  # Reduced figure size
             
             # Handle bounds format
             if hasattr(final_bounds, 'left'):
@@ -136,10 +177,10 @@ def load_tiff_overlay(tiff_path):
             
             ax.axis('off')
             
-            # Save to buffer
+            # Save to buffer with lower DPI for web
             buffer = BytesIO()
             plt.savefig(buffer, format='PNG', bbox_inches='tight', 
-                       pad_inches=0, dpi=150, transparent=True)
+                       pad_inches=0, dpi=120, transparent=True)  # Reduced DPI
             plt.close(fig)
             
             # Convert to base64
@@ -152,24 +193,31 @@ def load_tiff_overlay(tiff_path):
                 'bounds': [[bounds_array[1], bounds_array[0]], 
                           [bounds_array[3], bounds_array[2]]],  # [[south, west], [north, east]]
                 'opacity': 0.7,
-                'name': 'Data Layer (1-100)',
+                'name': 'Water Occurrence (1-100%)',
                 'stats': {
                     'min': float(np.nanmin(final_data)),
                     'max': float(np.nanmax(final_data)),
                     'mean': float(np.nanmean(final_data)),
-                    'valid_pixels': int(np.sum(valid_mask))
+                    'valid_pixels': int(np.sum(valid_mask)),
+                    'total_pixels': int(final_data.size),
+                    'downsampled': downsample_factor > 1,
+                    'downsample_factor': downsample_factor
                 }
             }
             
             print(f"   ✅ TIFF overlay prepared successfully!")
             print(f"   Bounds: {bounds_array}")
-            print(f"   Data range: {tiff_overlay_data['stats']['min']:.3f} to {tiff_overlay_data['stats']['max']:.3f}")
+            print(f"   Data range: {tiff_overlay_data['stats']['min']:.1f} to {tiff_overlay_data['stats']['max']:.1f}")
             print(f"   Valid pixels: {tiff_overlay_data['stats']['valid_pixels']:,}")
+            if downsample_factor > 1:
+                print(f"   📉 Downsampled by {downsample_factor}x for web display")
             
             return True
             
     except Exception as e:
         print(f"   ❌ Error loading TIFF: {e}")
+        import traceback
+        traceback.print_exc()
         return False
 
 def load_data(file_path):
@@ -746,7 +794,7 @@ if __name__ == '__main__':
         if tiff_loaded:
             print("\n🎨 TIFF Background Layer:")
             print("• Use the layer control (top-right) to toggle the background layer")
-            print("• The TIFF will appear as '🗺️ Data Layer (1-100)' in the layer control")
+            print("• The TIFF will appear as '🗺️ Water Occurrence (1-100%)' in the layer control")
             print("• You can adjust opacity and visibility independently of other layers")
             print("• Values 1-100 are displayed with inverted viridis colormap (1=bright, 100=dark)")
             print("• Value 0 (no-data) is transparent")
