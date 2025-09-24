@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 GPKG Data Exploration Script
-Step 1: Understanding your geospatial data structure
+Step 1: Understanding the geospatial data structure
 """
 
 import geopandas as gpd

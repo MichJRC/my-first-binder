@@ -1,3 +1,4 @@
+# first part to read the table, get the classes and see the errors
 import pandas as pd
 
 print("reading the csv")
@@ -13,7 +14,7 @@ uniqueHCAT = classes["hcat3_code"].unique()
 for hcat in uniqueHCAT:
     print(hcat)
 
-
+# second part make a clean table
 import re
 
 # Read the file as text first
