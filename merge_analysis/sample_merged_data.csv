@@ -1,0 +1,1001 @@
+gsa_code,gsa_par_id,main_crop,main_crop_clean,Italian_Name,English_Name,HCAT2_Name,HCAT2_Code,Direct_Match,Reason,crop_name_clean,hcat3_code,hcat3_name,ec_code,ec_name,hrl_code,hrl_name
+it,1520657010,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1634476773,019,019,RISONE,Rice,rice,3301010700,yes,Direct exact match,RISONE,3301010700.0,rice,217.0,Rice,1140.0,Rice
+it,1712602930,004,004,SOIA,Soybean,soy_soybeans,3301160000,no,Partial match found in HCAT2 names,SOIA,3301160000.0,soy_soybeans,233.0,Soya,1420.0,Soybeans
+it,1570176111,054,054,PASCOLO ARBORATO - TARA 50%,Wooded pasture (50% tare),tree_wood_forest,3306000000,no,Matched as tree wood forest based on keywords,PASCOLO ARBORATO - TARA 50%,3306000000.0,tree_wood_forest,300.0,Woodland and shrubland type of vegetation,3200.0,Unclassified permanent crop
+it,1623589741,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1689767708,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1573734137,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1610658899,063,063,PASCOLO POLIFITA CON ROCCIA AFFIORANTE TARA 20%,Rocky mixed pasture (20% tare),pasture_meadow_grassland_grass,3302000000,no,,PASCOLO POLIFITA CON ROCCIA AFFIORANTE TARA 20%,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1710276328,004,004,SOIA,Soybean,soy_soybeans,3301160000,no,Partial match found in HCAT2 names,SOIA,3301160000.0,soy_soybeans,233.0,Soya,1420.0,Soybeans
+it,1609800040,019,019,RISONE,Rice,rice,3301010700,yes,Direct exact match,RISONE,3301010700.0,rice,217.0,Rice,1140.0,Rice
+it,1585104867,410,410,VITE,Vine (grapevine),fruit,3303010000,no,Matched as fruit based on keywords,VITE,3303010000.0,orchards_fruits,300.0,Woodland and shrubland type of vegetation,2310.0,Fruits
+it,1733326609,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1690047471,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1578834871,899,899,PRATO PASCOLO,Pasture meadow,pasture_meadow_grassland_grass,3302000000,no,,PRATO PASCOLO,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1699814532,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1670641618,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1571984651,965,965,ROSMARINO,Rosemary,rosemary,3301061230,yes,Direct exact match,ROSMARINO,3301061230.0,rosemary,240.0,"Dry pulses, vegetables and flowers",1210.0,Fresh Vegetables
+it,1516662953,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1511354872,063,063,PASCOLO POLIFITA CON ROCCIA AFFIORANTE TARA 20%,Rocky mixed pasture (20% tare),pasture_meadow_grassland_grass,3302000000,no,,PASCOLO POLIFITA CON ROCCIA AFFIORANTE TARA 20%,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1690051121,562,562,ERBA MEDICA,Alfalfa,alfalfa_lucerne,3301090301,no,Partial match found in HCAT2 names,ERBA MEDICA,3301090301.0,alfalfa_lucerne,250.0,Other fodder crops (excl. temp. grasslands),1210.0,Fresh Vegetables
+it,1575401525,870,870,ORZO,Barley,barley,3301010400,yes,Direct exact match,ORZO,3301010400.0,barley,213.0,Barley,1120.0,Barley
+it,1541160093,063,063,PASCOLO POLIFITA CON ROCCIA AFFIORANTE TARA 20%,Rocky mixed pasture (20% tare),pasture_meadow_grassland_grass,3302000000,no,,PASCOLO POLIFITA CON ROCCIA AFFIORANTE TARA 20%,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1587770885,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1636373525,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1651283758,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1637030665,870,870,ORZO,Barley,barley,3301010400,yes,Direct exact match,ORZO,3301010400.0,barley,213.0,Barley,1120.0,Barley
+it,1618447884,899,899,PRATO PASCOLO,Pasture meadow,pasture_meadow_grassland_grass,3302000000,no,,PRATO PASCOLO,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1689750780,410,410,VITE,Vine (grapevine),fruit,3303010000,no,Matched as fruit based on keywords,VITE,3303010000.0,orchards_fruits,300.0,Woodland and shrubland type of vegetation,2310.0,Fruits
+it,1597637924,899,899,PRATO PASCOLO,Pasture meadow,pasture_meadow_grassland_grass,3302000000,no,,PRATO PASCOLO,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1516124352,046,046,LOIETTO LOGLIO,Ryegrass,rye,3301010300,no,Partial match found in HCAT2 names,LOIETTO LOGLIO,3301010300.0,rye,214.0,Rye,1150.0,Other Cereals
+it,1592413137,788,788,SIEPI E FASCE ALBERATE,Hedges and tree strips,tree_wood_forest,3306000000,no,Matched as tree wood forest based on keywords,SIEPI E FASCE ALBERATE,3306000000.0,tree_wood_forest,300.0,Woodland and shrubland type of vegetation,3200.0,Unclassified permanent crop
+it,1738349401,004,004,SOIA,Soybean,soy_soybeans,3301160000,no,Partial match found in HCAT2 names,SOIA,3301160000.0,soy_soybeans,233.0,Soya,1420.0,Soybeans
+it,1733373388,065,065,PASCOLO POLIFITA,Mixed pasture,pasture_meadow_grassland_grass,3302000000,no,,PASCOLO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1521772321,555,555,VIVAI FORESTALI COMMERCIALI COMPRESI ALBERI DI NATALE ESCLUSI VIVAI FORESTALI SITUATI IN FORESTA E DESTINATI AL FABBISOGNO DELL'AZIENDA,Commercial forest nurseries (including Christmas trees),tree_wood_forest,3306000000,no,Matched as tree wood forest based on keywords,VIVAI FORESTALI COMMERCIALI COMPRESI ALBERI DI NATALE ESCLUSI VIVAI FORESTALI SITUATI IN FORESTA E DESTINATI AL FABBISOGNO DELL'AZIENDA,3306000000.0,tree_wood_forest,300.0,Woodland and shrubland type of vegetation,3200.0,Unclassified permanent crop
+it,1717011263,940,940,ZUCCA,Pumpkin,pumpkin_squash_gourd,3301140400,no,Partial match found in HCAT2 names,ZUCCA,3301140400.0,pumpkin_squash_gourd,240.0,"Dry pulses, vegetables and flowers",1210.0,Fresh Vegetables
+it,1716981405,562,562,ERBA MEDICA,Alfalfa,alfalfa_lucerne,3301090301,no,Partial match found in HCAT2 names,ERBA MEDICA,3301090301.0,alfalfa_lucerne,250.0,Other fodder crops (excl. temp. grasslands),1210.0,Fresh Vegetables
+it,1520246725,063,063,PASCOLO POLIFITA CON ROCCIA AFFIORANTE TARA 20%,Rocky mixed pasture (20% tare),pasture_meadow_grassland_grass,3302000000,no,,PASCOLO POLIFITA CON ROCCIA AFFIORANTE TARA 20%,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1723865803,054,054,PASCOLO ARBORATO - TARA 50%,Wooded pasture (50% tare),tree_wood_forest,3306000000,no,Matched as tree wood forest based on keywords,PASCOLO ARBORATO - TARA 50%,3306000000.0,tree_wood_forest,300.0,Woodland and shrubland type of vegetation,3200.0,Unclassified permanent crop
+it,1633438648,503,503,VIVAI ORTICOLI,Vegetable nurseries,vegetables,3301200000,no,Matched as vegetables based on keywords,VIVAI ORTICOLI,3301200000.0,asparagus,240.0,"Dry pulses, vegetables and flowers",1210.0,Fresh Vegetables
+it,1593498420,019,019,RISONE,Rice,rice,3301010700,yes,Direct exact match,RISONE,3301010700.0,rice,217.0,Rice,1140.0,Rice
+it,1618651447,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1599294947,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1528593280,800,800,ERBAIO,Green fodder,plants_harvested_green,3301090000,no,,ERBAIO,3301090000.0,plants_harvested_green,240.0,"Dry pulses, vegetables and flowers",1210.0,Fresh Vegetables
+it,1671231486,587,587,GRANO (FRUMENTO) TENERO,Soft wheat,cereal,3301010000,no,Matched as cereal based on keywords,GRANO (FRUMENTO) TENERO,3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1531660533,899,899,PRATO PASCOLO,Pasture meadow,pasture_meadow_grassland_grass,3302000000,no,,PRATO PASCOLO,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1620832732,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1720766730,002,002,GRANO (FRUMENTO) DURO,Durum wheat,cereal,3301010000,no,Matched as cereal based on keywords,GRANO (FRUMENTO) DURO,3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1585882196,410,410,VITE,Vine (grapevine),fruit,3303010000,no,Matched as fruit based on keywords,VITE,3303010000.0,orchards_fruits,300.0,Woodland and shrubland type of vegetation,2310.0,Fruits
+it,1551398466,055,055,LINO,Flax,flax_linseed,3301060700,no,Partial match found in HCAT2 names,LINO,3301060700.0,flax_linseed,230.0,Other non permanent industrial crops,1440.0,"Flax, cotton and hemp"
+it,1737054552,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1514263930,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1651969332,870,870,ORZO,Barley,barley,3301010400,yes,Direct exact match,ORZO,3301010400.0,barley,213.0,Barley,1120.0,Barley
+it,1554292345,046,046,LOIETTO LOGLIO,Ryegrass,rye,3301010300,no,Partial match found in HCAT2 names,LOIETTO LOGLIO,3301010300.0,rye,214.0,Rye,1150.0,Other Cereals
+it,1633194858,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1654524707,562,562,ERBA MEDICA,Alfalfa,alfalfa_lucerne,3301090301,no,Partial match found in HCAT2 names,ERBA MEDICA,3301090301.0,alfalfa_lucerne,250.0,Other fodder crops (excl. temp. grasslands),1210.0,Fresh Vegetables
+it,1585335052,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1799239230,056,056,CANAPA,Hemp,hemp_cannabis,3301061000,no,Partial match found in HCAT2 names,CANAPA,3301061000.0,hemp_cannabis,230.0,Other non permanent industrial crops,1440.0,"Flax, cotton and hemp"
+it,1642282500,562,562,ERBA MEDICA,Alfalfa,alfalfa_lucerne,3301090301,no,Partial match found in HCAT2 names,ERBA MEDICA,3301090301.0,alfalfa_lucerne,250.0,Other fodder crops (excl. temp. grasslands),1210.0,Fresh Vegetables
+it,1525733932,562,562,ERBA MEDICA,Alfalfa,alfalfa_lucerne,3301090301,no,Partial match found in HCAT2 names,ERBA MEDICA,3301090301.0,alfalfa_lucerne,250.0,Other fodder crops (excl. temp. grasslands),1210.0,Fresh Vegetables
+it,1550940940,410,410,VITE,Vine (grapevine),fruit,3303010000,no,Matched as fruit based on keywords,VITE,3303010000.0,orchards_fruits,300.0,Woodland and shrubland type of vegetation,2310.0,Fruits
+it,1550344879,587,587,GRANO (FRUMENTO) TENERO,Soft wheat,cereal,3301010000,no,Matched as cereal based on keywords,GRANO (FRUMENTO) TENERO,3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1716216684,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1527645313,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1514635166,587,587,GRANO (FRUMENTO) TENERO,Soft wheat,cereal,3301010000,no,Matched as cereal based on keywords,GRANO (FRUMENTO) TENERO,3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1760459404,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1562363015,019,019,RISONE,Rice,rice,3301010700,yes,Direct exact match,RISONE,3301010700.0,rice,217.0,Rice,1140.0,Rice
+it,1521330326,063,063,PASCOLO POLIFITA CON ROCCIA AFFIORANTE TARA 20%,Rocky mixed pasture (20% tare),pasture_meadow_grassland_grass,3302000000,no,,PASCOLO POLIFITA CON ROCCIA AFFIORANTE TARA 20%,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1531387312,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1572885323,420,420,OLIVO,Olive,olive_plantations,3303050000,no,Partial match found in HCAT2 names,OLIVO,3303050000.0,olive_plantations,300.0,Woodland and shrubland type of vegetation,2200.0,Olives
+it,1683583527,800,800,ERBAIO,Green fodder,plants_harvested_green,3301090000,no,,ERBAIO,3301090000.0,plants_harvested_green,240.0,"Dry pulses, vegetables and flowers",1210.0,Fresh Vegetables
+it,1530299089,065,065,PASCOLO POLIFITA,Mixed pasture,pasture_meadow_grassland_grass,3302000000,no,,PASCOLO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1569987997,562,562,ERBA MEDICA,Alfalfa,alfalfa_lucerne,3301090301,no,Partial match found in HCAT2 names,ERBA MEDICA,3301090301.0,alfalfa_lucerne,250.0,Other fodder crops (excl. temp. grasslands),1210.0,Fresh Vegetables
+it,1599733993,684,684,SEGALA,Rye,rye,3301010300,yes,Direct exact match,SEGALA,3301010300.0,rye,214.0,Rye,1150.0,Other Cereals
+it,1698137636,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1651959983,936,936,RAVANELLO,Radish,radish,3301290600,yes,Direct exact match,RAVANELLO,3301290600.0,radish,240.0,"Dry pulses, vegetables and flowers",1210.0,Fresh Vegetables
+it,1624933890,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1712043632,410,410,VITE,Vine (grapevine),fruit,3303010000,no,Matched as fruit based on keywords,VITE,3303010000.0,orchards_fruits,300.0,Woodland and shrubland type of vegetation,2310.0,Fruits
+it,1522049014,587,587,GRANO (FRUMENTO) TENERO,Soft wheat,cereal,3301010000,no,Matched as cereal based on keywords,GRANO (FRUMENTO) TENERO,3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1587892174,410,410,VITE,Vine (grapevine),fruit,3303010000,no,Matched as fruit based on keywords,VITE,3303010000.0,orchards_fruits,300.0,Woodland and shrubland type of vegetation,2310.0,Fruits
+it,1670476747,063,063,PASCOLO POLIFITA CON ROCCIA AFFIORANTE TARA 20%,Rocky mixed pasture (20% tare),pasture_meadow_grassland_grass,3302000000,no,,PASCOLO POLIFITA CON ROCCIA AFFIORANTE TARA 20%,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1679449838,410,410,VITE,Vine (grapevine),fruit,3303010000,no,Matched as fruit based on keywords,VITE,3303010000.0,orchards_fruits,300.0,Woodland and shrubland type of vegetation,2310.0,Fruits
+it,1640035095,019,019,RISONE,Rice,rice,3301010700,yes,Direct exact match,RISONE,3301010700.0,rice,217.0,Rice,1140.0,Rice
+it,1611824674,065,065,PASCOLO POLIFITA,Mixed pasture,pasture_meadow_grassland_grass,3302000000,no,,PASCOLO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1620840255,410,410,VITE,Vine (grapevine),fruit,3303010000,no,Matched as fruit based on keywords,VITE,3303010000.0,orchards_fruits,300.0,Woodland and shrubland type of vegetation,2310.0,Fruits
+it,1622403758,019,019,RISONE,Rice,rice,3301010700,yes,Direct exact match,RISONE,3301010700.0,rice,217.0,Rice,1140.0,Rice
+it,1750295580,093,093,TRITICALE,Triticale,triticale,3301010800,yes,Direct exact match,TRITICALE,3301010800.0,triticale,218.0,Triticale,1150.0,Other Cereals
+it,1603173920,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1598259198,019,019,RISONE,Rice,rice,3301010700,yes,Direct exact match,RISONE,3301010700.0,rice,217.0,Rice,1140.0,Rice
+it,1528292995,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1716190017,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1746211258,065,065,PASCOLO POLIFITA,Mixed pasture,pasture_meadow_grassland_grass,3302000000,no,,PASCOLO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1556767639,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1603171860,019,019,RISONE,Rice,rice,3301010700,yes,Direct exact match,RISONE,3301010700.0,rice,217.0,Rice,1140.0,Rice
+it,1677613464,065,065,PASCOLO POLIFITA,Mixed pasture,pasture_meadow_grassland_grass,3302000000,no,,PASCOLO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1684171899,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1531596122,870,870,ORZO,Barley,barley,3301010400,yes,Direct exact match,ORZO,3301010400.0,barley,213.0,Barley,1120.0,Barley
+it,1528770136,093,093,TRITICALE,Triticale,triticale,3301010800,yes,Direct exact match,TRITICALE,3301010800.0,triticale,218.0,Triticale,1150.0,Other Cereals
+it,1513909170,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1511110763,065,065,PASCOLO POLIFITA,Mixed pasture,pasture_meadow_grassland_grass,3302000000,no,,PASCOLO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1522204020,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1679449874,065,065,PASCOLO POLIFITA,Mixed pasture,pasture_meadow_grassland_grass,3302000000,no,,PASCOLO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1535368519,562,562,ERBA MEDICA,Alfalfa,alfalfa_lucerne,3301090301,no,Partial match found in HCAT2 names,ERBA MEDICA,3301090301.0,alfalfa_lucerne,250.0,Other fodder crops (excl. temp. grasslands),1210.0,Fresh Vegetables
+it,1618697686,046,046,LOIETTO LOGLIO,Ryegrass,rye,3301010300,no,Partial match found in HCAT2 names,LOIETTO LOGLIO,3301010300.0,rye,214.0,Rye,1150.0,Other Cereals
+it,1674492759,065,065,PASCOLO POLIFITA,Mixed pasture,pasture_meadow_grassland_grass,3302000000,no,,PASCOLO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1525638653,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1583352634,587,587,GRANO (FRUMENTO) TENERO,Soft wheat,cereal,3301010000,no,Matched as cereal based on keywords,GRANO (FRUMENTO) TENERO,3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1706675369,003,003,COLZA,Rapeseed,rapeseed_rape,3301060400,no,Partial match found in HCAT2 names,COLZA,3301060400.0,rapeseed_rape,232.0,Rape and turnip rape,1430.0,Rapeseed
+it,1671274173,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1785458665,019,019,RISONE,Rice,rice,3301010700,yes,Direct exact match,RISONE,3301010700.0,rice,217.0,Rice,1140.0,Rice
+it,1548719016,065,065,PASCOLO POLIFITA,Mixed pasture,pasture_meadow_grassland_grass,3302000000,no,,PASCOLO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1726074494,788,788,SIEPI E FASCE ALBERATE,Hedges and tree strips,tree_wood_forest,3306000000,no,Matched as tree wood forest based on keywords,SIEPI E FASCE ALBERATE,3306000000.0,tree_wood_forest,300.0,Woodland and shrubland type of vegetation,3200.0,Unclassified permanent crop
+it,1619137143,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1806862210,693,693,SORGO,Sorghum,millet_sorghum,3301010900,no,Partial match found in HCAT2 names,SORGO,3301010900.0,millet_sorghum,219.0,Other cereals,1150.0,Other Cereals
+it,1554487549,002,002,GRANO (FRUMENTO) DURO,Durum wheat,cereal,3301010000,no,Matched as cereal based on keywords,GRANO (FRUMENTO) DURO,3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1531411414,899,899,PRATO PASCOLO,Pasture meadow,pasture_meadow_grassland_grass,3302000000,no,,PRATO PASCOLO,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1773368546,899,899,PRATO PASCOLO,Pasture meadow,pasture_meadow_grassland_grass,3302000000,no,,PRATO PASCOLO,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1531677556,899,899,PRATO PASCOLO,Pasture meadow,pasture_meadow_grassland_grass,3302000000,no,,PRATO PASCOLO,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1720793549,624,624,MIGLIO,Millet,millet_sorghum,3301010900,no,Partial match found in HCAT2 names,MIGLIO,3301010900.0,millet_sorghum,219.0,Other cereals,1150.0,Other Cereals
+it,1649660884,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1542777269,410,410,VITE,Vine (grapevine),fruit,3303010000,no,Matched as fruit based on keywords,VITE,3303010000.0,orchards_fruits,300.0,Woodland and shrubland type of vegetation,2310.0,Fruits
+it,1636383058,019,019,RISONE,Rice,rice,3301010700,yes,Direct exact match,RISONE,3301010700.0,rice,217.0,Rice,1140.0,Rice
+it,1595565669,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1536640974,587,587,GRANO (FRUMENTO) TENERO,Soft wheat,cereal,3301010000,no,Matched as cereal based on keywords,GRANO (FRUMENTO) TENERO,3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1527645350,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1531257586,065,065,PASCOLO POLIFITA,Mixed pasture,pasture_meadow_grassland_grass,3302000000,no,,PASCOLO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1690051037,562,562,ERBA MEDICA,Alfalfa,alfalfa_lucerne,3301090301,no,Partial match found in HCAT2 names,ERBA MEDICA,3301090301.0,alfalfa_lucerne,250.0,Other fodder crops (excl. temp. grasslands),1210.0,Fresh Vegetables
+it,1699401609,019,019,RISONE,Rice,rice,3301010700,yes,Direct exact match,RISONE,3301010700.0,rice,217.0,Rice,1140.0,Rice
+it,1804913696,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1599295681,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1636521138,410,410,VITE,Vine (grapevine),fruit,3303010000,no,Matched as fruit based on keywords,VITE,3303010000.0,orchards_fruits,300.0,Woodland and shrubland type of vegetation,2310.0,Fruits
+it,1543994624,054,054,PASCOLO ARBORATO - TARA 50%,Wooded pasture (50% tare),tree_wood_forest,3306000000,no,Matched as tree wood forest based on keywords,PASCOLO ARBORATO - TARA 50%,3306000000.0,tree_wood_forest,300.0,Woodland and shrubland type of vegetation,3200.0,Unclassified permanent crop
+it,1563644863,019,019,RISONE,Rice,rice,3301010700,yes,Direct exact match,RISONE,3301010700.0,rice,217.0,Rice,1140.0,Rice
+it,1710651266,587,587,GRANO (FRUMENTO) TENERO,Soft wheat,cereal,3301010000,no,Matched as cereal based on keywords,GRANO (FRUMENTO) TENERO,3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1700666073,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1515585351,899,899,PRATO PASCOLO,Pasture meadow,pasture_meadow_grassland_grass,3302000000,no,,PRATO PASCOLO,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1620835375,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1671017021,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1521831032,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1594420622,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1525774065,065,065,PASCOLO POLIFITA,Mixed pasture,pasture_meadow_grassland_grass,3302000000,no,,PASCOLO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1649414885,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1756366685,587,587,GRANO (FRUMENTO) TENERO,Soft wheat,cereal,3301010000,no,Matched as cereal based on keywords,GRANO (FRUMENTO) TENERO,3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1744516412,019,019,RISONE,Rice,rice,3301010700,yes,Direct exact match,RISONE,3301010700.0,rice,217.0,Rice,1140.0,Rice
+it,1511653954,019,019,RISONE,Rice,rice,3301010700,yes,Direct exact match,RISONE,3301010700.0,rice,217.0,Rice,1140.0,Rice
+it,1650209087,562,562,ERBA MEDICA,Alfalfa,alfalfa_lucerne,3301090301,no,Partial match found in HCAT2 names,ERBA MEDICA,3301090301.0,alfalfa_lucerne,250.0,Other fodder crops (excl. temp. grasslands),1210.0,Fresh Vegetables
+it,1563631794,420,420,OLIVO,Olive,olive_plantations,3303050000,no,Partial match found in HCAT2 names,OLIVO,3303050000.0,olive_plantations,300.0,Woodland and shrubland type of vegetation,2200.0,Olives
+it,1605659419,899,899,PRATO PASCOLO,Pasture meadow,pasture_meadow_grassland_grass,3302000000,no,,PRATO PASCOLO,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1626951722,020,020,PISELLO,Pea,chickpeas,3301020200,no,Partial match found in HCAT2 names,PISELLO,3301020200.0,chickpeas,240.0,"Dry pulses, vegetables and flowers",1220.0,Dry Pulses
+it,1590869525,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1536872664,587,587,GRANO (FRUMENTO) TENERO,Soft wheat,cereal,3301010000,no,Matched as cereal based on keywords,GRANO (FRUMENTO) TENERO,3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1689937246,063,063,PASCOLO POLIFITA CON ROCCIA AFFIORANTE TARA 20%,Rocky mixed pasture (20% tare),pasture_meadow_grassland_grass,3302000000,no,,PASCOLO POLIFITA CON ROCCIA AFFIORANTE TARA 20%,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1501806351,587,587,GRANO (FRUMENTO) TENERO,Soft wheat,cereal,3301010000,no,Matched as cereal based on keywords,GRANO (FRUMENTO) TENERO,3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1700529506,788,788,SIEPI E FASCE ALBERATE,Hedges and tree strips,tree_wood_forest,3306000000,no,Matched as tree wood forest based on keywords,SIEPI E FASCE ALBERATE,3306000000.0,tree_wood_forest,300.0,Woodland and shrubland type of vegetation,3200.0,Unclassified permanent crop
+it,1503273985,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1731557425,562,562,ERBA MEDICA,Alfalfa,alfalfa_lucerne,3301090301,no,Partial match found in HCAT2 names,ERBA MEDICA,3301090301.0,alfalfa_lucerne,250.0,Other fodder crops (excl. temp. grasslands),1210.0,Fresh Vegetables
+it,1597980584,899,899,PRATO PASCOLO,Pasture meadow,pasture_meadow_grassland_grass,3302000000,no,,PRATO PASCOLO,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1778108617,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1657343722,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1527565067,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1599496423,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1513220010,063,063,PASCOLO POLIFITA CON ROCCIA AFFIORANTE TARA 20%,Rocky mixed pasture (20% tare),pasture_meadow_grassland_grass,3302000000,no,,PASCOLO POLIFITA CON ROCCIA AFFIORANTE TARA 20%,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1670834457,127,127,LATTUGA LATTUGHINO,Lettuce,salads_lettuce_leaf_vegetables,3301310000,no,Partial match found in HCAT2 names,LATTUGA LATTUGHINO,3301310000.0,salads_lettuce_leaf_vegetables,240.0,"Dry pulses, vegetables and flowers",1210.0,Fresh Vegetables
+it,1545883000,019,019,RISONE,Rice,rice,3301010700,yes,Direct exact match,RISONE,3301010700.0,rice,217.0,Rice,1140.0,Rice
+it,1525795900,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1511815095,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1634381238,870,870,ORZO,Barley,barley,3301010400,yes,Direct exact match,ORZO,3301010400.0,barley,213.0,Barley,1120.0,Barley
+it,1677611780,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1590604585,019,019,RISONE,Rice,rice,3301010700,yes,Direct exact match,RISONE,3301010700.0,rice,217.0,Rice,1140.0,Rice
+it,1512136375,065,065,PASCOLO POLIFITA,Mixed pasture,pasture_meadow_grassland_grass,3302000000,no,,PASCOLO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1563142254,562,562,ERBA MEDICA,Alfalfa,alfalfa_lucerne,3301090301,no,Partial match found in HCAT2 names,ERBA MEDICA,3301090301.0,alfalfa_lucerne,250.0,Other fodder crops (excl. temp. grasslands),1210.0,Fresh Vegetables
+it,1510813075,587,587,GRANO (FRUMENTO) TENERO,Soft wheat,cereal,3301010000,no,Matched as cereal based on keywords,GRANO (FRUMENTO) TENERO,3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1512073078,562,562,ERBA MEDICA,Alfalfa,alfalfa_lucerne,3301090301,no,Partial match found in HCAT2 names,ERBA MEDICA,3301090301.0,alfalfa_lucerne,250.0,Other fodder crops (excl. temp. grasslands),1210.0,Fresh Vegetables
+it,1525795768,004,004,SOIA,Soybean,soy_soybeans,3301160000,no,Partial match found in HCAT2 names,SOIA,3301160000.0,soy_soybeans,233.0,Soya,1420.0,Soybeans
+it,1608413918,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1561122695,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1649427047,004,004,SOIA,Soybean,soy_soybeans,3301160000,no,Partial match found in HCAT2 names,SOIA,3301160000.0,soy_soybeans,233.0,Soya,1420.0,Soybeans
+it,1689757637,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1605946808,004,004,SOIA,Soybean,soy_soybeans,3301160000,no,Partial match found in HCAT2 names,SOIA,3301160000.0,soy_soybeans,233.0,Soya,1420.0,Soybeans
+it,1760438628,063,063,PASCOLO POLIFITA CON ROCCIA AFFIORANTE TARA 20%,Rocky mixed pasture (20% tare),pasture_meadow_grassland_grass,3302000000,no,,PASCOLO POLIFITA CON ROCCIA AFFIORANTE TARA 20%,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1702681145,046,046,LOIETTO LOGLIO,Ryegrass,rye,3301010300,no,Partial match found in HCAT2 names,LOIETTO LOGLIO,3301010300.0,rye,214.0,Rye,1150.0,Other Cereals
+it,1559442179,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1794280512,562,562,ERBA MEDICA,Alfalfa,alfalfa_lucerne,3301090301,no,Partial match found in HCAT2 names,ERBA MEDICA,3301090301.0,alfalfa_lucerne,250.0,Other fodder crops (excl. temp. grasslands),1210.0,Fresh Vegetables
+it,1561107152,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1592646264,046,046,LOIETTO LOGLIO,Ryegrass,rye,3301010300,no,Partial match found in HCAT2 names,LOIETTO LOGLIO,3301010300.0,rye,214.0,Rye,1150.0,Other Cereals
+it,1652209817,389,389,VECCIA SATIVA,Common vetch,vetches,3301090305,yes,,VECCIA SATIVA,3301090305.0,vetches,250.0,Other fodder crops (excl. temp. grasslands),1210.0,Fresh Vegetables
+it,1550943321,562,562,ERBA MEDICA,Alfalfa,alfalfa_lucerne,3301090301,no,Partial match found in HCAT2 names,ERBA MEDICA,3301090301.0,alfalfa_lucerne,250.0,Other fodder crops (excl. temp. grasslands),1210.0,Fresh Vegetables
+it,1574334042,899,899,PRATO PASCOLO,Pasture meadow,pasture_meadow_grassland_grass,3302000000,no,,PRATO PASCOLO,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1516961103,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1607908083,054,054,PASCOLO ARBORATO - TARA 50%,Wooded pasture (50% tare),tree_wood_forest,3306000000,no,Matched as tree wood forest based on keywords,PASCOLO ARBORATO - TARA 50%,3306000000.0,tree_wood_forest,300.0,Woodland and shrubland type of vegetation,3200.0,Unclassified permanent crop
+it,1564408477,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1536412208,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1596051357,587,587,GRANO (FRUMENTO) TENERO,Soft wheat,cereal,3301010000,no,Matched as cereal based on keywords,GRANO (FRUMENTO) TENERO,3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1532003725,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1532623360,065,065,PASCOLO POLIFITA,Mixed pasture,pasture_meadow_grassland_grass,3302000000,no,,PASCOLO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1607231124,788,788,SIEPI E FASCE ALBERATE,Hedges and tree strips,tree_wood_forest,3306000000,no,Matched as tree wood forest based on keywords,SIEPI E FASCE ALBERATE,3306000000.0,tree_wood_forest,300.0,Woodland and shrubland type of vegetation,3200.0,Unclassified permanent crop
+it,1585131083,004,004,SOIA,Soybean,soy_soybeans,3301160000,no,Partial match found in HCAT2 names,SOIA,3301160000.0,soy_soybeans,233.0,Soya,1420.0,Soybeans
+it,1670786447,019,019,RISONE,Rice,rice,3301010700,yes,Direct exact match,RISONE,3301010700.0,rice,217.0,Rice,1140.0,Rice
+it,1531605858,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1694466472,004,004,SOIA,Soybean,soy_soybeans,3301160000,no,Partial match found in HCAT2 names,SOIA,3301160000.0,soy_soybeans,233.0,Soya,1420.0,Soybeans
+it,1610056694,870,870,ORZO,Barley,barley,3301010400,yes,Direct exact match,ORZO,3301010400.0,barley,213.0,Barley,1120.0,Barley
+it,1624611775,410,410,VITE,Vine (grapevine),fruit,3303010000,no,Matched as fruit based on keywords,VITE,3303010000.0,orchards_fruits,300.0,Woodland and shrubland type of vegetation,2310.0,Fruits
+it,1526240866,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1525651202,019,019,RISONE,Rice,rice,3301010700,yes,Direct exact match,RISONE,3301010700.0,rice,217.0,Rice,1140.0,Rice
+it,1656499188,693,693,SORGO,Sorghum,millet_sorghum,3301010900,no,Partial match found in HCAT2 names,SORGO,3301010900.0,millet_sorghum,219.0,Other cereals,1150.0,Other Cereals
+it,1618907863,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1591807312,065,065,PASCOLO POLIFITA,Mixed pasture,pasture_meadow_grassland_grass,3302000000,no,,PASCOLO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1550043083,562,562,ERBA MEDICA,Alfalfa,alfalfa_lucerne,3301090301,no,Partial match found in HCAT2 names,ERBA MEDICA,3301090301.0,alfalfa_lucerne,250.0,Other fodder crops (excl. temp. grasslands),1210.0,Fresh Vegetables
+it,1636384844,899,899,PRATO PASCOLO,Pasture meadow,pasture_meadow_grassland_grass,3302000000,no,,PRATO PASCOLO,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1721477221,420,420,OLIVO,Olive,olive_plantations,3303050000,no,Partial match found in HCAT2 names,OLIVO,3303050000.0,olive_plantations,300.0,Woodland and shrubland type of vegetation,2200.0,Olives
+it,1576004220,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1655728364,046,046,LOIETTO LOGLIO,Ryegrass,rye,3301010300,no,Partial match found in HCAT2 names,LOIETTO LOGLIO,3301010300.0,rye,214.0,Rye,1150.0,Other Cereals
+it,1610406927,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1673512115,004,004,SOIA,Soybean,soy_soybeans,3301160000,no,Partial match found in HCAT2 names,SOIA,3301160000.0,soy_soybeans,233.0,Soya,1420.0,Soybeans
+it,1734874353,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1629158925,065,065,PASCOLO POLIFITA,Mixed pasture,pasture_meadow_grassland_grass,3302000000,no,,PASCOLO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1734040738,587,587,GRANO (FRUMENTO) TENERO,Soft wheat,cereal,3301010000,no,Matched as cereal based on keywords,GRANO (FRUMENTO) TENERO,3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1532005685,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1673550884,020,020,PISELLO,Pea,chickpeas,3301020200,no,Partial match found in HCAT2 names,PISELLO,3301020200.0,chickpeas,240.0,"Dry pulses, vegetables and flowers",1220.0,Dry Pulses
+it,1606174660,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1656063820,899,899,PRATO PASCOLO,Pasture meadow,pasture_meadow_grassland_grass,3302000000,no,,PRATO PASCOLO,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1611500035,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1582490614,870,870,ORZO,Barley,barley,3301010400,yes,Direct exact match,ORZO,3301010400.0,barley,213.0,Barley,1120.0,Barley
+it,1530609608,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1671467732,044,044,MELO,Apple,apples,3303010200,no,Partial match found in HCAT2 names,MELO,3303010200.0,apples,300.0,Woodland and shrubland type of vegetation,2310.0,Fruits
+it,1629361069,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1671659953,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1551113344,410,410,VITE,Vine (grapevine),fruit,3303010000,no,Matched as fruit based on keywords,VITE,3303010000.0,orchards_fruits,300.0,Woodland and shrubland type of vegetation,2310.0,Fruits
+it,1689611565,899,899,PRATO PASCOLO,Pasture meadow,pasture_meadow_grassland_grass,3302000000,no,,PRATO PASCOLO,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1554292152,899,899,PRATO PASCOLO,Pasture meadow,pasture_meadow_grassland_grass,3302000000,no,,PRATO PASCOLO,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1684164030,420,420,OLIVO,Olive,olive_plantations,3303050000,no,Partial match found in HCAT2 names,OLIVO,3303050000.0,olive_plantations,300.0,Woodland and shrubland type of vegetation,2200.0,Olives
+it,1636790881,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1546301672,054,054,PASCOLO ARBORATO - TARA 50%,Wooded pasture (50% tare),tree_wood_forest,3306000000,no,Matched as tree wood forest based on keywords,PASCOLO ARBORATO - TARA 50%,3306000000.0,tree_wood_forest,300.0,Woodland and shrubland type of vegetation,3200.0,Unclassified permanent crop
+it,1525772594,899,899,PRATO PASCOLO,Pasture meadow,pasture_meadow_grassland_grass,3302000000,no,,PRATO PASCOLO,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1500925301,587,587,GRANO (FRUMENTO) TENERO,Soft wheat,cereal,3301010000,no,Matched as cereal based on keywords,GRANO (FRUMENTO) TENERO,3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1696305794,410,410,VITE,Vine (grapevine),fruit,3303010000,no,Matched as fruit based on keywords,VITE,3303010000.0,orchards_fruits,300.0,Woodland and shrubland type of vegetation,2310.0,Fruits
+it,1511687635,870,870,ORZO,Barley,barley,3301010400,yes,Direct exact match,ORZO,3301010400.0,barley,213.0,Barley,1120.0,Barley
+it,1671857214,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1658606934,870,870,ORZO,Barley,barley,3301010400,yes,Direct exact match,ORZO,3301010400.0,barley,213.0,Barley,1120.0,Barley
+it,1593189245,410,410,VITE,Vine (grapevine),fruit,3303010000,no,Matched as fruit based on keywords,VITE,3303010000.0,orchards_fruits,300.0,Woodland and shrubland type of vegetation,2310.0,Fruits
+it,1573682546,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1658882516,019,019,RISONE,Rice,rice,3301010700,yes,Direct exact match,RISONE,3301010700.0,rice,217.0,Rice,1140.0,Rice
+it,1546300292,063,063,PASCOLO POLIFITA CON ROCCIA AFFIORANTE TARA 20%,Rocky mixed pasture (20% tare),pasture_meadow_grassland_grass,3302000000,no,,PASCOLO POLIFITA CON ROCCIA AFFIORANTE TARA 20%,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1607208096,054,054,PASCOLO ARBORATO - TARA 50%,Wooded pasture (50% tare),tree_wood_forest,3306000000,no,Matched as tree wood forest based on keywords,PASCOLO ARBORATO - TARA 50%,3306000000.0,tree_wood_forest,300.0,Woodland and shrubland type of vegetation,3200.0,Unclassified permanent crop
+it,1537906973,046,046,LOIETTO LOGLIO,Ryegrass,rye,3301010300,no,Partial match found in HCAT2 names,LOIETTO LOGLIO,3301010300.0,rye,214.0,Rye,1150.0,Other Cereals
+it,1803501422,103,103,PASCOLO ARBORATO - CESPUGLIATO TARA 20%,Wooded pasture (20% tare),tree_wood_forest,3306000000,no,Matched as tree wood forest based on keywords,PASCOLO ARBORATO - CESPUGLIATO TARA 20%,3306000000.0,tree_wood_forest,300.0,Woodland and shrubland type of vegetation,3200.0,Unclassified permanent crop
+it,1599500995,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1626788066,587,587,GRANO (FRUMENTO) TENERO,Soft wheat,cereal,3301010000,no,Matched as cereal based on keywords,GRANO (FRUMENTO) TENERO,3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1562534329,562,562,ERBA MEDICA,Alfalfa,alfalfa_lucerne,3301090301,no,Partial match found in HCAT2 names,ERBA MEDICA,3301090301.0,alfalfa_lucerne,250.0,Other fodder crops (excl. temp. grasslands),1210.0,Fresh Vegetables
+it,1571066630,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1526501232,046,046,LOIETTO LOGLIO,Ryegrass,rye,3301010300,no,Partial match found in HCAT2 names,LOIETTO LOGLIO,3301010300.0,rye,214.0,Rye,1150.0,Other Cereals
+it,1694475570,046,046,LOIETTO LOGLIO,Ryegrass,rye,3301010300,no,Partial match found in HCAT2 names,LOIETTO LOGLIO,3301010300.0,rye,214.0,Rye,1150.0,Other Cereals
+it,1610202499,940,940,ZUCCA,Pumpkin,pumpkin_squash_gourd,3301140400,no,Partial match found in HCAT2 names,ZUCCA,3301140400.0,pumpkin_squash_gourd,240.0,"Dry pulses, vegetables and flowers",1210.0,Fresh Vegetables
+it,1646695464,093,093,TRITICALE,Triticale,triticale,3301010800,yes,Direct exact match,TRITICALE,3301010800.0,triticale,218.0,Triticale,1150.0,Other Cereals
+it,1634485967,899,899,PRATO PASCOLO,Pasture meadow,pasture_meadow_grassland_grass,3302000000,no,,PRATO PASCOLO,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1639465288,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1729414229,800,800,ERBAIO,Green fodder,plants_harvested_green,3301090000,no,,ERBAIO,3301090000.0,plants_harvested_green,240.0,"Dry pulses, vegetables and flowers",1210.0,Fresh Vegetables
+it,1572871474,800,800,ERBAIO,Green fodder,plants_harvested_green,3301090000,no,,ERBAIO,3301090000.0,plants_harvested_green,240.0,"Dry pulses, vegetables and flowers",1210.0,Fresh Vegetables
+it,1585447860,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1510546707,065,065,PASCOLO POLIFITA,Mixed pasture,pasture_meadow_grassland_grass,3302000000,no,,PASCOLO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1523214807,410,410,VITE,Vine (grapevine),fruit,3303010000,no,Matched as fruit based on keywords,VITE,3303010000.0,orchards_fruits,300.0,Woodland and shrubland type of vegetation,2310.0,Fruits
+it,1684410689,103,103,PASCOLO ARBORATO - CESPUGLIATO TARA 20%,Wooded pasture (20% tare),tree_wood_forest,3306000000,no,Matched as tree wood forest based on keywords,PASCOLO ARBORATO - CESPUGLIATO TARA 20%,3306000000.0,tree_wood_forest,300.0,Woodland and shrubland type of vegetation,3200.0,Unclassified permanent crop
+it,1575990345,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1618683433,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1678759524,587,587,GRANO (FRUMENTO) TENERO,Soft wheat,cereal,3301010000,no,Matched as cereal based on keywords,GRANO (FRUMENTO) TENERO,3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1656811351,410,410,VITE,Vine (grapevine),fruit,3303010000,no,Matched as fruit based on keywords,VITE,3303010000.0,orchards_fruits,300.0,Woodland and shrubland type of vegetation,2310.0,Fruits
+it,1619106789,587,587,GRANO (FRUMENTO) TENERO,Soft wheat,cereal,3301010000,no,Matched as cereal based on keywords,GRANO (FRUMENTO) TENERO,3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1716542256,587,587,GRANO (FRUMENTO) TENERO,Soft wheat,cereal,3301010000,no,Matched as cereal based on keywords,GRANO (FRUMENTO) TENERO,3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1502145041,044,044,MELO,Apple,apples,3303010200,no,Partial match found in HCAT2 names,MELO,3303010200.0,apples,300.0,Woodland and shrubland type of vegetation,2310.0,Fruits
+it,1596984537,063,063,PASCOLO POLIFITA CON ROCCIA AFFIORANTE TARA 20%,Rocky mixed pasture (20% tare),pasture_meadow_grassland_grass,3302000000,no,,PASCOLO POLIFITA CON ROCCIA AFFIORANTE TARA 20%,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1573675895,093,093,TRITICALE,Triticale,triticale,3301010800,yes,Direct exact match,TRITICALE,3301010800.0,triticale,218.0,Triticale,1150.0,Other Cereals
+it,1525721101,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1599300209,065,065,PASCOLO POLIFITA,Mixed pasture,pasture_meadow_grassland_grass,3302000000,no,,PASCOLO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1531681840,587,587,GRANO (FRUMENTO) TENERO,Soft wheat,cereal,3301010000,no,Matched as cereal based on keywords,GRANO (FRUMENTO) TENERO,3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1671818844,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1752871114,002,002,GRANO (FRUMENTO) DURO,Durum wheat,cereal,3301010000,no,Matched as cereal based on keywords,GRANO (FRUMENTO) DURO,3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1671660144,587,587,GRANO (FRUMENTO) TENERO,Soft wheat,cereal,3301010000,no,Matched as cereal based on keywords,GRANO (FRUMENTO) TENERO,3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1806162101,587,587,GRANO (FRUMENTO) TENERO,Soft wheat,cereal,3301010000,no,Matched as cereal based on keywords,GRANO (FRUMENTO) TENERO,3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1544931149,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1606173419,800,800,ERBAIO,Green fodder,plants_harvested_green,3301090000,no,,ERBAIO,3301090000.0,plants_harvested_green,240.0,"Dry pulses, vegetables and flowers",1210.0,Fresh Vegetables
+it,1655412607,899,899,PRATO PASCOLO,Pasture meadow,pasture_meadow_grassland_grass,3302000000,no,,PRATO PASCOLO,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1684164517,410,410,VITE,Vine (grapevine),fruit,3303010000,no,Matched as fruit based on keywords,VITE,3303010000.0,orchards_fruits,300.0,Woodland and shrubland type of vegetation,2310.0,Fruits
+it,1639819070,019,019,RISONE,Rice,rice,3301010700,yes,Direct exact match,RISONE,3301010700.0,rice,217.0,Rice,1140.0,Rice
+it,1654488265,065,065,PASCOLO POLIFITA,Mixed pasture,pasture_meadow_grassland_grass,3302000000,no,,PASCOLO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1559117303,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1658600024,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1561119672,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1792183778,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1716448143,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1555007926,587,587,GRANO (FRUMENTO) TENERO,Soft wheat,cereal,3301010000,no,Matched as cereal based on keywords,GRANO (FRUMENTO) TENERO,3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1678283580,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1656811349,587,587,GRANO (FRUMENTO) TENERO,Soft wheat,cereal,3301010000,no,Matched as cereal based on keywords,GRANO (FRUMENTO) TENERO,3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1752854467,054,054,PASCOLO ARBORATO - TARA 50%,Wooded pasture (50% tare),tree_wood_forest,3306000000,no,Matched as tree wood forest based on keywords,PASCOLO ARBORATO - TARA 50%,3306000000.0,tree_wood_forest,300.0,Woodland and shrubland type of vegetation,3200.0,Unclassified permanent crop
+it,1703821650,562,562,ERBA MEDICA,Alfalfa,alfalfa_lucerne,3301090301,no,Partial match found in HCAT2 names,ERBA MEDICA,3301090301.0,alfalfa_lucerne,250.0,Other fodder crops (excl. temp. grasslands),1210.0,Fresh Vegetables
+it,1705264763,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1525675177,562,562,ERBA MEDICA,Alfalfa,alfalfa_lucerne,3301090301,no,Partial match found in HCAT2 names,ERBA MEDICA,3301090301.0,alfalfa_lucerne,250.0,Other fodder crops (excl. temp. grasslands),1210.0,Fresh Vegetables
+it,1641054264,899,899,PRATO PASCOLO,Pasture meadow,pasture_meadow_grassland_grass,3302000000,no,,PRATO PASCOLO,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1693709857,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1651278399,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1733314545,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1543581069,562,562,ERBA MEDICA,Alfalfa,alfalfa_lucerne,3301090301,no,Partial match found in HCAT2 names,ERBA MEDICA,3301090301.0,alfalfa_lucerne,250.0,Other fodder crops (excl. temp. grasslands),1210.0,Fresh Vegetables
+it,1648766446,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1569694111,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1530609168,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1606429927,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1729854749,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1557079134,063,063,PASCOLO POLIFITA CON ROCCIA AFFIORANTE TARA 20%,Rocky mixed pasture (20% tare),pasture_meadow_grassland_grass,3302000000,no,,PASCOLO POLIFITA CON ROCCIA AFFIORANTE TARA 20%,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1511653886,019,019,RISONE,Rice,rice,3301010700,yes,Direct exact match,RISONE,3301010700.0,rice,217.0,Rice,1140.0,Rice
+it,1521865581,562,562,ERBA MEDICA,Alfalfa,alfalfa_lucerne,3301090301,no,Partial match found in HCAT2 names,ERBA MEDICA,3301090301.0,alfalfa_lucerne,250.0,Other fodder crops (excl. temp. grasslands),1210.0,Fresh Vegetables
+it,1605174711,019,019,RISONE,Rice,rice,3301010700,yes,Direct exact match,RISONE,3301010700.0,rice,217.0,Rice,1140.0,Rice
+it,1689914622,870,870,ORZO,Barley,barley,3301010400,yes,Direct exact match,ORZO,3301010400.0,barley,213.0,Barley,1120.0,Barley
+it,1720721009,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1575765211,065,065,PASCOLO POLIFITA,Mixed pasture,pasture_meadow_grassland_grass,3302000000,no,,PASCOLO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1656057651,004,004,SOIA,Soybean,soy_soybeans,3301160000,no,Partial match found in HCAT2 names,SOIA,3301160000.0,soy_soybeans,233.0,Soya,1420.0,Soybeans
+it,1637352408,019,019,RISONE,Rice,rice,3301010700,yes,Direct exact match,RISONE,3301010700.0,rice,217.0,Rice,1140.0,Rice
+it,1606408401,002,002,GRANO (FRUMENTO) DURO,Durum wheat,cereal,3301010000,no,Matched as cereal based on keywords,GRANO (FRUMENTO) DURO,3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1678294508,899,899,PRATO PASCOLO,Pasture meadow,pasture_meadow_grassland_grass,3302000000,no,,PRATO PASCOLO,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1690082824,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1626782225,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1631259931,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1520770447,870,870,ORZO,Barley,barley,3301010400,yes,Direct exact match,ORZO,3301010400.0,barley,213.0,Barley,1120.0,Barley
+it,1622405282,899,899,PRATO PASCOLO,Pasture meadow,pasture_meadow_grassland_grass,3302000000,no,,PRATO PASCOLO,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1633453455,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1699852845,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1604002842,562,562,ERBA MEDICA,Alfalfa,alfalfa_lucerne,3301090301,no,Partial match found in HCAT2 names,ERBA MEDICA,3301090301.0,alfalfa_lucerne,250.0,Other fodder crops (excl. temp. grasslands),1210.0,Fresh Vegetables
+it,1671268367,054,054,PASCOLO ARBORATO - TARA 50%,Wooded pasture (50% tare),tree_wood_forest,3306000000,no,Matched as tree wood forest based on keywords,PASCOLO ARBORATO - TARA 50%,3306000000.0,tree_wood_forest,300.0,Woodland and shrubland type of vegetation,3200.0,Unclassified permanent crop
+it,1624385133,065,065,PASCOLO POLIFITA,Mixed pasture,pasture_meadow_grassland_grass,3302000000,no,,PASCOLO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1630953086,410,410,VITE,Vine (grapevine),fruit,3303010000,no,Matched as fruit based on keywords,VITE,3303010000.0,orchards_fruits,300.0,Woodland and shrubland type of vegetation,2310.0,Fruits
+it,1720798035,587,587,GRANO (FRUMENTO) TENERO,Soft wheat,cereal,3301010000,no,Matched as cereal based on keywords,GRANO (FRUMENTO) TENERO,3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1580681980,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1511847278,046,046,LOIETTO LOGLIO,Ryegrass,rye,3301010300,no,Partial match found in HCAT2 names,LOIETTO LOGLIO,3301010300.0,rye,214.0,Rye,1150.0,Other Cereals
+it,1633753318,002,002,GRANO (FRUMENTO) DURO,Durum wheat,cereal,3301010000,no,Matched as cereal based on keywords,GRANO (FRUMENTO) DURO,3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1569947170,533,533,AVENA,Oats,oats,3301010500,yes,Direct exact match,AVENA,3301010500.0,oats,215.0,Oats,1150.0,Other Cereals
+it,1596820979,562,562,ERBA MEDICA,Alfalfa,alfalfa_lucerne,3301090301,no,Partial match found in HCAT2 names,ERBA MEDICA,3301090301.0,alfalfa_lucerne,250.0,Other fodder crops (excl. temp. grasslands),1210.0,Fresh Vegetables
+it,1760431851,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1760449596,065,065,PASCOLO POLIFITA,Mixed pasture,pasture_meadow_grassland_grass,3302000000,no,,PASCOLO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1500000821,562,562,ERBA MEDICA,Alfalfa,alfalfa_lucerne,3301090301,no,Partial match found in HCAT2 names,ERBA MEDICA,3301090301.0,alfalfa_lucerne,250.0,Other fodder crops (excl. temp. grasslands),1210.0,Fresh Vegetables
+it,1620232876,544,544,CECE,Chickpea,chickpeas,3301020200,no,Partial match found in HCAT2 names,CECE,3301020200.0,chickpeas,240.0,"Dry pulses, vegetables and flowers",1220.0,Dry Pulses
+it,1783652144,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1637950372,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1671685066,587,587,GRANO (FRUMENTO) TENERO,Soft wheat,cereal,3301010000,no,Matched as cereal based on keywords,GRANO (FRUMENTO) TENERO,3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1619497374,800,800,ERBAIO,Green fodder,plants_harvested_green,3301090000,no,,ERBAIO,3301090000.0,plants_harvested_green,240.0,"Dry pulses, vegetables and flowers",1210.0,Fresh Vegetables
+it,1586805399,003,003,COLZA,Rapeseed,rapeseed_rape,3301060400,no,Partial match found in HCAT2 names,COLZA,3301060400.0,rapeseed_rape,232.0,Rape and turnip rape,1430.0,Rapeseed
+it,1569842385,410,410,VITE,Vine (grapevine),fruit,3303010000,no,Matched as fruit based on keywords,VITE,3303010000.0,orchards_fruits,300.0,Woodland and shrubland type of vegetation,2310.0,Fruits
+it,1671688183,019,019,RISONE,Rice,rice,3301010700,yes,Direct exact match,RISONE,3301010700.0,rice,217.0,Rice,1140.0,Rice
+it,1652783675,127,127,LATTUGA LATTUGHINO,Lettuce,salads_lettuce_leaf_vegetables,3301310000,no,Partial match found in HCAT2 names,LATTUGA LATTUGHINO,3301310000.0,salads_lettuce_leaf_vegetables,240.0,"Dry pulses, vegetables and flowers",1210.0,Fresh Vegetables
+it,1618881431,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1573666157,788,788,SIEPI E FASCE ALBERATE,Hedges and tree strips,tree_wood_forest,3306000000,no,Matched as tree wood forest based on keywords,SIEPI E FASCE ALBERATE,3306000000.0,tree_wood_forest,300.0,Woodland and shrubland type of vegetation,3200.0,Unclassified permanent crop
+it,1706951238,019,019,RISONE,Rice,rice,3301010700,yes,Direct exact match,RISONE,3301010700.0,rice,217.0,Rice,1140.0,Rice
+it,1517208004,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1769322886,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1636384852,899,899,PRATO PASCOLO,Pasture meadow,pasture_meadow_grassland_grass,3302000000,no,,PRATO PASCOLO,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1531419173,562,562,ERBA MEDICA,Alfalfa,alfalfa_lucerne,3301090301,no,Partial match found in HCAT2 names,ERBA MEDICA,3301090301.0,alfalfa_lucerne,250.0,Other fodder crops (excl. temp. grasslands),1210.0,Fresh Vegetables
+it,1706230558,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1531665384,562,562,ERBA MEDICA,Alfalfa,alfalfa_lucerne,3301090301,no,Partial match found in HCAT2 names,ERBA MEDICA,3301090301.0,alfalfa_lucerne,250.0,Other fodder crops (excl. temp. grasslands),1210.0,Fresh Vegetables
+it,1504051517,044,044,MELO,Apple,apples,3303010200,no,Partial match found in HCAT2 names,MELO,3303010200.0,apples,300.0,Woodland and shrubland type of vegetation,2310.0,Fruits
+it,1518861823,054,054,PASCOLO ARBORATO - TARA 50%,Wooded pasture (50% tare),tree_wood_forest,3306000000,no,Matched as tree wood forest based on keywords,PASCOLO ARBORATO - TARA 50%,3306000000.0,tree_wood_forest,300.0,Woodland and shrubland type of vegetation,3200.0,Unclassified permanent crop
+it,1607240117,063,063,PASCOLO POLIFITA CON ROCCIA AFFIORANTE TARA 20%,Rocky mixed pasture (20% tare),pasture_meadow_grassland_grass,3302000000,no,,PASCOLO POLIFITA CON ROCCIA AFFIORANTE TARA 20%,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1689484583,020,020,PISELLO,Pea,chickpeas,3301020200,no,Partial match found in HCAT2 names,PISELLO,3301020200.0,chickpeas,240.0,"Dry pulses, vegetables and flowers",1220.0,Dry Pulses
+it,1561595365,002,002,GRANO (FRUMENTO) DURO,Durum wheat,cereal,3301010000,no,Matched as cereal based on keywords,GRANO (FRUMENTO) DURO,3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1671546664,587,587,GRANO (FRUMENTO) TENERO,Soft wheat,cereal,3301010000,no,Matched as cereal based on keywords,GRANO (FRUMENTO) TENERO,3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1523009156,065,065,PASCOLO POLIFITA,Mixed pasture,pasture_meadow_grassland_grass,3302000000,no,,PASCOLO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1689766505,410,410,VITE,Vine (grapevine),fruit,3303010000,no,Matched as fruit based on keywords,VITE,3303010000.0,orchards_fruits,300.0,Woodland and shrubland type of vegetation,2310.0,Fruits
+it,1705746982,800,800,ERBAIO,Green fodder,plants_harvested_green,3301090000,no,,ERBAIO,3301090000.0,plants_harvested_green,240.0,"Dry pulses, vegetables and flowers",1210.0,Fresh Vegetables
+it,1652394106,065,065,PASCOLO POLIFITA,Mixed pasture,pasture_meadow_grassland_grass,3302000000,no,,PASCOLO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1554962988,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1678746264,587,587,GRANO (FRUMENTO) TENERO,Soft wheat,cereal,3301010000,no,Matched as cereal based on keywords,GRANO (FRUMENTO) TENERO,3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1630972784,004,004,SOIA,Soybean,soy_soybeans,3301160000,no,Partial match found in HCAT2 names,SOIA,3301160000.0,soy_soybeans,233.0,Soya,1420.0,Soybeans
+it,1502193659,587,587,GRANO (FRUMENTO) TENERO,Soft wheat,cereal,3301010000,no,Matched as cereal based on keywords,GRANO (FRUMENTO) TENERO,3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1600793412,065,065,PASCOLO POLIFITA,Mixed pasture,pasture_meadow_grassland_grass,3302000000,no,,PASCOLO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1803989698,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1692636531,899,899,PRATO PASCOLO,Pasture meadow,pasture_meadow_grassland_grass,3302000000,no,,PRATO PASCOLO,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1632219981,562,562,ERBA MEDICA,Alfalfa,alfalfa_lucerne,3301090301,no,Partial match found in HCAT2 names,ERBA MEDICA,3301090301.0,alfalfa_lucerne,250.0,Other fodder crops (excl. temp. grasslands),1210.0,Fresh Vegetables
+it,1633453800,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1590869353,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1677140100,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1563379425,800,800,ERBAIO,Green fodder,plants_harvested_green,3301090000,no,,ERBAIO,3301090000.0,plants_harvested_green,240.0,"Dry pulses, vegetables and flowers",1210.0,Fresh Vegetables
+it,1714607292,134,134,POMODORO,Tomato,tomato,3301280000,yes,Direct exact match,POMODORO,3301280000.0,tomato,240.0,"Dry pulses, vegetables and flowers",1210.0,Fresh Vegetables
+it,1509380776,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1671763666,587,587,GRANO (FRUMENTO) TENERO,Soft wheat,cereal,3301010000,no,Matched as cereal based on keywords,GRANO (FRUMENTO) TENERO,3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1651281284,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1760460374,899,899,PRATO PASCOLO,Pasture meadow,pasture_meadow_grassland_grass,3302000000,no,,PRATO PASCOLO,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1647714614,562,562,ERBA MEDICA,Alfalfa,alfalfa_lucerne,3301090301,no,Partial match found in HCAT2 names,ERBA MEDICA,3301090301.0,alfalfa_lucerne,250.0,Other fodder crops (excl. temp. grasslands),1210.0,Fresh Vegetables
+it,1706272213,093,093,TRITICALE,Triticale,triticale,3301010800,yes,Direct exact match,TRITICALE,3301010800.0,triticale,218.0,Triticale,1150.0,Other Cereals
+it,1592423365,562,562,ERBA MEDICA,Alfalfa,alfalfa_lucerne,3301090301,no,Partial match found in HCAT2 names,ERBA MEDICA,3301090301.0,alfalfa_lucerne,250.0,Other fodder crops (excl. temp. grasslands),1210.0,Fresh Vegetables
+it,1558968692,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1543372324,562,562,ERBA MEDICA,Alfalfa,alfalfa_lucerne,3301090301,no,Partial match found in HCAT2 names,ERBA MEDICA,3301090301.0,alfalfa_lucerne,250.0,Other fodder crops (excl. temp. grasslands),1210.0,Fresh Vegetables
+it,1548970322,410,410,VITE,Vine (grapevine),fruit,3303010000,no,Matched as fruit based on keywords,VITE,3303010000.0,orchards_fruits,300.0,Woodland and shrubland type of vegetation,2310.0,Fruits
+it,1512136411,063,063,PASCOLO POLIFITA CON ROCCIA AFFIORANTE TARA 20%,Rocky mixed pasture (20% tare),pasture_meadow_grassland_grass,3302000000,no,,PASCOLO POLIFITA CON ROCCIA AFFIORANTE TARA 20%,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1621860570,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1539168867,562,562,ERBA MEDICA,Alfalfa,alfalfa_lucerne,3301090301,no,Partial match found in HCAT2 names,ERBA MEDICA,3301090301.0,alfalfa_lucerne,250.0,Other fodder crops (excl. temp. grasslands),1210.0,Fresh Vegetables
+it,1766487870,870,870,ORZO,Barley,barley,3301010400,yes,Direct exact match,ORZO,3301010400.0,barley,213.0,Barley,1120.0,Barley
+it,1580325930,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1503572607,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1541365104,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1562362871,019,019,RISONE,Rice,rice,3301010700,yes,Direct exact match,RISONE,3301010700.0,rice,217.0,Rice,1140.0,Rice
+it,1698636965,562,562,ERBA MEDICA,Alfalfa,alfalfa_lucerne,3301090301,no,Partial match found in HCAT2 names,ERBA MEDICA,3301090301.0,alfalfa_lucerne,250.0,Other fodder crops (excl. temp. grasslands),1210.0,Fresh Vegetables
+it,1554141921,710,710,PATATA,Potato,potatoes,3301030000,no,Partial match found in HCAT2 names,PATATA,3301030000.0,potatoes,221.0,Potatoes,1310.0,Potatoes
+it,1559441394,562,562,ERBA MEDICA,Alfalfa,alfalfa_lucerne,3301090301,no,Partial match found in HCAT2 names,ERBA MEDICA,3301090301.0,alfalfa_lucerne,250.0,Other fodder crops (excl. temp. grasslands),1210.0,Fresh Vegetables
+it,1515550055,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1579091448,899,899,PRATO PASCOLO,Pasture meadow,pasture_meadow_grassland_grass,3302000000,no,,PRATO PASCOLO,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1581518616,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1512972034,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1671786583,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1545203984,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1618771976,870,870,ORZO,Barley,barley,3301010400,yes,Direct exact match,ORZO,3301010400.0,barley,213.0,Barley,1120.0,Barley
+it,1576103828,800,800,ERBAIO,Green fodder,plants_harvested_green,3301090000,no,,ERBAIO,3301090000.0,plants_harvested_green,240.0,"Dry pulses, vegetables and flowers",1210.0,Fresh Vegetables
+it,1563640154,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1517174620,940,940,ZUCCA,Pumpkin,pumpkin_squash_gourd,3301140400,no,Partial match found in HCAT2 names,ZUCCA,3301140400.0,pumpkin_squash_gourd,240.0,"Dry pulses, vegetables and flowers",1210.0,Fresh Vegetables
+it,1771002091,587,587,GRANO (FRUMENTO) TENERO,Soft wheat,cereal,3301010000,no,Matched as cereal based on keywords,GRANO (FRUMENTO) TENERO,3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1528924775,899,899,PRATO PASCOLO,Pasture meadow,pasture_meadow_grassland_grass,3302000000,no,,PRATO PASCOLO,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1597628253,587,587,GRANO (FRUMENTO) TENERO,Soft wheat,cereal,3301010000,no,Matched as cereal based on keywords,GRANO (FRUMENTO) TENERO,3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1512794539,410,410,VITE,Vine (grapevine),fruit,3303010000,no,Matched as fruit based on keywords,VITE,3303010000.0,orchards_fruits,300.0,Woodland and shrubland type of vegetation,2310.0,Fruits
+it,1674492704,065,065,PASCOLO POLIFITA,Mixed pasture,pasture_meadow_grassland_grass,3302000000,no,,PASCOLO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1561768772,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1712181387,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1621863036,587,587,GRANO (FRUMENTO) TENERO,Soft wheat,cereal,3301010000,no,Matched as cereal based on keywords,GRANO (FRUMENTO) TENERO,3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1728132708,019,019,RISONE,Rice,rice,3301010700,yes,Direct exact match,RISONE,3301010700.0,rice,217.0,Rice,1140.0,Rice
+it,1559109138,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1575758444,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1539659118,004,004,SOIA,Soybean,soy_soybeans,3301160000,no,Partial match found in HCAT2 names,SOIA,3301160000.0,soy_soybeans,233.0,Soya,1420.0,Soybeans
+it,1525917798,562,562,ERBA MEDICA,Alfalfa,alfalfa_lucerne,3301090301,no,Partial match found in HCAT2 names,ERBA MEDICA,3301090301.0,alfalfa_lucerne,250.0,Other fodder crops (excl. temp. grasslands),1210.0,Fresh Vegetables
+it,1570058900,065,065,PASCOLO POLIFITA,Mixed pasture,pasture_meadow_grassland_grass,3302000000,no,,PASCOLO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1607223069,870,870,ORZO,Barley,barley,3301010400,yes,Direct exact match,ORZO,3301010400.0,barley,213.0,Barley,1120.0,Barley
+it,1704472675,004,004,SOIA,Soybean,soy_soybeans,3301160000,no,Partial match found in HCAT2 names,SOIA,3301160000.0,soy_soybeans,233.0,Soya,1420.0,Soybeans
+it,1756343847,587,587,GRANO (FRUMENTO) TENERO,Soft wheat,cereal,3301010000,no,Matched as cereal based on keywords,GRANO (FRUMENTO) TENERO,3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1636368580,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1530291350,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1548967384,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1536011864,054,054,PASCOLO ARBORATO - TARA 50%,Wooded pasture (50% tare),tree_wood_forest,3306000000,no,Matched as tree wood forest based on keywords,PASCOLO ARBORATO - TARA 50%,3306000000.0,tree_wood_forest,300.0,Woodland and shrubland type of vegetation,3200.0,Unclassified permanent crop
+it,1582111301,899,899,PRATO PASCOLO,Pasture meadow,pasture_meadow_grassland_grass,3302000000,no,,PRATO PASCOLO,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1539335678,899,899,PRATO PASCOLO,Pasture meadow,pasture_meadow_grassland_grass,3302000000,no,,PRATO PASCOLO,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1583737705,899,899,PRATO PASCOLO,Pasture meadow,pasture_meadow_grassland_grass,3302000000,no,,PRATO PASCOLO,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1733372116,065,065,PASCOLO POLIFITA,Mixed pasture,pasture_meadow_grassland_grass,3302000000,no,,PASCOLO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1670952338,019,019,RISONE,Rice,rice,3301010700,yes,Direct exact match,RISONE,3301010700.0,rice,217.0,Rice,1140.0,Rice
+it,1520246564,054,054,PASCOLO ARBORATO - TARA 50%,Wooded pasture (50% tare),tree_wood_forest,3306000000,no,Matched as tree wood forest based on keywords,PASCOLO ARBORATO - TARA 50%,3306000000.0,tree_wood_forest,300.0,Woodland and shrubland type of vegetation,3200.0,Unclassified permanent crop
+it,1539318622,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1701233217,093,093,TRITICALE,Triticale,triticale,3301010800,yes,Direct exact match,TRITICALE,3301010800.0,triticale,218.0,Triticale,1150.0,Other Cereals
+it,1716211683,899,899,PRATO PASCOLO,Pasture meadow,pasture_meadow_grassland_grass,3302000000,no,,PRATO PASCOLO,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1530741714,562,562,ERBA MEDICA,Alfalfa,alfalfa_lucerne,3301090301,no,Partial match found in HCAT2 names,ERBA MEDICA,3301090301.0,alfalfa_lucerne,250.0,Other fodder crops (excl. temp. grasslands),1210.0,Fresh Vegetables
+it,1710440491,899,899,PRATO PASCOLO,Pasture meadow,pasture_meadow_grassland_grass,3302000000,no,,PRATO PASCOLO,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1721991544,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1619527114,189,189,PERO,Pear,pears,3303011200,no,Partial match found in HCAT2 names,PERO,3303011200.0,pears,300.0,Woodland and shrubland type of vegetation,2310.0,Fruits
+it,1537960407,555,555,VIVAI FORESTALI COMMERCIALI COMPRESI ALBERI DI NATALE ESCLUSI VIVAI FORESTALI SITUATI IN FORESTA E DESTINATI AL FABBISOGNO DELL'AZIENDA,Commercial forest nurseries (including Christmas trees),tree_wood_forest,3306000000,no,Matched as tree wood forest based on keywords,VIVAI FORESTALI COMMERCIALI COMPRESI ALBERI DI NATALE ESCLUSI VIVAI FORESTALI SITUATI IN FORESTA E DESTINATI AL FABBISOGNO DELL'AZIENDA,3306000000.0,tree_wood_forest,300.0,Woodland and shrubland type of vegetation,3200.0,Unclassified permanent crop
+it,1634381176,587,587,GRANO (FRUMENTO) TENERO,Soft wheat,cereal,3301010000,no,Matched as cereal based on keywords,GRANO (FRUMENTO) TENERO,3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1531384208,562,562,ERBA MEDICA,Alfalfa,alfalfa_lucerne,3301090301,no,Partial match found in HCAT2 names,ERBA MEDICA,3301090301.0,alfalfa_lucerne,250.0,Other fodder crops (excl. temp. grasslands),1210.0,Fresh Vegetables
+it,1521611722,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1619120754,019,019,RISONE,Rice,rice,3301010700,yes,Direct exact match,RISONE,3301010700.0,rice,217.0,Rice,1140.0,Rice
+it,1618775265,899,899,PRATO PASCOLO,Pasture meadow,pasture_meadow_grassland_grass,3302000000,no,,PRATO PASCOLO,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1583721487,019,019,RISONE,Rice,rice,3301010700,yes,Direct exact match,RISONE,3301010700.0,rice,217.0,Rice,1140.0,Rice
+it,1677734329,562,562,ERBA MEDICA,Alfalfa,alfalfa_lucerne,3301090301,no,Partial match found in HCAT2 names,ERBA MEDICA,3301090301.0,alfalfa_lucerne,250.0,Other fodder crops (excl. temp. grasslands),1210.0,Fresh Vegetables
+it,1671229622,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1717639855,134,134,POMODORO,Tomato,tomato,3301280000,yes,Direct exact match,POMODORO,3301280000.0,tomato,240.0,"Dry pulses, vegetables and flowers",1210.0,Fresh Vegetables
+it,1747833371,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1584344351,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1547823463,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1675273023,587,587,GRANO (FRUMENTO) TENERO,Soft wheat,cereal,3301010000,no,Matched as cereal based on keywords,GRANO (FRUMENTO) TENERO,3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1731146449,103,103,PASCOLO ARBORATO - CESPUGLIATO TARA 20%,Wooded pasture (20% tare),tree_wood_forest,3306000000,no,Matched as tree wood forest based on keywords,PASCOLO ARBORATO - CESPUGLIATO TARA 20%,3306000000.0,tree_wood_forest,300.0,Woodland and shrubland type of vegetation,3200.0,Unclassified permanent crop
+it,1637347765,046,046,LOIETTO LOGLIO,Ryegrass,rye,3301010300,no,Partial match found in HCAT2 names,LOIETTO LOGLIO,3301010300.0,rye,214.0,Rye,1150.0,Other Cereals
+it,1654835895,587,587,GRANO (FRUMENTO) TENERO,Soft wheat,cereal,3301010000,no,Matched as cereal based on keywords,GRANO (FRUMENTO) TENERO,3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1524152445,044,044,MELO,Apple,apples,3303010200,no,Partial match found in HCAT2 names,MELO,3303010200.0,apples,300.0,Woodland and shrubland type of vegetation,2310.0,Fruits
+it,1563379233,870,870,ORZO,Barley,barley,3301010400,yes,Direct exact match,ORZO,3301010400.0,barley,213.0,Barley,1120.0,Barley
+it,1590405068,019,019,RISONE,Rice,rice,3301010700,yes,Direct exact match,RISONE,3301010700.0,rice,217.0,Rice,1140.0,Rice
+it,1674845243,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1754274105,046,046,LOIETTO LOGLIO,Ryegrass,rye,3301010300,no,Partial match found in HCAT2 names,LOIETTO LOGLIO,3301010300.0,rye,214.0,Rye,1150.0,Other Cereals
+it,1646703236,562,562,ERBA MEDICA,Alfalfa,alfalfa_lucerne,3301090301,no,Partial match found in HCAT2 names,ERBA MEDICA,3301090301.0,alfalfa_lucerne,250.0,Other fodder crops (excl. temp. grasslands),1210.0,Fresh Vegetables
+it,1705788100,004,004,SOIA,Soybean,soy_soybeans,3301160000,no,Partial match found in HCAT2 names,SOIA,3301160000.0,soy_soybeans,233.0,Soya,1420.0,Soybeans
+it,1633197312,899,899,PRATO PASCOLO,Pasture meadow,pasture_meadow_grassland_grass,3302000000,no,,PRATO PASCOLO,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1539162549,615,615,LUPINO,Lupin,sweet_lupins,3301020700,no,Partial match found in HCAT2 names,LUPINO,3301020700.0,sweet_lupins,240.0,"Dry pulses, vegetables and flowers",1220.0,Dry Pulses
+it,1653449183,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1641534603,551,551,VIVAI FLORICOLI /ORNAMENTALI,Ornamental nurseries,flowers_ornamental_plants,3301080000,no,Matched as flowers ornamental plants based on keywords,VIVAI FLORICOLI /ORNAMENTALI,3301080000.0,flowers_ornamental_plants,240.0,"Dry pulses, vegetables and flowers",1210.0,Fresh Vegetables
+it,1628428090,019,019,RISONE,Rice,rice,3301010700,yes,Direct exact match,RISONE,3301010700.0,rice,217.0,Rice,1140.0,Rice
+it,1596305021,004,004,SOIA,Soybean,soy_soybeans,3301160000,no,Partial match found in HCAT2 names,SOIA,3301160000.0,soy_soybeans,233.0,Soya,1420.0,Soybeans
+it,1580300199,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1745506130,587,587,GRANO (FRUMENTO) TENERO,Soft wheat,cereal,3301010000,no,Matched as cereal based on keywords,GRANO (FRUMENTO) TENERO,3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1717626975,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1705254214,046,046,LOIETTO LOGLIO,Ryegrass,rye,3301010300,no,Partial match found in HCAT2 names,LOIETTO LOGLIO,3301010300.0,rye,214.0,Rye,1150.0,Other Cereals
+it,1771690355,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1671467714,044,044,MELO,Apple,apples,3303010200,no,Partial match found in HCAT2 names,MELO,3303010200.0,apples,300.0,Woodland and shrubland type of vegetation,2310.0,Fruits
+it,1537580305,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1604570486,063,063,PASCOLO POLIFITA CON ROCCIA AFFIORANTE TARA 20%,Rocky mixed pasture (20% tare),pasture_meadow_grassland_grass,3302000000,no,,PASCOLO POLIFITA CON ROCCIA AFFIORANTE TARA 20%,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1537406362,587,587,GRANO (FRUMENTO) TENERO,Soft wheat,cereal,3301010000,no,Matched as cereal based on keywords,GRANO (FRUMENTO) TENERO,3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1671553383,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1610407112,870,870,ORZO,Barley,barley,3301010400,yes,Direct exact match,ORZO,3301010400.0,barley,213.0,Barley,1120.0,Barley
+it,1528594125,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1611800205,940,940,ZUCCA,Pumpkin,pumpkin_squash_gourd,3301140400,no,Partial match found in HCAT2 names,ZUCCA,3301140400.0,pumpkin_squash_gourd,240.0,"Dry pulses, vegetables and flowers",1210.0,Fresh Vegetables
+it,1718772170,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1550934787,562,562,ERBA MEDICA,Alfalfa,alfalfa_lucerne,3301090301,no,Partial match found in HCAT2 names,ERBA MEDICA,3301090301.0,alfalfa_lucerne,250.0,Other fodder crops (excl. temp. grasslands),1210.0,Fresh Vegetables
+it,1608668002,004,004,SOIA,Soybean,soy_soybeans,3301160000,no,Partial match found in HCAT2 names,SOIA,3301160000.0,soy_soybeans,233.0,Soya,1420.0,Soybeans
+it,1607671555,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1559821656,940,940,ZUCCA,Pumpkin,pumpkin_squash_gourd,3301140400,no,Partial match found in HCAT2 names,ZUCCA,3301140400.0,pumpkin_squash_gourd,240.0,"Dry pulses, vegetables and flowers",1210.0,Fresh Vegetables
+it,1569953267,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1654839022,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1670789652,093,093,TRITICALE,Triticale,triticale,3301010800,yes,Direct exact match,TRITICALE,3301010800.0,triticale,218.0,Triticale,1150.0,Other Cereals
+it,1620837283,019,019,RISONE,Rice,rice,3301010700,yes,Direct exact match,RISONE,3301010700.0,rice,217.0,Rice,1140.0,Rice
+it,1630959422,004,004,SOIA,Soybean,soy_soybeans,3301160000,no,Partial match found in HCAT2 names,SOIA,3301160000.0,soy_soybeans,233.0,Soya,1420.0,Soybeans
+it,1528591859,800,800,ERBAIO,Green fodder,plants_harvested_green,3301090000,no,,ERBAIO,3301090000.0,plants_harvested_green,240.0,"Dry pulses, vegetables and flowers",1210.0,Fresh Vegetables
+it,1805475113,054,054,PASCOLO ARBORATO - TARA 50%,Wooded pasture (50% tare),tree_wood_forest,3306000000,no,Matched as tree wood forest based on keywords,PASCOLO ARBORATO - TARA 50%,3306000000.0,tree_wood_forest,300.0,Woodland and shrubland type of vegetation,3200.0,Unclassified permanent crop
+it,1544874428,004,004,SOIA,Soybean,soy_soybeans,3301160000,no,Partial match found in HCAT2 names,SOIA,3301160000.0,soy_soybeans,233.0,Soya,1420.0,Soybeans
+it,1649660985,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1583352638,587,587,GRANO (FRUMENTO) TENERO,Soft wheat,cereal,3301010000,no,Matched as cereal based on keywords,GRANO (FRUMENTO) TENERO,3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1579070965,004,004,SOIA,Soybean,soy_soybeans,3301160000,no,Partial match found in HCAT2 names,SOIA,3301160000.0,soy_soybeans,233.0,Soya,1420.0,Soybeans
+it,1627969286,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1532156509,899,899,PRATO PASCOLO,Pasture meadow,pasture_meadow_grassland_grass,3302000000,no,,PRATO PASCOLO,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1596826650,019,019,RISONE,Rice,rice,3301010700,yes,Direct exact match,RISONE,3301010700.0,rice,217.0,Rice,1140.0,Rice
+it,1655208207,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1639473274,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1582360142,065,065,PASCOLO POLIFITA,Mixed pasture,pasture_meadow_grassland_grass,3302000000,no,,PASCOLO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1607898930,004,004,SOIA,Soybean,soy_soybeans,3301160000,no,Partial match found in HCAT2 names,SOIA,3301160000.0,soy_soybeans,233.0,Soya,1420.0,Soybeans
+it,1671790998,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1654539794,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1609426068,800,800,ERBAIO,Green fodder,plants_harvested_green,3301090000,no,,ERBAIO,3301090000.0,plants_harvested_green,240.0,"Dry pulses, vegetables and flowers",1210.0,Fresh Vegetables
+it,1624623706,019,019,RISONE,Rice,rice,3301010700,yes,Direct exact match,RISONE,3301010700.0,rice,217.0,Rice,1140.0,Rice
+it,1692315527,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1596984516,065,065,PASCOLO POLIFITA,Mixed pasture,pasture_meadow_grassland_grass,3302000000,no,,PASCOLO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1705034082,899,899,PRATO PASCOLO,Pasture meadow,pasture_meadow_grassland_grass,3302000000,no,,PRATO PASCOLO,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1651512490,093,093,TRITICALE,Triticale,triticale,3301010800,yes,Direct exact match,TRITICALE,3301010800.0,triticale,218.0,Triticale,1150.0,Other Cereals
+it,1700531953,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1710569551,410,410,VITE,Vine (grapevine),fruit,3303010000,no,Matched as fruit based on keywords,VITE,3303010000.0,orchards_fruits,300.0,Woodland and shrubland type of vegetation,2310.0,Fruits
+it,1584960537,899,899,PRATO PASCOLO,Pasture meadow,pasture_meadow_grassland_grass,3302000000,no,,PRATO PASCOLO,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1609431935,019,019,RISONE,Rice,rice,3301010700,yes,Direct exact match,RISONE,3301010700.0,rice,217.0,Rice,1140.0,Rice
+it,1636536113,004,004,SOIA,Soybean,soy_soybeans,3301160000,no,Partial match found in HCAT2 names,SOIA,3301160000.0,soy_soybeans,233.0,Soya,1420.0,Soybeans
+it,1678294184,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1639455614,587,587,GRANO (FRUMENTO) TENERO,Soft wheat,cereal,3301010000,no,Matched as cereal based on keywords,GRANO (FRUMENTO) TENERO,3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1782947067,004,004,SOIA,Soybean,soy_soybeans,3301160000,no,Partial match found in HCAT2 names,SOIA,3301160000.0,soy_soybeans,233.0,Soya,1420.0,Soybeans
+it,1583341528,004,004,SOIA,Soybean,soy_soybeans,3301160000,no,Partial match found in HCAT2 names,SOIA,3301160000.0,soy_soybeans,233.0,Soya,1420.0,Soybeans
+it,1561601494,941,941,ZUCCHINO,Zucchini (courgette),vegetables,3301200000,no,Matched as vegetables based on keywords,ZUCCHINO,3301200000.0,asparagus,240.0,"Dry pulses, vegetables and flowers",1210.0,Fresh Vegetables
+it,1674486664,410,410,VITE,Vine (grapevine),fruit,3303010000,no,Matched as fruit based on keywords,VITE,3303010000.0,orchards_fruits,300.0,Woodland and shrubland type of vegetation,2310.0,Fruits
+it,1598358665,899,899,PRATO PASCOLO,Pasture meadow,pasture_meadow_grassland_grass,3302000000,no,,PRATO PASCOLO,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1604025498,046,046,LOIETTO LOGLIO,Ryegrass,rye,3301010300,no,Partial match found in HCAT2 names,LOIETTO LOGLIO,3301010300.0,rye,214.0,Rye,1150.0,Other Cereals
+it,1581789643,004,004,SOIA,Soybean,soy_soybeans,3301160000,no,Partial match found in HCAT2 names,SOIA,3301160000.0,soy_soybeans,233.0,Soya,1420.0,Soybeans
+it,1716192388,562,562,ERBA MEDICA,Alfalfa,alfalfa_lucerne,3301090301,no,Partial match found in HCAT2 names,ERBA MEDICA,3301090301.0,alfalfa_lucerne,250.0,Other fodder crops (excl. temp. grasslands),1210.0,Fresh Vegetables
+it,1532397089,054,054,PASCOLO ARBORATO - TARA 50%,Wooded pasture (50% tare),tree_wood_forest,3306000000,no,Matched as tree wood forest based on keywords,PASCOLO ARBORATO - TARA 50%,3306000000.0,tree_wood_forest,300.0,Woodland and shrubland type of vegetation,3200.0,Unclassified permanent crop
+it,1596828599,562,562,ERBA MEDICA,Alfalfa,alfalfa_lucerne,3301090301,no,Partial match found in HCAT2 names,ERBA MEDICA,3301090301.0,alfalfa_lucerne,250.0,Other fodder crops (excl. temp. grasslands),1210.0,Fresh Vegetables
+it,1570908541,044,044,MELO,Apple,apples,3303010200,no,Partial match found in HCAT2 names,MELO,3303010200.0,apples,300.0,Woodland and shrubland type of vegetation,2310.0,Fruits
+it,1523933864,063,063,PASCOLO POLIFITA CON ROCCIA AFFIORANTE TARA 20%,Rocky mixed pasture (20% tare),pasture_meadow_grassland_grass,3302000000,no,,PASCOLO POLIFITA CON ROCCIA AFFIORANTE TARA 20%,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1540869969,093,093,TRITICALE,Triticale,triticale,3301010800,yes,Direct exact match,TRITICALE,3301010800.0,triticale,218.0,Triticale,1150.0,Other Cereals
+it,1515877254,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1509032502,019,019,RISONE,Rice,rice,3301010700,yes,Direct exact match,RISONE,3301010700.0,rice,217.0,Rice,1140.0,Rice
+it,1531881596,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1716232380,800,800,ERBAIO,Green fodder,plants_harvested_green,3301090000,no,,ERBAIO,3301090000.0,plants_harvested_green,240.0,"Dry pulses, vegetables and flowers",1210.0,Fresh Vegetables
+it,1738961139,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1732881154,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1618701096,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1570290548,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1573734802,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1610036570,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1531998057,788,788,SIEPI E FASCE ALBERATE,Hedges and tree strips,tree_wood_forest,3306000000,no,Matched as tree wood forest based on keywords,SIEPI E FASCE ALBERATE,3306000000.0,tree_wood_forest,300.0,Woodland and shrubland type of vegetation,3200.0,Unclassified permanent crop
+it,1528291260,063,063,PASCOLO POLIFITA CON ROCCIA AFFIORANTE TARA 20%,Rocky mixed pasture (20% tare),pasture_meadow_grassland_grass,3302000000,no,,PASCOLO POLIFITA CON ROCCIA AFFIORANTE TARA 20%,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1576096828,899,899,PRATO PASCOLO,Pasture meadow,pasture_meadow_grassland_grass,3302000000,no,,PRATO PASCOLO,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1563642810,054,054,PASCOLO ARBORATO - TARA 50%,Wooded pasture (50% tare),tree_wood_forest,3306000000,no,Matched as tree wood forest based on keywords,PASCOLO ARBORATO - TARA 50%,3306000000.0,tree_wood_forest,300.0,Woodland and shrubland type of vegetation,3200.0,Unclassified permanent crop
+it,1532589182,054,054,PASCOLO ARBORATO - TARA 50%,Wooded pasture (50% tare),tree_wood_forest,3306000000,no,Matched as tree wood forest based on keywords,PASCOLO ARBORATO - TARA 50%,3306000000.0,tree_wood_forest,300.0,Woodland and shrubland type of vegetation,3200.0,Unclassified permanent crop
+it,1760464604,054,054,PASCOLO ARBORATO - TARA 50%,Wooded pasture (50% tare),tree_wood_forest,3306000000,no,Matched as tree wood forest based on keywords,PASCOLO ARBORATO - TARA 50%,3306000000.0,tree_wood_forest,300.0,Woodland and shrubland type of vegetation,3200.0,Unclassified permanent crop
+it,1512823130,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1706272326,093,093,TRITICALE,Triticale,triticale,3301010800,yes,Direct exact match,TRITICALE,3301010800.0,triticale,218.0,Triticale,1150.0,Other Cereals
+it,1802855123,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1618465605,899,899,PRATO PASCOLO,Pasture meadow,pasture_meadow_grassland_grass,3302000000,no,,PRATO PASCOLO,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1653168233,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1509297804,587,587,GRANO (FRUMENTO) TENERO,Soft wheat,cereal,3301010000,no,Matched as cereal based on keywords,GRANO (FRUMENTO) TENERO,3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1588931071,065,065,PASCOLO POLIFITA,Mixed pasture,pasture_meadow_grassland_grass,3302000000,no,,PASCOLO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1536290371,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1536402698,899,899,PRATO PASCOLO,Pasture meadow,pasture_meadow_grassland_grass,3302000000,no,,PRATO PASCOLO,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1569978891,562,562,ERBA MEDICA,Alfalfa,alfalfa_lucerne,3301090301,no,Partial match found in HCAT2 names,ERBA MEDICA,3301090301.0,alfalfa_lucerne,250.0,Other fodder crops (excl. temp. grasslands),1210.0,Fresh Vegetables
+it,1511349875,788,788,SIEPI E FASCE ALBERATE,Hedges and tree strips,tree_wood_forest,3306000000,no,Matched as tree wood forest based on keywords,SIEPI E FASCE ALBERATE,3306000000.0,tree_wood_forest,300.0,Woodland and shrubland type of vegetation,3200.0,Unclassified permanent crop
+it,1787587821,410,410,VITE,Vine (grapevine),fruit,3303010000,no,Matched as fruit based on keywords,VITE,3303010000.0,orchards_fruits,300.0,Woodland and shrubland type of vegetation,2310.0,Fruits
+it,1652397602,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1631704318,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1511815087,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1537907025,800,800,ERBAIO,Green fodder,plants_harvested_green,3301090000,no,,ERBAIO,3301090000.0,plants_harvested_green,240.0,"Dry pulses, vegetables and flowers",1210.0,Fresh Vegetables
+it,1551422184,420,420,OLIVO,Olive,olive_plantations,3303050000,no,Partial match found in HCAT2 names,OLIVO,3303050000.0,olive_plantations,300.0,Woodland and shrubland type of vegetation,2200.0,Olives
+it,1608666770,019,019,RISONE,Rice,rice,3301010700,yes,Direct exact match,RISONE,3301010700.0,rice,217.0,Rice,1140.0,Rice
+it,1520656664,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1716461007,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1584956396,004,004,SOIA,Soybean,soy_soybeans,3301160000,no,Partial match found in HCAT2 names,SOIA,3301160000.0,soy_soybeans,233.0,Soya,1420.0,Soybeans
+it,1524154744,420,420,OLIVO,Olive,olive_plantations,3303050000,no,Partial match found in HCAT2 names,OLIVO,3303050000.0,olive_plantations,300.0,Woodland and shrubland type of vegetation,2200.0,Olives
+it,1689757693,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1627686999,410,410,VITE,Vine (grapevine),fruit,3303010000,no,Matched as fruit based on keywords,VITE,3303010000.0,orchards_fruits,300.0,Woodland and shrubland type of vegetation,2310.0,Fruits
+it,1764887429,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1705737601,551,551,VIVAI FLORICOLI /ORNAMENTALI,Ornamental nurseries,flowers_ornamental_plants,3301080000,no,Matched as flowers ornamental plants based on keywords,VIVAI FLORICOLI /ORNAMENTALI,3301080000.0,flowers_ornamental_plants,240.0,"Dry pulses, vegetables and flowers",1210.0,Fresh Vegetables
+it,1509033029,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1600305716,562,562,ERBA MEDICA,Alfalfa,alfalfa_lucerne,3301090301,no,Partial match found in HCAT2 names,ERBA MEDICA,3301090301.0,alfalfa_lucerne,250.0,Other fodder crops (excl. temp. grasslands),1210.0,Fresh Vegetables
+it,1527088119,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1583519708,562,562,ERBA MEDICA,Alfalfa,alfalfa_lucerne,3301090301,no,Partial match found in HCAT2 names,ERBA MEDICA,3301090301.0,alfalfa_lucerne,250.0,Other fodder crops (excl. temp. grasslands),1210.0,Fresh Vegetables
+it,1549645222,562,562,ERBA MEDICA,Alfalfa,alfalfa_lucerne,3301090301,no,Partial match found in HCAT2 names,ERBA MEDICA,3301090301.0,alfalfa_lucerne,250.0,Other fodder crops (excl. temp. grasslands),1210.0,Fresh Vegetables
+it,1691881903,899,899,PRATO PASCOLO,Pasture meadow,pasture_meadow_grassland_grass,3302000000,no,,PRATO PASCOLO,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1536639233,004,004,SOIA,Soybean,soy_soybeans,3301160000,no,Partial match found in HCAT2 names,SOIA,3301160000.0,soy_soybeans,233.0,Soya,1420.0,Soybeans
+it,1582485134,410,410,VITE,Vine (grapevine),fruit,3303010000,no,Matched as fruit based on keywords,VITE,3303010000.0,orchards_fruits,300.0,Woodland and shrubland type of vegetation,2310.0,Fruits
+it,1539460762,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1605390909,004,004,SOIA,Soybean,soy_soybeans,3301160000,no,Partial match found in HCAT2 names,SOIA,3301160000.0,soy_soybeans,233.0,Soya,1420.0,Soybeans
+it,1670486544,019,019,RISONE,Rice,rice,3301010700,yes,Direct exact match,RISONE,3301010700.0,rice,217.0,Rice,1140.0,Rice
+it,1671867126,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1636615991,019,019,RISONE,Rice,rice,3301010700,yes,Direct exact match,RISONE,3301010700.0,rice,217.0,Rice,1140.0,Rice
+it,1640035584,019,019,RISONE,Rice,rice,3301010700,yes,Direct exact match,RISONE,3301010700.0,rice,217.0,Rice,1140.0,Rice
+it,1540748691,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1690642349,065,065,PASCOLO POLIFITA,Mixed pasture,pasture_meadow_grassland_grass,3302000000,no,,PASCOLO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1509033026,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1536650186,046,046,LOIETTO LOGLIO,Ryegrass,rye,3301010300,no,Partial match found in HCAT2 names,LOIETTO LOGLIO,3301010300.0,rye,214.0,Rye,1150.0,Other Cereals
+it,1549331533,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1546905163,003,003,COLZA,Rapeseed,rapeseed_rape,3301060400,no,Partial match found in HCAT2 names,COLZA,3301060400.0,rapeseed_rape,232.0,Rape and turnip rape,1430.0,Rapeseed
+it,1522873194,162,162,INDIVIA O SCAROLA,Endive or escarole,endive,3301310300,no,Partial match found in HCAT2 names,INDIVIA O SCAROLA,3301310300.0,endive,240.0,"Dry pulses, vegetables and flowers",1210.0,Fresh Vegetables
+it,1576012714,053,053,PANICO,Foxtail millet,millet_sorghum,3301010900,no,,PANICO,3301010900.0,millet_sorghum,219.0,Other cereals,1150.0,Other Cereals
+it,1515443556,054,054,PASCOLO ARBORATO - TARA 50%,Wooded pasture (50% tare),tree_wood_forest,3306000000,no,Matched as tree wood forest based on keywords,PASCOLO ARBORATO - TARA 50%,3306000000.0,tree_wood_forest,300.0,Woodland and shrubland type of vegetation,3200.0,Unclassified permanent crop
+it,1592191419,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1570154297,093,093,TRITICALE,Triticale,triticale,3301010800,yes,Direct exact match,TRITICALE,3301010800.0,triticale,218.0,Triticale,1150.0,Other Cereals
+it,1619110314,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1625843364,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1559109437,587,587,GRANO (FRUMENTO) TENERO,Soft wheat,cereal,3301010000,no,Matched as cereal based on keywords,GRANO (FRUMENTO) TENERO,3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1689589490,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1619502226,562,562,ERBA MEDICA,Alfalfa,alfalfa_lucerne,3301090301,no,Partial match found in HCAT2 names,ERBA MEDICA,3301090301.0,alfalfa_lucerne,250.0,Other fodder crops (excl. temp. grasslands),1210.0,Fresh Vegetables
+it,1620996895,800,800,ERBAIO,Green fodder,plants_harvested_green,3301090000,no,,ERBAIO,3301090000.0,plants_harvested_green,240.0,"Dry pulses, vegetables and flowers",1210.0,Fresh Vegetables
+it,1587888083,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1671016746,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1705763429,562,562,ERBA MEDICA,Alfalfa,alfalfa_lucerne,3301090301,no,Partial match found in HCAT2 names,ERBA MEDICA,3301090301.0,alfalfa_lucerne,250.0,Other fodder crops (excl. temp. grasslands),1210.0,Fresh Vegetables
+it,1599286719,044,044,MELO,Apple,apples,3303010200,no,Partial match found in HCAT2 names,MELO,3303010200.0,apples,300.0,Woodland and shrubland type of vegetation,2310.0,Fruits
+it,1521779984,899,899,PRATO PASCOLO,Pasture meadow,pasture_meadow_grassland_grass,3302000000,no,,PRATO PASCOLO,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1570012402,019,019,RISONE,Rice,rice,3301010700,yes,Direct exact match,RISONE,3301010700.0,rice,217.0,Rice,1140.0,Rice
+it,1717631506,562,562,ERBA MEDICA,Alfalfa,alfalfa_lucerne,3301090301,no,Partial match found in HCAT2 names,ERBA MEDICA,3301090301.0,alfalfa_lucerne,250.0,Other fodder crops (excl. temp. grasslands),1210.0,Fresh Vegetables
+it,1677140102,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1517192804,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1604573852,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1559117314,587,587,GRANO (FRUMENTO) TENERO,Soft wheat,cereal,3301010000,no,Matched as cereal based on keywords,GRANO (FRUMENTO) TENERO,3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1528596060,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1624916559,410,410,VITE,Vine (grapevine),fruit,3303010000,no,Matched as fruit based on keywords,VITE,3303010000.0,orchards_fruits,300.0,Woodland and shrubland type of vegetation,2310.0,Fruits
+it,1706288351,002,002,GRANO (FRUMENTO) DURO,Durum wheat,cereal,3301010000,no,Matched as cereal based on keywords,GRANO (FRUMENTO) DURO,3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1693706591,684,684,SEGALA,Rye,rye,3301010300,yes,Direct exact match,SEGALA,3301010300.0,rye,214.0,Rye,1150.0,Other Cereals
+it,1670674054,899,899,PRATO PASCOLO,Pasture meadow,pasture_meadow_grassland_grass,3302000000,no,,PRATO PASCOLO,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1570428689,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1588328927,044,044,MELO,Apple,apples,3303010200,no,Partial match found in HCAT2 names,MELO,3303010200.0,apples,300.0,Woodland and shrubland type of vegetation,2310.0,Fruits
+it,1603259294,693,693,SORGO,Sorghum,millet_sorghum,3301010900,no,Partial match found in HCAT2 names,SORGO,3301010900.0,millet_sorghum,219.0,Other cereals,1150.0,Other Cereals
+it,1605387459,063,063,PASCOLO POLIFITA CON ROCCIA AFFIORANTE TARA 20%,Rocky mixed pasture (20% tare),pasture_meadow_grassland_grass,3302000000,no,,PASCOLO POLIFITA CON ROCCIA AFFIORANTE TARA 20%,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1625604694,410,410,VITE,Vine (grapevine),fruit,3303010000,no,Matched as fruit based on keywords,VITE,3303010000.0,orchards_fruits,300.0,Woodland and shrubland type of vegetation,2310.0,Fruits
+it,1619126361,410,410,VITE,Vine (grapevine),fruit,3303010000,no,Matched as fruit based on keywords,VITE,3303010000.0,orchards_fruits,300.0,Woodland and shrubland type of vegetation,2310.0,Fruits
+it,1573741848,063,063,PASCOLO POLIFITA CON ROCCIA AFFIORANTE TARA 20%,Rocky mixed pasture (20% tare),pasture_meadow_grassland_grass,3302000000,no,,PASCOLO POLIFITA CON ROCCIA AFFIORANTE TARA 20%,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1540072979,019,019,RISONE,Rice,rice,3301010700,yes,Direct exact match,RISONE,3301010700.0,rice,217.0,Rice,1140.0,Rice
+it,1626121335,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1671390224,005,005,GIRASOLE,Sunflower,sunflower,3301060500,yes,Direct exact match,GIRASOLE,3301060500.0,sunflower,231.0,Sunflower,1410.0,Sunflower
+it,1648765940,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1523007274,410,410,VITE,Vine (grapevine),fruit,3303010000,no,Matched as fruit based on keywords,VITE,3303010000.0,orchards_fruits,300.0,Woodland and shrubland type of vegetation,2310.0,Fruits
+it,1671861969,127,127,LATTUGA LATTUGHINO,Lettuce,salads_lettuce_leaf_vegetables,3301310000,no,Partial match found in HCAT2 names,LATTUGA LATTUGHINO,3301310000.0,salads_lettuce_leaf_vegetables,240.0,"Dry pulses, vegetables and flowers",1210.0,Fresh Vegetables
+it,1497361694,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1721991414,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1539170288,555,555,VIVAI FORESTALI COMMERCIALI COMPRESI ALBERI DI NATALE ESCLUSI VIVAI FORESTALI SITUATI IN FORESTA E DESTINATI AL FABBISOGNO DELL'AZIENDA,Commercial forest nurseries (including Christmas trees),tree_wood_forest,3306000000,no,Matched as tree wood forest based on keywords,VIVAI FORESTALI COMMERCIALI COMPRESI ALBERI DI NATALE ESCLUSI VIVAI FORESTALI SITUATI IN FORESTA E DESTINATI AL FABBISOGNO DELL'AZIENDA,3306000000.0,tree_wood_forest,300.0,Woodland and shrubland type of vegetation,3200.0,Unclassified permanent crop
+it,1689924485,420,420,OLIVO,Olive,olive_plantations,3303050000,no,Partial match found in HCAT2 names,OLIVO,3303050000.0,olive_plantations,300.0,Woodland and shrubland type of vegetation,2200.0,Olives
+it,1570083364,788,788,SIEPI E FASCE ALBERATE,Hedges and tree strips,tree_wood_forest,3306000000,no,Matched as tree wood forest based on keywords,SIEPI E FASCE ALBERATE,3306000000.0,tree_wood_forest,300.0,Woodland and shrubland type of vegetation,3200.0,Unclassified permanent crop
+it,1718011834,046,046,LOIETTO LOGLIO,Ryegrass,rye,3301010300,no,Partial match found in HCAT2 names,LOIETTO LOGLIO,3301010300.0,rye,214.0,Rye,1150.0,Other Cereals
+it,1684576223,065,065,PASCOLO POLIFITA,Mixed pasture,pasture_meadow_grassland_grass,3302000000,no,,PASCOLO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1638953489,054,054,PASCOLO ARBORATO - TARA 50%,Wooded pasture (50% tare),tree_wood_forest,3306000000,no,Matched as tree wood forest based on keywords,PASCOLO ARBORATO - TARA 50%,3306000000.0,tree_wood_forest,300.0,Woodland and shrubland type of vegetation,3200.0,Unclassified permanent crop
+it,1562359422,562,562,ERBA MEDICA,Alfalfa,alfalfa_lucerne,3301090301,no,Partial match found in HCAT2 names,ERBA MEDICA,3301090301.0,alfalfa_lucerne,250.0,Other fodder crops (excl. temp. grasslands),1210.0,Fresh Vegetables
+it,1619499783,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1636396478,562,562,ERBA MEDICA,Alfalfa,alfalfa_lucerne,3301090301,no,Partial match found in HCAT2 names,ERBA MEDICA,3301090301.0,alfalfa_lucerne,250.0,Other fodder crops (excl. temp. grasslands),1210.0,Fresh Vegetables
+it,1531662317,899,899,PRATO PASCOLO,Pasture meadow,pasture_meadow_grassland_grass,3302000000,no,,PRATO PASCOLO,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1691032040,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1635116270,046,046,LOIETTO LOGLIO,Ryegrass,rye,3301010300,no,Partial match found in HCAT2 names,LOIETTO LOGLIO,3301010300.0,rye,214.0,Rye,1150.0,Other Cereals
+it,1634805912,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1693712181,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1618673159,562,562,ERBA MEDICA,Alfalfa,alfalfa_lucerne,3301090301,no,Partial match found in HCAT2 names,ERBA MEDICA,3301090301.0,alfalfa_lucerne,250.0,Other fodder crops (excl. temp. grasslands),1210.0,Fresh Vegetables
+it,1646709451,019,019,RISONE,Rice,rice,3301010700,yes,Direct exact match,RISONE,3301010700.0,rice,217.0,Rice,1140.0,Rice
+it,1603175643,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1575406352,410,410,VITE,Vine (grapevine),fruit,3303010000,no,Matched as fruit based on keywords,VITE,3303010000.0,orchards_fruits,300.0,Woodland and shrubland type of vegetation,2310.0,Fruits
+it,1569644090,004,004,SOIA,Soybean,soy_soybeans,3301160000,no,Partial match found in HCAT2 names,SOIA,3301160000.0,soy_soybeans,233.0,Soya,1420.0,Soybeans
+it,1683614665,002,002,GRANO (FRUMENTO) DURO,Durum wheat,cereal,3301010000,no,Matched as cereal based on keywords,GRANO (FRUMENTO) DURO,3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1700169631,044,044,MELO,Apple,apples,3303010200,no,Partial match found in HCAT2 names,MELO,3303010200.0,apples,300.0,Woodland and shrubland type of vegetation,2310.0,Fruits
+it,1574334190,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1670819454,587,587,GRANO (FRUMENTO) TENERO,Soft wheat,cereal,3301010000,no,Matched as cereal based on keywords,GRANO (FRUMENTO) TENERO,3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1651289290,093,093,TRITICALE,Triticale,triticale,3301010800,yes,Direct exact match,TRITICALE,3301010800.0,triticale,218.0,Triticale,1150.0,Other Cereals
+it,1618983125,019,019,RISONE,Rice,rice,3301010700,yes,Direct exact match,RISONE,3301010700.0,rice,217.0,Rice,1140.0,Rice
+it,1554483590,562,562,ERBA MEDICA,Alfalfa,alfalfa_lucerne,3301090301,no,Partial match found in HCAT2 names,ERBA MEDICA,3301090301.0,alfalfa_lucerne,250.0,Other fodder crops (excl. temp. grasslands),1210.0,Fresh Vegetables
+it,1570169078,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1556759815,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1689524738,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1670516694,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1619527401,004,004,SOIA,Soybean,soy_soybeans,3301160000,no,Partial match found in HCAT2 names,SOIA,3301160000.0,soy_soybeans,233.0,Soya,1420.0,Soybeans
+it,1618420149,562,562,ERBA MEDICA,Alfalfa,alfalfa_lucerne,3301090301,no,Partial match found in HCAT2 names,ERBA MEDICA,3301090301.0,alfalfa_lucerne,250.0,Other fodder crops (excl. temp. grasslands),1210.0,Fresh Vegetables
+it,1605663740,019,019,RISONE,Rice,rice,3301010700,yes,Direct exact match,RISONE,3301010700.0,rice,217.0,Rice,1140.0,Rice
+it,1515553140,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1559463171,562,562,ERBA MEDICA,Alfalfa,alfalfa_lucerne,3301090301,no,Partial match found in HCAT2 names,ERBA MEDICA,3301090301.0,alfalfa_lucerne,250.0,Other fodder crops (excl. temp. grasslands),1210.0,Fresh Vegetables
+it,1738323874,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1611491856,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1585336455,899,899,PRATO PASCOLO,Pasture meadow,pasture_meadow_grassland_grass,3302000000,no,,PRATO PASCOLO,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1622703613,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1521546617,046,046,LOIETTO LOGLIO,Ryegrass,rye,3301010300,no,Partial match found in HCAT2 names,LOIETTO LOGLIO,3301010300.0,rye,214.0,Rye,1150.0,Other Cereals
+it,1788862956,410,410,VITE,Vine (grapevine),fruit,3303010000,no,Matched as fruit based on keywords,VITE,3303010000.0,orchards_fruits,300.0,Woodland and shrubland type of vegetation,2310.0,Fruits
+it,1710423747,870,870,ORZO,Barley,barley,3301010400,yes,Direct exact match,ORZO,3301010400.0,barley,213.0,Barley,1120.0,Barley
+it,1528918782,899,899,PRATO PASCOLO,Pasture meadow,pasture_meadow_grassland_grass,3302000000,no,,PRATO PASCOLO,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1671798724,019,019,RISONE,Rice,rice,3301010700,yes,Direct exact match,RISONE,3301010700.0,rice,217.0,Rice,1140.0,Rice
+it,1619505083,019,019,RISONE,Rice,rice,3301010700,yes,Direct exact match,RISONE,3301010700.0,rice,217.0,Rice,1140.0,Rice
+it,1598358251,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1531384526,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1729829593,562,562,ERBA MEDICA,Alfalfa,alfalfa_lucerne,3301090301,no,Partial match found in HCAT2 names,ERBA MEDICA,3301090301.0,alfalfa_lucerne,250.0,Other fodder crops (excl. temp. grasslands),1210.0,Fresh Vegetables
+it,1684576133,065,065,PASCOLO POLIFITA,Mixed pasture,pasture_meadow_grassland_grass,3302000000,no,,PASCOLO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1569683392,046,046,LOIETTO LOGLIO,Ryegrass,rye,3301010300,no,Partial match found in HCAT2 names,LOIETTO LOGLIO,3301010300.0,rye,214.0,Rye,1150.0,Other Cereals
+it,1541385735,410,410,VITE,Vine (grapevine),fruit,3303010000,no,Matched as fruit based on keywords,VITE,3303010000.0,orchards_fruits,300.0,Woodland and shrubland type of vegetation,2310.0,Fruits
+it,1515930213,046,046,LOIETTO LOGLIO,Ryegrass,rye,3301010300,no,Partial match found in HCAT2 names,LOIETTO LOGLIO,3301010300.0,rye,214.0,Rye,1150.0,Other Cereals
+it,1551868386,801,801,PESCO,Peach,peach,3303011100,yes,Direct exact match,PESCO,3303011100.0,peach,300.0,Woodland and shrubland type of vegetation,2310.0,Fruits
+it,1557249900,063,063,PASCOLO POLIFITA CON ROCCIA AFFIORANTE TARA 20%,Rocky mixed pasture (20% tare),pasture_meadow_grassland_grass,3302000000,no,,PASCOLO POLIFITA CON ROCCIA AFFIORANTE TARA 20%,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1684576644,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1510585615,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1531658153,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1512130697,899,899,PRATO PASCOLO,Pasture meadow,pasture_meadow_grassland_grass,3302000000,no,,PRATO PASCOLO,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1519890417,046,046,LOIETTO LOGLIO,Ryegrass,rye,3301010300,no,Partial match found in HCAT2 names,LOIETTO LOGLIO,3301010300.0,rye,214.0,Rye,1150.0,Other Cereals
+it,1671789453,019,019,RISONE,Rice,rice,3301010700,yes,Direct exact match,RISONE,3301010700.0,rice,217.0,Rice,1140.0,Rice
+it,1561114692,693,693,SORGO,Sorghum,millet_sorghum,3301010900,no,Partial match found in HCAT2 names,SORGO,3301010900.0,millet_sorghum,219.0,Other cereals,1150.0,Other Cereals
+it,1547440323,019,019,RISONE,Rice,rice,3301010700,yes,Direct exact match,RISONE,3301010700.0,rice,217.0,Rice,1140.0,Rice
+it,1611823977,093,093,TRITICALE,Triticale,triticale,3301010800,yes,Direct exact match,TRITICALE,3301010800.0,triticale,218.0,Triticale,1150.0,Other Cereals
+it,1533402972,899,899,PRATO PASCOLO,Pasture meadow,pasture_meadow_grassland_grass,3302000000,no,,PRATO PASCOLO,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1689732324,019,019,RISONE,Rice,rice,3301010700,yes,Direct exact match,RISONE,3301010700.0,rice,217.0,Rice,1140.0,Rice
+it,1620836447,004,004,SOIA,Soybean,soy_soybeans,3301160000,no,Partial match found in HCAT2 names,SOIA,3301160000.0,soy_soybeans,233.0,Soya,1420.0,Soybeans
+it,1618332367,004,004,SOIA,Soybean,soy_soybeans,3301160000,no,Partial match found in HCAT2 names,SOIA,3301160000.0,soy_soybeans,233.0,Soya,1420.0,Soybeans
+it,1555187810,899,899,PRATO PASCOLO,Pasture meadow,pasture_meadow_grassland_grass,3302000000,no,,PRATO PASCOLO,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1630667703,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1624376658,899,899,PRATO PASCOLO,Pasture meadow,pasture_meadow_grassland_grass,3302000000,no,,PRATO PASCOLO,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1621832373,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1586802973,800,800,ERBAIO,Green fodder,plants_harvested_green,3301090000,no,,ERBAIO,3301090000.0,plants_harvested_green,240.0,"Dry pulses, vegetables and flowers",1210.0,Fresh Vegetables
+it,1610216419,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1582103933,093,093,TRITICALE,Triticale,triticale,3301010800,yes,Direct exact match,TRITICALE,3301010800.0,triticale,218.0,Triticale,1150.0,Other Cereals
+it,1581521815,003,003,COLZA,Rapeseed,rapeseed_rape,3301060400,no,Partial match found in HCAT2 names,COLZA,3301060400.0,rapeseed_rape,232.0,Rape and turnip rape,1430.0,Rapeseed
+it,1621699340,004,004,SOIA,Soybean,soy_soybeans,3301160000,no,Partial match found in HCAT2 names,SOIA,3301160000.0,soy_soybeans,233.0,Soya,1420.0,Soybeans
+it,1651281298,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1508741284,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1538733886,899,899,PRATO PASCOLO,Pasture meadow,pasture_meadow_grassland_grass,3302000000,no,,PRATO PASCOLO,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1546057467,800,800,ERBAIO,Green fodder,plants_harvested_green,3301090000,no,,ERBAIO,3301090000.0,plants_harvested_green,240.0,"Dry pulses, vegetables and flowers",1210.0,Fresh Vegetables
+it,1528927104,899,899,PRATO PASCOLO,Pasture meadow,pasture_meadow_grassland_grass,3302000000,no,,PRATO PASCOLO,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1600350501,019,019,RISONE,Rice,rice,3301010700,yes,Direct exact match,RISONE,3301010700.0,rice,217.0,Rice,1140.0,Rice
+it,1532591975,093,093,TRITICALE,Triticale,triticale,3301010800,yes,Direct exact match,TRITICALE,3301010800.0,triticale,218.0,Triticale,1150.0,Other Cereals
+it,1606166257,410,410,VITE,Vine (grapevine),fruit,3303010000,no,Matched as fruit based on keywords,VITE,3303010000.0,orchards_fruits,300.0,Woodland and shrubland type of vegetation,2310.0,Fruits
+it,1734060048,315,315,SAMBUCO,Elderberry,elder_elderberry,3303080400,no,Partial match found in HCAT2 names,SAMBUCO,3303080400.0,elder_elderberry,300.0,Woodland and shrubland type of vegetation,2310.0,Fruits
+it,1504616883,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1604007886,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1712165256,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1806231318,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1671688164,019,019,RISONE,Rice,rice,3301010700,yes,Direct exact match,RISONE,3301010700.0,rice,217.0,Rice,1140.0,Rice
+it,1504678385,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1729400940,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1710333082,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1519866233,562,562,ERBA MEDICA,Alfalfa,alfalfa_lucerne,3301090301,no,Partial match found in HCAT2 names,ERBA MEDICA,3301090301.0,alfalfa_lucerne,250.0,Other fodder crops (excl. temp. grasslands),1210.0,Fresh Vegetables
+it,1712160599,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1606174702,587,587,GRANO (FRUMENTO) TENERO,Soft wheat,cereal,3301010000,no,Matched as cereal based on keywords,GRANO (FRUMENTO) TENERO,3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1718344071,019,019,RISONE,Rice,rice,3301010700,yes,Direct exact match,RISONE,3301010700.0,rice,217.0,Rice,1140.0,Rice
+it,1511689114,054,054,PASCOLO ARBORATO - TARA 50%,Wooded pasture (50% tare),tree_wood_forest,3306000000,no,Matched as tree wood forest based on keywords,PASCOLO ARBORATO - TARA 50%,3306000000.0,tree_wood_forest,300.0,Woodland and shrubland type of vegetation,3200.0,Unclassified permanent crop
+it,1528932908,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1716569419,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1752850809,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1534446373,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1539450738,800,800,ERBAIO,Green fodder,plants_harvested_green,3301090000,no,,ERBAIO,3301090000.0,plants_harvested_green,240.0,"Dry pulses, vegetables and flowers",1210.0,Fresh Vegetables
+it,1731041377,019,019,RISONE,Rice,rice,3301010700,yes,Direct exact match,RISONE,3301010700.0,rice,217.0,Rice,1140.0,Rice
+it,1639667685,019,019,RISONE,Rice,rice,3301010700,yes,Direct exact match,RISONE,3301010700.0,rice,217.0,Rice,1140.0,Rice
+it,1630675164,004,004,SOIA,Soybean,soy_soybeans,3301160000,no,Partial match found in HCAT2 names,SOIA,3301160000.0,soy_soybeans,233.0,Soya,1420.0,Soybeans
+it,1597964073,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1517209110,063,063,PASCOLO POLIFITA CON ROCCIA AFFIORANTE TARA 20%,Rocky mixed pasture (20% tare),pasture_meadow_grassland_grass,3302000000,no,,PASCOLO POLIFITA CON ROCCIA AFFIORANTE TARA 20%,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1525917916,562,562,ERBA MEDICA,Alfalfa,alfalfa_lucerne,3301090301,no,Partial match found in HCAT2 names,ERBA MEDICA,3301090301.0,alfalfa_lucerne,250.0,Other fodder crops (excl. temp. grasslands),1210.0,Fresh Vegetables
+it,1683870646,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1624929231,899,899,PRATO PASCOLO,Pasture meadow,pasture_meadow_grassland_grass,3302000000,no,,PRATO PASCOLO,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1563643110,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1768630297,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1518861470,054,054,PASCOLO ARBORATO - TARA 50%,Wooded pasture (50% tare),tree_wood_forest,3306000000,no,Matched as tree wood forest based on keywords,PASCOLO ARBORATO - TARA 50%,3306000000.0,tree_wood_forest,300.0,Woodland and shrubland type of vegetation,3200.0,Unclassified permanent crop
+it,1648337466,410,410,VITE,Vine (grapevine),fruit,3303010000,no,Matched as fruit based on keywords,VITE,3303010000.0,orchards_fruits,300.0,Woodland and shrubland type of vegetation,2310.0,Fruits
+it,1657744362,002,002,GRANO (FRUMENTO) DURO,Durum wheat,cereal,3301010000,no,Matched as cereal based on keywords,GRANO (FRUMENTO) DURO,3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1797399504,651,651,COLTIVAZIONI ARBOREE SPECIALIZZATE,Specialized tree crops,tree_wood_forest,3306000000,no,Matched as tree wood forest based on keywords,COLTIVAZIONI ARBOREE SPECIALIZZATE,3306000000.0,tree_wood_forest,300.0,Woodland and shrubland type of vegetation,3200.0,Unclassified permanent crop
+it,1671464634,899,899,PRATO PASCOLO,Pasture meadow,pasture_meadow_grassland_grass,3302000000,no,,PRATO PASCOLO,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1644747463,587,587,GRANO (FRUMENTO) TENERO,Soft wheat,cereal,3301010000,no,Matched as cereal based on keywords,GRANO (FRUMENTO) TENERO,3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1597627984,562,562,ERBA MEDICA,Alfalfa,alfalfa_lucerne,3301090301,no,Partial match found in HCAT2 names,ERBA MEDICA,3301090301.0,alfalfa_lucerne,250.0,Other fodder crops (excl. temp. grasslands),1210.0,Fresh Vegetables
+it,1515615576,899,899,PRATO PASCOLO,Pasture meadow,pasture_meadow_grassland_grass,3302000000,no,,PRATO PASCOLO,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1587139674,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1563758428,562,562,ERBA MEDICA,Alfalfa,alfalfa_lucerne,3301090301,no,Partial match found in HCAT2 names,ERBA MEDICA,3301090301.0,alfalfa_lucerne,250.0,Other fodder crops (excl. temp. grasslands),1210.0,Fresh Vegetables
+it,1699409850,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1536284438,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1649428833,800,800,ERBAIO,Green fodder,plants_harvested_green,3301090000,no,,ERBAIO,3301090000.0,plants_harvested_green,240.0,"Dry pulses, vegetables and flowers",1210.0,Fresh Vegetables
+it,1718773725,004,004,SOIA,Soybean,soy_soybeans,3301160000,no,Partial match found in HCAT2 names,SOIA,3301160000.0,soy_soybeans,233.0,Soya,1420.0,Soybeans
+it,1527243162,899,899,PRATO PASCOLO,Pasture meadow,pasture_meadow_grassland_grass,3302000000,no,,PRATO PASCOLO,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1698644088,130,130,MELONE,Melon,melon,3301140300,yes,Direct exact match,MELONE,3301140300.0,melon,240.0,"Dry pulses, vegetables and flowers",1210.0,Fresh Vegetables
+it,1591807431,065,065,PASCOLO POLIFITA,Mixed pasture,pasture_meadow_grassland_grass,3302000000,no,,PASCOLO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1591405156,019,019,RISONE,Rice,rice,3301010700,yes,Direct exact match,RISONE,3301010700.0,rice,217.0,Rice,1140.0,Rice
+it,1588933123,684,684,SEGALA,Rye,rye,3301010300,yes,Direct exact match,SEGALA,3301010300.0,rye,214.0,Rye,1150.0,Other Cereals
+it,1603230143,019,019,RISONE,Rice,rice,3301010700,yes,Direct exact match,RISONE,3301010700.0,rice,217.0,Rice,1140.0,Rice
+it,1569791911,587,587,GRANO (FRUMENTO) TENERO,Soft wheat,cereal,3301010000,no,Matched as cereal based on keywords,GRANO (FRUMENTO) TENERO,3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1569994991,410,410,VITE,Vine (grapevine),fruit,3303010000,no,Matched as fruit based on keywords,VITE,3303010000.0,orchards_fruits,300.0,Woodland and shrubland type of vegetation,2310.0,Fruits
+it,1624923292,019,019,RISONE,Rice,rice,3301010700,yes,Direct exact match,RISONE,3301010700.0,rice,217.0,Rice,1140.0,Rice
+it,1509877521,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1590617638,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1651522455,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1683196389,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1672623463,562,562,ERBA MEDICA,Alfalfa,alfalfa_lucerne,3301090301,no,Partial match found in HCAT2 names,ERBA MEDICA,3301090301.0,alfalfa_lucerne,250.0,Other fodder crops (excl. temp. grasslands),1210.0,Fresh Vegetables
+it,1684164431,410,410,VITE,Vine (grapevine),fruit,3303010000,no,Matched as fruit based on keywords,VITE,3303010000.0,orchards_fruits,300.0,Woodland and shrubland type of vegetation,2310.0,Fruits
+it,1630675286,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1695061184,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1689469738,046,046,LOIETTO LOGLIO,Ryegrass,rye,3301010300,no,Partial match found in HCAT2 names,LOIETTO LOGLIO,3301010300.0,rye,214.0,Rye,1150.0,Other Cereals
+it,1671216953,004,004,SOIA,Soybean,soy_soybeans,3301160000,no,Partial match found in HCAT2 names,SOIA,3301160000.0,soy_soybeans,233.0,Soya,1420.0,Soybeans
+it,1528296283,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1671391611,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1733326538,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1618907674,065,065,PASCOLO POLIFITA,Mixed pasture,pasture_meadow_grassland_grass,3302000000,no,,PASCOLO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1581809499,410,410,VITE,Vine (grapevine),fruit,3303010000,no,Matched as fruit based on keywords,VITE,3303010000.0,orchards_fruits,300.0,Woodland and shrubland type of vegetation,2310.0,Fruits
+it,1618755152,800,800,ERBAIO,Green fodder,plants_harvested_green,3301090000,no,,ERBAIO,3301090000.0,plants_harvested_green,240.0,"Dry pulses, vegetables and flowers",1210.0,Fresh Vegetables
+it,1525801727,562,562,ERBA MEDICA,Alfalfa,alfalfa_lucerne,3301090301,no,Partial match found in HCAT2 names,ERBA MEDICA,3301090301.0,alfalfa_lucerne,250.0,Other fodder crops (excl. temp. grasslands),1210.0,Fresh Vegetables
+it,1543587515,562,562,ERBA MEDICA,Alfalfa,alfalfa_lucerne,3301090301,no,Partial match found in HCAT2 names,ERBA MEDICA,3301090301.0,alfalfa_lucerne,250.0,Other fodder crops (excl. temp. grasslands),1210.0,Fresh Vegetables
+it,1794454047,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1593947598,019,019,RISONE,Rice,rice,3301010700,yes,Direct exact match,RISONE,3301010700.0,rice,217.0,Rice,1140.0,Rice
+it,1636604436,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1716569884,562,562,ERBA MEDICA,Alfalfa,alfalfa_lucerne,3301090301,no,Partial match found in HCAT2 names,ERBA MEDICA,3301090301.0,alfalfa_lucerne,250.0,Other fodder crops (excl. temp. grasslands),1210.0,Fresh Vegetables
+it,1592191057,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1699865767,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1639479775,870,870,ORZO,Barley,barley,3301010400,yes,Direct exact match,ORZO,3301010400.0,barley,213.0,Barley,1120.0,Barley
+it,1563756636,587,587,GRANO (FRUMENTO) TENERO,Soft wheat,cereal,3301010000,no,Matched as cereal based on keywords,GRANO (FRUMENTO) TENERO,3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1689468339,020,020,PISELLO,Pea,chickpeas,3301020200,no,Partial match found in HCAT2 names,PISELLO,3301020200.0,chickpeas,240.0,"Dry pulses, vegetables and flowers",1220.0,Dry Pulses
+it,1631923083,615,615,LUPINO,Lupin,sweet_lupins,3301020700,no,Partial match found in HCAT2 names,LUPINO,3301020700.0,sweet_lupins,240.0,"Dry pulses, vegetables and flowers",1220.0,Dry Pulses
+it,1640036823,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1520653266,899,899,PRATO PASCOLO,Pasture meadow,pasture_meadow_grassland_grass,3302000000,no,,PRATO PASCOLO,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1551395062,410,410,VITE,Vine (grapevine),fruit,3303010000,no,Matched as fruit based on keywords,VITE,3303010000.0,orchards_fruits,300.0,Woodland and shrubland type of vegetation,2310.0,Fruits
+it,1514608964,587,587,GRANO (FRUMENTO) TENERO,Soft wheat,cereal,3301010000,no,Matched as cereal based on keywords,GRANO (FRUMENTO) TENERO,3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1544864759,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1677653535,053,053,PANICO,Foxtail millet,millet_sorghum,3301010900,no,,PANICO,3301010900.0,millet_sorghum,219.0,Other cereals,1150.0,Other Cereals
+it,1512932163,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1600353247,019,019,RISONE,Rice,rice,3301010700,yes,Direct exact match,RISONE,3301010700.0,rice,217.0,Rice,1140.0,Rice
+it,1683617381,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1541151188,004,004,SOIA,Soybean,soy_soybeans,3301160000,no,Partial match found in HCAT2 names,SOIA,3301160000.0,soy_soybeans,233.0,Soya,1420.0,Soybeans
+it,1683586095,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1787587726,410,410,VITE,Vine (grapevine),fruit,3303010000,no,Matched as fruit based on keywords,VITE,3303010000.0,orchards_fruits,300.0,Woodland and shrubland type of vegetation,2310.0,Fruits
+it,1602922917,899,899,PRATO PASCOLO,Pasture meadow,pasture_meadow_grassland_grass,3302000000,no,,PRATO PASCOLO,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1606428795,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1563141690,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1618880860,899,899,PRATO PASCOLO,Pasture meadow,pasture_meadow_grassland_grass,3302000000,no,,PRATO PASCOLO,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1569834119,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1671769697,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1716366814,562,562,ERBA MEDICA,Alfalfa,alfalfa_lucerne,3301090301,no,Partial match found in HCAT2 names,ERBA MEDICA,3301090301.0,alfalfa_lucerne,250.0,Other fodder crops (excl. temp. grasslands),1210.0,Fresh Vegetables
+it,1588931449,899,899,PRATO PASCOLO,Pasture meadow,pasture_meadow_grassland_grass,3302000000,no,,PRATO PASCOLO,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1523213877,065,065,PASCOLO POLIFITA,Mixed pasture,pasture_meadow_grassland_grass,3302000000,no,,PASCOLO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1503666591,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1600541402,410,410,VITE,Vine (grapevine),fruit,3303010000,no,Matched as fruit based on keywords,VITE,3303010000.0,orchards_fruits,300.0,Woodland and shrubland type of vegetation,2310.0,Fruits
+it,1671121597,019,019,RISONE,Rice,rice,3301010700,yes,Direct exact match,RISONE,3301010700.0,rice,217.0,Rice,1140.0,Rice
+it,1634142190,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1594815421,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1597976190,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1704639390,019,019,RISONE,Rice,rice,3301010700,yes,Direct exact match,RISONE,3301010700.0,rice,217.0,Rice,1140.0,Rice
+it,1648684623,004,004,SOIA,Soybean,soy_soybeans,3301160000,no,Partial match found in HCAT2 names,SOIA,3301160000.0,soy_soybeans,233.0,Soya,1420.0,Soybeans
+it,1689486282,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1645844462,065,065,PASCOLO POLIFITA,Mixed pasture,pasture_meadow_grassland_grass,3302000000,no,,PASCOLO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1675261992,924,924,COCOMERO,Watermelon,watermelon,3301140500,yes,Direct exact match,COCOMERO,3301140500.0,watermelon,240.0,"Dry pulses, vegetables and flowers",1210.0,Fresh Vegetables
+it,1593473177,899,899,PRATO PASCOLO,Pasture meadow,pasture_meadow_grassland_grass,3302000000,no,,PRATO PASCOLO,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1618662743,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1636790943,587,587,GRANO (FRUMENTO) TENERO,Soft wheat,cereal,3301010000,no,Matched as cereal based on keywords,GRANO (FRUMENTO) TENERO,3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1501616784,870,870,ORZO,Barley,barley,3301010400,yes,Direct exact match,ORZO,3301010400.0,barley,213.0,Barley,1120.0,Barley
+it,1571904614,899,899,PRATO PASCOLO,Pasture meadow,pasture_meadow_grassland_grass,3302000000,no,,PRATO PASCOLO,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1550078302,065,065,PASCOLO POLIFITA,Mixed pasture,pasture_meadow_grassland_grass,3302000000,no,,PASCOLO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1554977101,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1563363359,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1556763657,065,065,PASCOLO POLIFITA,Mixed pasture,pasture_meadow_grassland_grass,3302000000,no,,PASCOLO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1679058192,093,093,TRITICALE,Triticale,triticale,3301010800,yes,Direct exact match,TRITICALE,3301010800.0,triticale,218.0,Triticale,1150.0,Other Cereals
+it,1544164492,004,004,SOIA,Soybean,soy_soybeans,3301160000,no,Partial match found in HCAT2 names,SOIA,3301160000.0,soy_soybeans,233.0,Soya,1420.0,Soybeans
+it,1683861818,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1599513482,019,019,RISONE,Rice,rice,3301010700,yes,Direct exact match,RISONE,3301010700.0,rice,217.0,Rice,1140.0,Rice
+it,1649115197,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1569983075,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1606176233,065,065,PASCOLO POLIFITA,Mixed pasture,pasture_meadow_grassland_grass,3302000000,no,,PASCOLO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1585103722,410,410,VITE,Vine (grapevine),fruit,3303010000,no,Matched as fruit based on keywords,VITE,3303010000.0,orchards_fruits,300.0,Woodland and shrubland type of vegetation,2310.0,Fruits
+it,1535985368,063,063,PASCOLO POLIFITA CON ROCCIA AFFIORANTE TARA 20%,Rocky mixed pasture (20% tare),pasture_meadow_grassland_grass,3302000000,no,,PASCOLO POLIFITA CON ROCCIA AFFIORANTE TARA 20%,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1570153498,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1513221961,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1650209356,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1624923413,019,019,RISONE,Rice,rice,3301010700,yes,Direct exact match,RISONE,3301010700.0,rice,217.0,Rice,1140.0,Rice
+it,1526241833,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1543399577,019,019,RISONE,Rice,rice,3301010700,yes,Direct exact match,RISONE,3301010700.0,rice,217.0,Rice,1140.0,Rice
+it,1579360315,587,587,GRANO (FRUMENTO) TENERO,Soft wheat,cereal,3301010000,no,Matched as cereal based on keywords,GRANO (FRUMENTO) TENERO,3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1528291384,063,063,PASCOLO POLIFITA CON ROCCIA AFFIORANTE TARA 20%,Rocky mixed pasture (20% tare),pasture_meadow_grassland_grass,3302000000,no,,PASCOLO POLIFITA CON ROCCIA AFFIORANTE TARA 20%,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1513908826,800,800,ERBAIO,Green fodder,plants_harvested_green,3301090000,no,,ERBAIO,3301090000.0,plants_harvested_green,240.0,"Dry pulses, vegetables and flowers",1210.0,Fresh Vegetables
+it,1689482040,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1519828924,410,410,VITE,Vine (grapevine),fruit,3303010000,no,Matched as fruit based on keywords,VITE,3303010000.0,orchards_fruits,300.0,Woodland and shrubland type of vegetation,2310.0,Fruits
+it,1693706793,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1516187147,410,410,VITE,Vine (grapevine),fruit,3303010000,no,Matched as fruit based on keywords,VITE,3303010000.0,orchards_fruits,300.0,Woodland and shrubland type of vegetation,2310.0,Fruits
+it,1525795436,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1674488183,002,002,GRANO (FRUMENTO) DURO,Durum wheat,cereal,3301010000,no,Matched as cereal based on keywords,GRANO (FRUMENTO) DURO,3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1597981057,063,063,PASCOLO POLIFITA CON ROCCIA AFFIORANTE TARA 20%,Rocky mixed pasture (20% tare),pasture_meadow_grassland_grass,3302000000,no,,PASCOLO POLIFITA CON ROCCIA AFFIORANTE TARA 20%,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1705747539,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1648745364,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1569848163,046,046,LOIETTO LOGLIO,Ryegrass,rye,3301010300,no,Partial match found in HCAT2 names,LOIETTO LOGLIO,3301010300.0,rye,214.0,Rye,1150.0,Other Cereals
+it,1610053873,587,587,GRANO (FRUMENTO) TENERO,Soft wheat,cereal,3301010000,no,Matched as cereal based on keywords,GRANO (FRUMENTO) TENERO,3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1579749968,562,562,ERBA MEDICA,Alfalfa,alfalfa_lucerne,3301090301,no,Partial match found in HCAT2 names,ERBA MEDICA,3301090301.0,alfalfa_lucerne,250.0,Other fodder crops (excl. temp. grasslands),1210.0,Fresh Vegetables
+it,1510463756,063,063,PASCOLO POLIFITA CON ROCCIA AFFIORANTE TARA 20%,Rocky mixed pasture (20% tare),pasture_meadow_grassland_grass,3302000000,no,,PASCOLO POLIFITA CON ROCCIA AFFIORANTE TARA 20%,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1682880941,134,134,POMODORO,Tomato,tomato,3301280000,yes,Direct exact match,POMODORO,3301280000.0,tomato,240.0,"Dry pulses, vegetables and flowers",1210.0,Fresh Vegetables
+it,1569646455,004,004,SOIA,Soybean,soy_soybeans,3301160000,no,Partial match found in HCAT2 names,SOIA,3301160000.0,soy_soybeans,233.0,Soya,1420.0,Soybeans
+it,1611494441,410,410,VITE,Vine (grapevine),fruit,3303010000,no,Matched as fruit based on keywords,VITE,3303010000.0,orchards_fruits,300.0,Woodland and shrubland type of vegetation,2310.0,Fruits
+it,1671686946,019,019,RISONE,Rice,rice,3301010700,yes,Direct exact match,RISONE,3301010700.0,rice,217.0,Rice,1140.0,Rice
+it,1670948037,122,122,FAGIOLO,Bean,beans,3301020100,no,Partial match found in HCAT2 names,FAGIOLO,3301020100.0,beans,240.0,"Dry pulses, vegetables and flowers",1220.0,Dry Pulses
+it,1588930879,063,063,PASCOLO POLIFITA CON ROCCIA AFFIORANTE TARA 20%,Rocky mixed pasture (20% tare),pasture_meadow_grassland_grass,3302000000,no,,PASCOLO POLIFITA CON ROCCIA AFFIORANTE TARA 20%,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1716192458,562,562,ERBA MEDICA,Alfalfa,alfalfa_lucerne,3301090301,no,Partial match found in HCAT2 names,ERBA MEDICA,3301090301.0,alfalfa_lucerne,250.0,Other fodder crops (excl. temp. grasslands),1210.0,Fresh Vegetables
+it,1598354484,046,046,LOIETTO LOGLIO,Ryegrass,rye,3301010300,no,Partial match found in HCAT2 names,LOIETTO LOGLIO,3301010300.0,rye,214.0,Rye,1150.0,Other Cereals
+it,1618313081,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1558782045,019,019,RISONE,Rice,rice,3301010700,yes,Direct exact match,RISONE,3301010700.0,rice,217.0,Rice,1140.0,Rice
+it,1575759196,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1720307265,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1539460724,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1601392198,410,410,VITE,Vine (grapevine),fruit,3303010000,no,Matched as fruit based on keywords,VITE,3303010000.0,orchards_fruits,300.0,Woodland and shrubland type of vegetation,2310.0,Fruits
+it,1599284996,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1673097349,004,004,SOIA,Soybean,soy_soybeans,3301160000,no,Partial match found in HCAT2 names,SOIA,3301160000.0,soy_soybeans,233.0,Soya,1420.0,Soybeans
+it,1597205644,093,093,TRITICALE,Triticale,triticale,3301010800,yes,Direct exact match,TRITICALE,3301010800.0,triticale,218.0,Triticale,1150.0,Other Cereals
+it,1634377186,562,562,ERBA MEDICA,Alfalfa,alfalfa_lucerne,3301090301,no,Partial match found in HCAT2 names,ERBA MEDICA,3301090301.0,alfalfa_lucerne,250.0,Other fodder crops (excl. temp. grasslands),1210.0,Fresh Vegetables
+it,1549630739,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1646418392,899,899,PRATO PASCOLO,Pasture meadow,pasture_meadow_grassland_grass,3302000000,no,,PRATO PASCOLO,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1549661383,410,410,VITE,Vine (grapevine),fruit,3303010000,no,Matched as fruit based on keywords,VITE,3303010000.0,orchards_fruits,300.0,Woodland and shrubland type of vegetation,2310.0,Fruits
+it,1529466526,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1560275083,562,562,ERBA MEDICA,Alfalfa,alfalfa_lucerne,3301090301,no,Partial match found in HCAT2 names,ERBA MEDICA,3301090301.0,alfalfa_lucerne,250.0,Other fodder crops (excl. temp. grasslands),1210.0,Fresh Vegetables
+it,1773370768,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1544931584,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1577651770,899,899,PRATO PASCOLO,Pasture meadow,pasture_meadow_grassland_grass,3302000000,no,,PRATO PASCOLO,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1560275553,019,019,RISONE,Rice,rice,3301010700,yes,Direct exact match,RISONE,3301010700.0,rice,217.0,Rice,1140.0,Rice
+it,1600848890,065,065,PASCOLO POLIFITA,Mixed pasture,pasture_meadow_grassland_grass,3302000000,no,,PASCOLO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1646693998,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1559119223,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1699409885,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1549643948,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1513949788,899,899,PRATO PASCOLO,Pasture meadow,pasture_meadow_grassland_grass,3302000000,no,,PRATO PASCOLO,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1670976159,562,562,ERBA MEDICA,Alfalfa,alfalfa_lucerne,3301090301,no,Partial match found in HCAT2 names,ERBA MEDICA,3301090301.0,alfalfa_lucerne,250.0,Other fodder crops (excl. temp. grasslands),1210.0,Fresh Vegetables
+it,1520828262,410,410,VITE,Vine (grapevine),fruit,3303010000,no,Matched as fruit based on keywords,VITE,3303010000.0,orchards_fruits,300.0,Woodland and shrubland type of vegetation,2310.0,Fruits
+it,1803502248,063,063,PASCOLO POLIFITA CON ROCCIA AFFIORANTE TARA 20%,Rocky mixed pasture (20% tare),pasture_meadow_grassland_grass,3302000000,no,,PASCOLO POLIFITA CON ROCCIA AFFIORANTE TARA 20%,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1705264597,870,870,ORZO,Barley,barley,3301010400,yes,Direct exact match,ORZO,3301010400.0,barley,213.0,Barley,1120.0,Barley
+it,1611267340,189,189,PERO,Pear,pears,3303011200,no,Partial match found in HCAT2 names,PERO,3303011200.0,pears,300.0,Woodland and shrubland type of vegetation,2310.0,Fruits
+it,1636525212,587,587,GRANO (FRUMENTO) TENERO,Soft wheat,cereal,3301010000,no,Matched as cereal based on keywords,GRANO (FRUMENTO) TENERO,3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1678503245,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1794897370,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1540193290,004,004,SOIA,Soybean,soy_soybeans,3301160000,no,Partial match found in HCAT2 names,SOIA,3301160000.0,soy_soybeans,233.0,Soya,1420.0,Soybeans
+it,1806821277,054,054,PASCOLO ARBORATO - TARA 50%,Wooded pasture (50% tare),tree_wood_forest,3306000000,no,Matched as tree wood forest based on keywords,PASCOLO ARBORATO - TARA 50%,3306000000.0,tree_wood_forest,300.0,Woodland and shrubland type of vegetation,3200.0,Unclassified permanent crop
+it,1563381829,899,899,PRATO PASCOLO,Pasture meadow,pasture_meadow_grassland_grass,3302000000,no,,PRATO PASCOLO,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1624622220,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1712597042,587,587,GRANO (FRUMENTO) TENERO,Soft wheat,cereal,3301010000,no,Matched as cereal based on keywords,GRANO (FRUMENTO) TENERO,3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1604283626,899,899,PRATO PASCOLO,Pasture meadow,pasture_meadow_grassland_grass,3302000000,no,,PRATO PASCOLO,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1631918157,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1533127361,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1608406062,587,587,GRANO (FRUMENTO) TENERO,Soft wheat,cereal,3301010000,no,Matched as cereal based on keywords,GRANO (FRUMENTO) TENERO,3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1510545267,065,065,PASCOLO POLIFITA,Mixed pasture,pasture_meadow_grassland_grass,3302000000,no,,PASCOLO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1523929715,870,870,ORZO,Barley,barley,3301010400,yes,Direct exact match,ORZO,3301010400.0,barley,213.0,Barley,1120.0,Barley
+it,1584443620,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1691519862,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1501467150,562,562,ERBA MEDICA,Alfalfa,alfalfa_lucerne,3301090301,no,Partial match found in HCAT2 names,ERBA MEDICA,3301090301.0,alfalfa_lucerne,250.0,Other fodder crops (excl. temp. grasslands),1210.0,Fresh Vegetables
+it,1519848342,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1606423760,054,054,PASCOLO ARBORATO - TARA 50%,Wooded pasture (50% tare),tree_wood_forest,3306000000,no,Matched as tree wood forest based on keywords,PASCOLO ARBORATO - TARA 50%,3306000000.0,tree_wood_forest,300.0,Woodland and shrubland type of vegetation,3200.0,Unclassified permanent crop
+it,1606803663,410,410,VITE,Vine (grapevine),fruit,3303010000,no,Matched as fruit based on keywords,VITE,3303010000.0,orchards_fruits,300.0,Woodland and shrubland type of vegetation,2310.0,Fruits
+it,1727704207,870,870,ORZO,Barley,barley,3301010400,yes,Direct exact match,ORZO,3301010400.0,barley,213.0,Barley,1120.0,Barley
+it,1532589116,065,065,PASCOLO POLIFITA,Mixed pasture,pasture_meadow_grassland_grass,3302000000,no,,PASCOLO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1618466034,065,065,PASCOLO POLIFITA,Mixed pasture,pasture_meadow_grassland_grass,3302000000,no,,PASCOLO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1536424310,004,004,SOIA,Soybean,soy_soybeans,3301160000,no,Partial match found in HCAT2 names,SOIA,3301160000.0,soy_soybeans,233.0,Soya,1420.0,Soybeans
+it,1802664810,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1618785557,019,019,RISONE,Rice,rice,3301010700,yes,Direct exact match,RISONE,3301010700.0,rice,217.0,Rice,1140.0,Rice
+it,1579959558,054,054,PASCOLO ARBORATO - TARA 50%,Wooded pasture (50% tare),tree_wood_forest,3306000000,no,Matched as tree wood forest based on keywords,PASCOLO ARBORATO - TARA 50%,3306000000.0,tree_wood_forest,300.0,Woodland and shrubland type of vegetation,3200.0,Unclassified permanent crop
+it,1710417832,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1716996173,800,800,ERBAIO,Green fodder,plants_harvested_green,3301090000,no,,ERBAIO,3301090000.0,plants_harvested_green,240.0,"Dry pulses, vegetables and flowers",1210.0,Fresh Vegetables
+it,1537026452,046,046,LOIETTO LOGLIO,Ryegrass,rye,3301010300,no,Partial match found in HCAT2 names,LOIETTO LOGLIO,3301010300.0,rye,214.0,Rye,1150.0,Other Cereals
+it,1671466746,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1531410964,562,562,ERBA MEDICA,Alfalfa,alfalfa_lucerne,3301090301,no,Partial match found in HCAT2 names,ERBA MEDICA,3301090301.0,alfalfa_lucerne,250.0,Other fodder crops (excl. temp. grasslands),1210.0,Fresh Vegetables
+it,1549879357,899,899,PRATO PASCOLO,Pasture meadow,pasture_meadow_grassland_grass,3302000000,no,,PRATO PASCOLO,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1569958985,054,054,PASCOLO ARBORATO - TARA 50%,Wooded pasture (50% tare),tree_wood_forest,3306000000,no,Matched as tree wood forest based on keywords,PASCOLO ARBORATO - TARA 50%,3306000000.0,tree_wood_forest,300.0,Woodland and shrubland type of vegetation,3200.0,Unclassified permanent crop
+it,1554317272,899,899,PRATO PASCOLO,Pasture meadow,pasture_meadow_grassland_grass,3302000000,no,,PRATO PASCOLO,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1780266436,410,410,VITE,Vine (grapevine),fruit,3303010000,no,Matched as fruit based on keywords,VITE,3303010000.0,orchards_fruits,300.0,Woodland and shrubland type of vegetation,2310.0,Fruits
+it,1582043224,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1501731033,562,562,ERBA MEDICA,Alfalfa,alfalfa_lucerne,3301090301,no,Partial match found in HCAT2 names,ERBA MEDICA,3301090301.0,alfalfa_lucerne,250.0,Other fodder crops (excl. temp. grasslands),1210.0,Fresh Vegetables
+it,1760460577,899,899,PRATO PASCOLO,Pasture meadow,pasture_meadow_grassland_grass,3302000000,no,,PRATO PASCOLO,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1519856591,562,562,ERBA MEDICA,Alfalfa,alfalfa_lucerne,3301090301,no,Partial match found in HCAT2 names,ERBA MEDICA,3301090301.0,alfalfa_lucerne,250.0,Other fodder crops (excl. temp. grasslands),1210.0,Fresh Vegetables
+it,1515916438,562,562,ERBA MEDICA,Alfalfa,alfalfa_lucerne,3301090301,no,Partial match found in HCAT2 names,ERBA MEDICA,3301090301.0,alfalfa_lucerne,250.0,Other fodder crops (excl. temp. grasslands),1210.0,Fresh Vegetables
+it,1618960210,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1671862013,587,587,GRANO (FRUMENTO) TENERO,Soft wheat,cereal,3301010000,no,Matched as cereal based on keywords,GRANO (FRUMENTO) TENERO,3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1552675370,800,800,ERBAIO,Green fodder,plants_harvested_green,3301090000,no,,ERBAIO,3301090000.0,plants_harvested_green,240.0,"Dry pulses, vegetables and flowers",1210.0,Fresh Vegetables
+it,1500878703,113,113,AGLIO,Garlic,garlic,3301220200,yes,Direct exact match,AGLIO,3301220200.0,garlic,240.0,"Dry pulses, vegetables and flowers",1210.0,Fresh Vegetables
+it,1648763671,044,044,MELO,Apple,apples,3303010200,no,Partial match found in HCAT2 names,MELO,3303010200.0,apples,300.0,Woodland and shrubland type of vegetation,2310.0,Fruits
+it,1574114502,562,562,ERBA MEDICA,Alfalfa,alfalfa_lucerne,3301090301,no,Partial match found in HCAT2 names,ERBA MEDICA,3301090301.0,alfalfa_lucerne,250.0,Other fodder crops (excl. temp. grasslands),1210.0,Fresh Vegetables
+it,1633450846,019,019,RISONE,Rice,rice,3301010700,yes,Direct exact match,RISONE,3301010700.0,rice,217.0,Rice,1140.0,Rice
+it,1720293326,899,899,PRATO PASCOLO,Pasture meadow,pasture_meadow_grassland_grass,3302000000,no,,PRATO PASCOLO,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1607657665,562,562,ERBA MEDICA,Alfalfa,alfalfa_lucerne,3301090301,no,Partial match found in HCAT2 names,ERBA MEDICA,3301090301.0,alfalfa_lucerne,250.0,Other fodder crops (excl. temp. grasslands),1210.0,Fresh Vegetables
+it,1646099917,870,870,ORZO,Barley,barley,3301010400,yes,Direct exact match,ORZO,3301010400.0,barley,213.0,Barley,1120.0,Barley
+it,1740542041,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1671807516,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1571708223,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1671670415,063,063,PASCOLO POLIFITA CON ROCCIA AFFIORANTE TARA 20%,Rocky mixed pasture (20% tare),pasture_meadow_grassland_grass,3302000000,no,,PASCOLO POLIFITA CON ROCCIA AFFIORANTE TARA 20%,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1578172550,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1578831942,562,562,ERBA MEDICA,Alfalfa,alfalfa_lucerne,3301090301,no,Partial match found in HCAT2 names,ERBA MEDICA,3301090301.0,alfalfa_lucerne,250.0,Other fodder crops (excl. temp. grasslands),1210.0,Fresh Vegetables
+it,1792277021,562,562,ERBA MEDICA,Alfalfa,alfalfa_lucerne,3301090301,no,Partial match found in HCAT2 names,ERBA MEDICA,3301090301.0,alfalfa_lucerne,250.0,Other fodder crops (excl. temp. grasslands),1210.0,Fresh Vegetables
+it,1646694231,063,063,PASCOLO POLIFITA CON ROCCIA AFFIORANTE TARA 20%,Rocky mixed pasture (20% tare),pasture_meadow_grassland_grass,3302000000,no,,PASCOLO POLIFITA CON ROCCIA AFFIORANTE TARA 20%,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1642947927,562,562,ERBA MEDICA,Alfalfa,alfalfa_lucerne,3301090301,no,Partial match found in HCAT2 names,ERBA MEDICA,3301090301.0,alfalfa_lucerne,250.0,Other fodder crops (excl. temp. grasslands),1210.0,Fresh Vegetables
+it,1646701375,800,800,ERBAIO,Green fodder,plants_harvested_green,3301090000,no,,ERBAIO,3301090000.0,plants_harvested_green,240.0,"Dry pulses, vegetables and flowers",1210.0,Fresh Vegetables
+it,1621690802,671,671,ALBICOCCO,Apricot,apricots,3303010300,no,Partial match found in HCAT2 names,ALBICOCCO,3303010300.0,apricots,300.0,Woodland and shrubland type of vegetation,2310.0,Fruits
+it,1628445588,063,063,PASCOLO POLIFITA CON ROCCIA AFFIORANTE TARA 20%,Rocky mixed pasture (20% tare),pasture_meadow_grassland_grass,3302000000,no,,PASCOLO POLIFITA CON ROCCIA AFFIORANTE TARA 20%,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1582687512,019,019,RISONE,Rice,rice,3301010700,yes,Direct exact match,RISONE,3301010700.0,rice,217.0,Rice,1140.0,Rice
+it,1571380792,004,004,SOIA,Soybean,soy_soybeans,3301160000,no,Partial match found in HCAT2 names,SOIA,3301160000.0,soy_soybeans,233.0,Soya,1420.0,Soybeans
+it,1536649327,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1569686132,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1618678001,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1578831855,562,562,ERBA MEDICA,Alfalfa,alfalfa_lucerne,3301090301,no,Partial match found in HCAT2 names,ERBA MEDICA,3301090301.0,alfalfa_lucerne,250.0,Other fodder crops (excl. temp. grasslands),1210.0,Fresh Vegetables
+it,1619131523,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1807745800,020,020,PISELLO,Pea,chickpeas,3301020200,no,Partial match found in HCAT2 names,PISELLO,3301020200.0,chickpeas,240.0,"Dry pulses, vegetables and flowers",1220.0,Dry Pulses
+it,1545882993,587,587,GRANO (FRUMENTO) TENERO,Soft wheat,cereal,3301010000,no,Matched as cereal based on keywords,GRANO (FRUMENTO) TENERO,3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1539318437,410,410,VITE,Vine (grapevine),fruit,3303010000,no,Matched as fruit based on keywords,VITE,3303010000.0,orchards_fruits,300.0,Woodland and shrubland type of vegetation,2310.0,Fruits
+it,1642975456,002,002,GRANO (FRUMENTO) DURO,Durum wheat,cereal,3301010000,no,Matched as cereal based on keywords,GRANO (FRUMENTO) DURO,3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1509461747,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1805690886,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1576570748,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1531261613,019,019,RISONE,Rice,rice,3301010700,yes,Direct exact match,RISONE,3301010700.0,rice,217.0,Rice,1140.0,Rice
+it,1544165776,899,899,PRATO PASCOLO,Pasture meadow,pasture_meadow_grassland_grass,3302000000,no,,PRATO PASCOLO,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1605157993,063,063,PASCOLO POLIFITA CON ROCCIA AFFIORANTE TARA 20%,Rocky mixed pasture (20% tare),pasture_meadow_grassland_grass,3302000000,no,,PASCOLO POLIFITA CON ROCCIA AFFIORANTE TARA 20%,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1556768625,336,336,PRATO POLIFITA,Mixed grassland,pasture_meadow_grassland_grass,3302000000,no,,PRATO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1606166433,004,004,SOIA,Soybean,soy_soybeans,3301160000,no,Partial match found in HCAT2 names,SOIA,3301160000.0,soy_soybeans,233.0,Soya,1420.0,Soybeans
+it,1760449403,065,065,PASCOLO POLIFITA,Mixed pasture,pasture_meadow_grassland_grass,3302000000,no,,PASCOLO POLIFITA,3302000000.0,pasture_meadow_grassland_grass,500.0,Grassland (permanent and temporary),0.0,No Cropland
+it,1579382184,587,587,GRANO (FRUMENTO) TENERO,Soft wheat,cereal,3301010000,no,Matched as cereal based on keywords,GRANO (FRUMENTO) TENERO,3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
+it,1670641296,122,122,FAGIOLO,Bean,beans,3301020100,no,Partial match found in HCAT2 names,FAGIOLO,3301020100.0,beans,240.0,"Dry pulses, vegetables and flowers",1220.0,Dry Pulses
+it,1569654702,001,001,GRANTURCO (MAIS),Maize (corn),cereal,3301010000,no,Matched as cereal based on keywords,GRANTURCO (MAIS),3301010000.0,cereal,200.0,Cereals,1150.0,Other Cereals
