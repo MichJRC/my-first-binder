@@ -270,16 +270,14 @@ def quick_plot(gdf, attribute=None):
     plt.tight_layout()
     plt.show()
     
-    print("📍 This gives you a preview of your spatial data!")
+    print("📍 This gives a preview of your spatial data!")
 
 # Example usage
 if __name__ == "__main__":
-    print("🚀 GPKG Data Explorer")
-    print("Replace 'your_file.gpkg' with your actual file path")
-    print()
+    print("GPKG Data Explorer")
     
-    # Example usage - replace with your file path
-    file_path = "downloaded_data/merged_geodata.gpkg"  # 👈 CHANGE THIS TO YOUR FILE PATH
+    # Example usage - replace with file path
+    file_path = "downloaded_data/merged_geodata.gpkg"  # 👈 FILE PATH
     
     # Step 1: Full exploration
     explore_gpkg(file_path)
@@ -295,12 +293,3 @@ if __name__ == "__main__":
     #     numeric_cols = gdf.select_dtypes(include=[np.number]).columns
     #     if len(numeric_cols) > 0:
     #         quick_plot(gdf, numeric_cols[0])
-
-print("""
-📝 Next Steps:
-1. Save this script as 'explore_gpkg.py'
-2. Install required packages: pip install geopandas matplotlib
-3. Change the file_path to your GPKG file
-4. Run: python explore_gpkg.py
-5. Review the output to understand your data structure
-""")
