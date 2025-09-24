@@ -91,16 +91,70 @@ for index, row in merged_gdf.iterrows():
 # how many polygons are not matching the hcat classes (853)
 unmatched_main_crops = merged_gdf[merged_gdf['crop_name_clean'].isna()]['main_crop']
 
-# create_and_upload_geodata.gpkg in the git release so that I can access it in in the download_data folder
-import geopandas as gpd
+# ============================================================================
+# 🆕 NEW: Add CSV merge for EC and HRL classifications
+# ============================================================================
+print("\n🔗 Adding EC and HRL classifications...")
+
+# Load CSV classifications
+csv_classifications = pd.read_csv("data/hcat3_EC_HRL_fixed.csv")
+print(f"   ✅ CSV loaded: {len(csv_classifications)} classification entries")
+
+# Convert HCAT2_Code to integer for matching (handle NaN values)
+print(f"   Original HCAT2_Code type: {merged_gdf['HCAT2_Code'].dtype}")
+merged_gdf['HCAT2_Code'] = pd.to_numeric(merged_gdf['HCAT2_Code'], errors='coerce').astype('Int64')
+print(f"   Converted HCAT2_Code type: {merged_gdf['HCAT2_Code'].dtype}")
+print(f"   Non-null HCAT2_Code values: {merged_gdf['HCAT2_Code'].notna().sum():,}")
+
+# Perform the CSV merge
+final_gdf = merged_gdf.merge(
+    csv_classifications,
+    left_on='HCAT2_Code', 
+    right_on='hcat3_code',
+    how='left'  # Keep all parcels
+)
+
+# Check merge success
+total_parcels = len(final_gdf)
+ec_matches = final_gdf['ec_name'].notna().sum()
+hrl_matches = final_gdf['hrl_name'].notna().sum()
+
+print(f"   📊 Merge results:")
+print(f"     Total parcels: {total_parcels:,}")
+print(f"     EC matches: {ec_matches:,} ({ec_matches/total_parcels*100:.1f}%)")
+print(f"     HRL matches: {hrl_matches:,} ({hrl_matches/total_parcels*100:.1f}%)")
+print(f"     Final columns: {len(final_gdf.columns)} (original: {len(gdf.columns)})")
+
+# Show new column names
+original_cols = set(merged_gdf.columns)
+new_cols = [col for col in final_gdf.columns if col not in original_cols]
+print(f"     New columns added: {new_cols}")
+
+# Memory check
+original_memory = merged_gdf.memory_usage(deep=True).sum() / 1024 / 1024
+final_memory = final_gdf.memory_usage(deep=True).sum() / 1024 / 1024
+print(f"   💾 Memory: {original_memory:.1f} MB → {final_memory:.1f} MB (+{final_memory-original_memory:.1f} MB)")
+
+print("   ✅ CSV merge completed successfully!")
+
+# ============================================================================
+# Update the create_geodata function to use final_gdf
+# ============================================================================
+
 import subprocess
 import os
 
-def create_geodata():
-    """code to create the GeoPackage"""
-    # ... data processing code ...
-    merged_gdf.to_file("data/merged_geodata.gpkg", driver="GPKG")
-    print("GeoPackage created successfully!")
+def create_geodata(geodataframe):
+    """Create the enhanced GeoPackage with EC and HRL classifications"""
+    print("\n💾 Creating enhanced GeoPackage...")
+    
+    # Save the final geodataframe with all classifications
+    geodataframe.to_file("data/merged_geodata.gpkg", driver="GPKG")
+    
+    file_size = os.path.getsize("data/merged_geodata.gpkg") / 1024 / 1024
+    print(f"   ✅ Enhanced GeoPackage created: {file_size:.1f} MB")
+    print(f"   📊 Contains: {len(geodataframe)} parcels with {len(geodataframe.columns)} columns")
+    print(f"   🎨 Ready for visualization with EC and HRL categories!")
 
 def upload_to_release():
     """Upload to GitHub release using GitHub CLI"""
@@ -110,6 +164,8 @@ def upload_to_release():
             print("Error: GeoPackage file not found!")
             return
         
+        print("\n☁️ Uploading to GitHub release...")
+        
         # Upload to release
         result = subprocess.run([
             "gh", "release", "upload", "v1.0.0", 
@@ -117,15 +173,21 @@ def upload_to_release():
         ], capture_output=True, text=True)
         
         if result.returncode == 0:
-            print("Successfully uploaded to GitHub release!")
-            print(f"Download URL will be:")
-            print(f"https://github.com/MichJRC/my-first-binder/releases/download/v1.0.0/merged_geodata.gpkg")
+            print("   ✅ Successfully uploaded to GitHub release!")
+            print(f"   🔗 Download URL:")
+            print(f"   https://github.com/MichJRC/my-first-binder/releases/download/v1.0.0/merged_geodata.gpkg")
+            print(f"\n   🎯 Users will now get:")
+            print(f"     • All 635,808 agricultural parcels")
+            print(f"     • HCAT classifications")
+            print(f"     • EC categories (European Commission standards)")
+            print(f"     • HRL categories (High Resolution Layer)")
+            print(f"     • Ready for immediate web visualization!")
         else:
-            print(f"Upload failed: {result.stderr}")
+            print(f"   ❌ Upload failed: {result.stderr}")
             
     except Exception as e:
-        print(f"Error uploading: {e}")
+        print(f"   ❌ Error uploading: {e}")
 
 if __name__ == "__main__":
-    create_geodata()
+    create_geodata(final_gdf)  # Pass final_gdf as parameter
     upload_to_release()
