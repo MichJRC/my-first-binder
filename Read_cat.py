@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Extract and Display HCAT2 Categories from GPKG File
-Simple script to see what crop types you have in your data
+Simple script to see what crop types are in data
 """
 
 import geopandas as gpd
@@ -114,16 +114,16 @@ def analyze_hcat_categories(gpkg_path):
         
         # Save results to CSV for reference
         if 'names' in results:
-            output_file = "your_hcat2_categories.csv"
+            output_file = "hcat2_categories.csv"
             results['names'].to_csv(output_file, header=['Count'])
-            print(f"💾 Your HCAT2 categories saved to: {output_file}")
+            print(f"💾 HCAT2 categories saved to: {output_file}")
         
         if 'mapping' in results:
-            mapping_file = "your_hcat2_code_name_mapping.csv"
+            mapping_file = "hcat2_code_name_mapping.csv"
             mapping_df = pd.DataFrame(list(results['mapping'].items()), 
                                     columns=['HCAT2_Code', 'HCAT2_Name'])
             mapping_df.to_csv(mapping_file, index=False)
-            print(f"💾 Your HCAT2 code-name mapping saved to: {mapping_file}")
+            print(f"💾 HCAT2 code-name mapping saved to: {mapping_file}")
         
         return results
         
@@ -138,10 +138,10 @@ def analyze_hcat_categories(gpkg_path):
 
 def main():
     """
-    Main function - update the path to your GPKG file
+    Main function - update the path to GPKG file
     """
     
-    # 👇 UPDATE THIS PATH TO YOUR GPKG FILE
+    # 👇 PATH TO GPKG FILE
     GPKG_FILE = "downloaded_data/merged_geodata.gpkg"
     
     # Check if file exists
